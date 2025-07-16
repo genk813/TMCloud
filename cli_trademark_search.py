@@ -132,7 +132,7 @@ class TrademarkSearchCLI:
             -- 部分的申請人マッピング（フォールバック）
             LEFT JOIN (
                 SELECT applicant_code, applicant_name, applicant_addr,
-                       ROW_NUMBER() OVER (PARTITION BY applicant_code ORDER BY trademark_count DESC) as rn
+                       ROW_NUMBER() OVER (PARTITION BY applicant_code ORDER BY created_at DESC) as rn
                 FROM applicant_mapping
             ) apm ON ap.shutugannindairinin_code = apm.applicant_code AND apm.rn = 1
             -- 商品区分: 出願番号でマッチング、または登録番号経由でマッチング
@@ -256,6 +256,10 @@ class TrademarkSearchCLI:
                                 similar_group_codes: str = None,
                                 intl_reg_num: str = None,
                                 search_international: bool = False,
+                                application_date_start: str = None,
+                                application_date_end: str = None,
+                                applicant_name: str = None,
+                                rights_holder: str = None,
                                 limit: int = 200,
                                 offset: int = 0) -> Tuple[List[Dict], int]:
         """
@@ -300,6 +304,25 @@ class TrademarkSearchCLI:
         if similar_group_codes:
             where_parts.append("similar_groups LIKE ?")
             params.append(f"%{similar_group_codes}%")
+        
+        # 出願日範囲
+        if application_date_start:
+            where_parts.append("app_date >= ?")
+            params.append(application_date_start)
+        
+        if application_date_end:
+            where_parts.append("app_date <= ?")
+            params.append(application_date_end)
+        
+        # 出願人名
+        if applicant_name:
+            where_parts.append("(holder_name LIKE ? OR holder_name_japanese LIKE ?)")
+            params.extend([f"%{applicant_name}%", f"%{applicant_name}%"])
+        
+        # 権利者名
+        if rights_holder:
+            where_parts.append("(holder_name LIKE ? OR holder_name_japanese LIKE ?)")
+            params.extend([f"%{rights_holder}%", f"%{rights_holder}%"])
         
         # 国際商標のみに絞り込み
         if search_international:
@@ -369,6 +392,10 @@ class TrademarkSearchCLI:
                                         goods_classes: str = None,
                                         designated_goods: str = None,
                                         similar_group_codes: str = None,
+                                        application_date_start: str = None,
+                                        application_date_end: str = None,
+                                        applicant_name: str = None,
+                                        rights_holder: str = None,
                                         limit: int = 200,
                                         offset: int = 0) -> Tuple[List[Dict], int]:
         """
@@ -454,6 +481,10 @@ class TrademarkSearchCLI:
                          similar_group_codes: str = None,
                          intl_reg_num: str = None,
                          search_international: bool = False,
+                         application_date_start: str = None,
+                         application_date_end: str = None,
+                         applicant_name: str = None,
+                         rights_holder: str = None,
                          limit: int = 200,
                          offset: int = 0) -> Tuple[List[Dict], int]:
         """
@@ -481,6 +512,10 @@ class TrademarkSearchCLI:
             goods_classes=goods_classes,
             designated_goods=designated_goods,
             similar_group_codes=similar_group_codes,
+            application_date_start=application_date_start,
+            application_date_end=application_date_end,
+            applicant_name=applicant_name,
+            rights_holder=rights_holder,
             limit=limit,
             offset=offset
         )
@@ -671,6 +706,10 @@ def main():
     parser.add_argument("--goods-classes", help="商品・役務区分")
     parser.add_argument("--designated-goods", help="指定商品・役務名")
     parser.add_argument("--similar-group-codes", help="類似群コード")
+    parser.add_argument("--application-date-start", help="出願日開始（YYYY-MM-DD）")
+    parser.add_argument("--application-date-end", help="出願日終了（YYYY-MM-DD）")
+    parser.add_argument("--applicant-name", help="出願人名")
+    parser.add_argument("--rights-holder", help="権利者名")
     parser.add_argument("--limit", type=int, default=10, help="取得件数上限（デフォルト: 10）")
     parser.add_argument("--offset", type=int, default=0, help="オフセット（デフォルト: 0）")
     parser.add_argument("--format", choices=["text", "json"], default="text", help="出力形式")
@@ -681,7 +720,8 @@ def main():
     # 検索条件のチェック
     search_conditions = [args.app_num, args.mark_text, args.goods_classes, 
                         args.designated_goods, args.similar_group_codes, 
-                        args.intl_reg_num, args.international]
+                        args.intl_reg_num, args.international, args.application_date_start,
+                        args.application_date_end, args.applicant_name, args.rights_holder]
     if not any(search_conditions):
         parser.error("少なくとも1つの検索条件を指定してください")
     
@@ -696,6 +736,10 @@ def main():
             similar_group_codes=args.similar_group_codes,
             intl_reg_num=args.intl_reg_num,
             search_international=args.international,
+            application_date_start=args.application_date_start,
+            application_date_end=args.application_date_end,
+            applicant_name=args.applicant_name,
+            rights_holder=args.rights_holder,
             limit=args.limit,
             offset=args.offset
         )
