@@ -125,7 +125,7 @@ class TrademarkSearchCLI:
             LEFT JOIN reg_mapping rm ON j.normalized_app_num = rm.app_num
             LEFT JOIN right_person_art_t AS h ON rm.reg_num = h.reg_num
             -- 申請人情報
-            LEFT JOIN jiken_c_t_shutugannindairinin ap ON j.normalized_app_num = ap.shutugan_no 
+            LEFT JOIN jiken_c_t_shutugannindairinin ap ON j.normalized_app_num = ap.normalized_app_num 
                                                        AND ap.shutugannindairinin_sikbt = '1'
             -- 申請人マスターファイル（優先）
             LEFT JOIN applicant_master am ON ap.shutugannindairinin_code = am.appl_cd
