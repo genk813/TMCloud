@@ -64,6 +64,12 @@ python fix_foreign_key_integrity_v2.py
 
 # Add rui column (if missing)
 python add_rui_column_to_goods_table.py
+
+# Convert TSV image data to JPG files
+python tsv_to_image_converter.py
+
+# Validate existing image files
+python tsv_to_image_converter.py --validate-only
 ```
 
 ## Search Implementation Notes
@@ -98,12 +104,39 @@ When modifying database structure:
 - `upd_jiken_c_t_shohin_joho.tsv` - Goods/services with class (rui)
 - `upd_search_use_t_art_table.tsv` - Search trademark text
 - `upd_standard_char_t_art.tsv` - Standard character trademarks
+- `upd_t_sample.tsv` - Trademark image data (Base64 encoded)
 
 ### Import Considerations
 - TSV files are weekly updates, not complete datasets
 - Older trademarks may lack class (rui) information
 - Character encoding: UTF-8
 - Application numbers in TSV may have hyphens - normalize on import
+
+## Image Data Processing
+
+### TSV Image Conversion
+- **Script**: `tsv_to_image_converter.py` - **CRITICAL: DO NOT DELETE**
+- **Source**: `tsv_data/250611/upd_t_sample.tsv` (10,063 records)
+- **Output**: `images/final_complete/` (1,508 valid JPG files)
+- **Database**: Updates `t_sample` table with `has_image_file` status
+
+### Image Data Format
+- Valid JPEG Base64 data starts with `/9j/`
+- Invalid data (majority) starts with `////` - these are filtered out
+- Only valid JPEG data is converted to JPG files
+- Files are named using normalized application numbers (no hyphens)
+
+### Image Processing Commands
+```bash
+# Convert all TSV image data to JPG files
+python tsv_to_image_converter.py
+
+# Validate existing image files only
+python tsv_to_image_converter.py --validate-only
+
+# Custom paths
+python tsv_to_image_converter.py --tsv-file "path/to/tsv" --output-dir "path/to/output"
+```
 
 ## Performance Requirements
 - Search queries should complete in <1 second
@@ -130,3 +163,153 @@ When modifying database structure:
 - Check if using `search_use_t_art_table` (not standard_char_t_art)
 - Verify trademark text encoding (UTF-8)
 - Confirm data exists in database for the search term
+
+### Image Display Issues
+- Ensure `tsv_to_image_converter.py` has been run to process image data
+- Check `t_sample` table has `has_image_file` column with correct values
+- Verify `images/final_complete/` directory contains JPG files
+- Image files are named with normalized application numbers (no hyphens)
+
+## System Architecture Overview
+
+### Core Application Structure
+```
+TMCloud/
+├── Web Application
+│   ├── app_dynamic_join_claude_optimized.py (Flask web server)
+│   ├── templates/ (HTML templates)
+│   └── static/ (CSS, JS assets)
+├── CLI Search Tools
+│   ├── correct_trademark_search.py (Optimal search implementation)
+│   ├── correct_html_generator.py (HTML output generation)
+│   └── cli_trademark_search.py (Legacy CLI tool)
+├── Database Management
+│   ├── init_database.py (Database initialization)
+│   ├── import_tsv_data_fixed.py (TSV data import)
+│   └── output.db (Main SQLite database)
+├── Data Processing
+│   ├── tsv_to_image_converter.py (Image conversion)
+│   ├── fix_foreign_key_integrity_v2.py (Data integrity)
+│   └── add_rui_column_to_goods_table.py (Schema updates)
+└── Configuration & Documentation
+    ├── CLAUDE.md (This file)
+    ├── TSV_COLUMN_SPECIFICATIONS.md (Data specifications)
+    └── requirements.txt (Dependencies)
+```
+
+### Application Components by Function
+
+#### 1. Web Interface (Production)
+- **`app_dynamic_join_claude_optimized.py`** - **PRIMARY WEB APPLICATION**
+  - Flask-based web server for trademark search
+  - Handles HTTP requests and responses
+  - Integrates with database and search functionality
+  - **CRITICAL: Main user interface**
+
+#### 2. Search Engine (Core)
+- **`correct_trademark_search.py`** - **OPTIMAL SEARCH ENGINE**
+  - Implements correct search methodology
+  - Uses `search_use_t_art_table` as primary search source
+  - Fetches data from multiple tables using application numbers
+  - **CRITICAL: Core search logic**
+
+- **`correct_html_generator.py`** - **HTML OUTPUT GENERATOR**
+  - Generates modern HTML search results
+  - Supports image display with proper fallbacks
+  - Integrates with correct search engine
+  - **CRITICAL: Search result presentation**
+
+#### 3. Database Management (Infrastructure)
+- **`init_database.py`** - **DATABASE INITIALIZATION**
+  - Creates SQLite database schema
+  - Sets up tables and relationships
+  - **CRITICAL: Database setup**
+
+- **`import_tsv_data_fixed.py`** - **TSV DATA IMPORTER**
+  - Imports JPO weekly TSV files into database
+  - Handles data normalization and validation
+  - **CRITICAL: Data ingestion**
+
+- **`output.db`** - **MAIN DATABASE**
+  - SQLite database with all trademark data
+  - Contains normalized and indexed data
+  - **CRITICAL: Data storage**
+
+#### 4. Data Processing (Maintenance)
+- **`tsv_to_image_converter.py`** - **IMAGE CONVERSION SYSTEM**
+  - Converts Base64 TSV image data to JPG files
+  - Handles multi-line encoded data
+  - Updates database with image file status
+  - **CRITICAL: Image processing**
+
+- **`fix_foreign_key_integrity_v2.py`** - **DATA INTEGRITY FIXER**
+  - Resolves foreign key reference issues
+  - Normalizes application numbers
+  - **CRITICAL: Database maintenance**
+
+- **`add_rui_column_to_goods_table.py`** - **SCHEMA UPDATER**
+  - Adds class (rui) information to goods table
+  - Imports class data from TSV files
+  - **CRITICAL: Database evolution**
+
+#### 5. Legacy Tools (Backup)
+- **`cli_trademark_search.py`** - Legacy CLI search tool
+- **`search_results_html_generator_improved.py`** - Legacy HTML generator
+- **`search_results_html_generator_modern.py`** - Modern HTML generator (superseded)
+
+#### 6. Configuration & Documentation
+- **`CLAUDE.md`** - Developer documentation and instructions
+- **`TSV_COLUMN_SPECIFICATIONS.md`** - TSV file format specifications
+- **`requirements.txt`** - Python dependencies
+- **`config.py`** - Application configuration
+
+### Directory Structure Details
+
+#### Essential Directories
+- **`tsv_data/`** - **TSV input files from JPO**
+  - `250611/` - Weekly update files (2025/06/11)
+  - **CRITICAL: Data source**
+
+- **`images/final_complete/`** - **Generated image files**
+  - 1,508 JPG files from TSV conversion
+  - Named by normalized application numbers
+  - **CRITICAL: Image assets**
+
+- **`templates/`** - **HTML templates for web interface**
+  - Jinja2 templates for Flask application
+  - **CRITICAL: Web UI**
+
+- **`static/`** - **Static web assets**
+  - CSS, JavaScript files
+  - **CRITICAL: Web UI styling**
+
+#### Supporting Directories
+- **`csvs/`** - JPO specification files (CSV format)
+- **`scripts/`** - Additional utility scripts
+- **`tests/`** - Test files and test data
+- **`archive/`** - Archived old versions and analysis scripts
+- **`search_results/`** - Generated search result files
+
+## Critical Files - DO NOT DELETE
+
+### Tier 1: Essential System Components
+- **`app_dynamic_join_claude_optimized.py`** - Main web application
+- **`correct_trademark_search.py`** - Core search engine
+- **`correct_html_generator.py`** - HTML generation
+- **`tsv_to_image_converter.py`** - Image conversion system
+- **`output.db`** - Main database
+- **`requirements.txt`** - Dependencies
+
+### Tier 2: Data Management & Maintenance
+- **`init_database.py`** - Database initialization
+- **`import_tsv_data_fixed.py`** - TSV data import
+- **`fix_foreign_key_integrity_v2.py`** - Data integrity fixes
+- **`add_rui_column_to_goods_table.py`** - Schema updates
+- **`TSV_COLUMN_SPECIFICATIONS.md`** - Data specifications
+
+### Tier 3: Data Sources & Assets
+- **`tsv_data/250611/upd_t_sample.tsv`** - Original image data
+- **`images/final_complete/`** - Generated JPG files (1,508 files)
+- **`templates/`** - HTML templates
+- **`static/`** - Web assets
+- **`csvs/`** - JPO specification files

@@ -97,12 +97,12 @@ class ResultsHTMLBuilder:
         status_text = "登録済み" if result.get('reg_date') else "出願中"
         
         # 画像有無
-        has_image = result.get('has_image', 0)
-        image_class = "image-yes" if has_image else "image-no"
-        image_text = "あり" if has_image else "なし"
+        has_image = result.get('has_image', 'NO')
+        image_class = "image-yes" if has_image == 'YES' else "image-no"
+        image_text = "あり" if has_image == 'YES' else "なし"
         
         # 商標文字
-        mark_text = result.get('trademark_text', '') or result.get('standard_char_t', '') or '文字情報なし'
+        mark_text = result.get('mark_text', '') or '文字情報なし'
         
         return f"""
         <div class="trademark-card">
@@ -123,7 +123,7 @@ class ResultsHTMLBuilder:
                     </div>
                     <div class="info-item">
                         <span class="info-label">登録番号</span>
-                        <span class="info-value">{result.get('reg_num', '未登録')}</span>
+                        <span class="info-value">{result.get('registration_number', '未登録')}</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">商標画像</span>
@@ -157,7 +157,7 @@ class ResultsHTMLBuilder:
                 <div class="section-content">
                     <div class="info-item">
                         <span class="info-label">商品区分</span>
-                        <span class="info-value">{result.get('goods_classes', 'なし')}</span>
+                        <span class="info-value">{result.get('goods_classes') or 'なし'}</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">類似群コード</span>
@@ -166,7 +166,7 @@ class ResultsHTMLBuilder:
                     <div class="info-item">
                         <span class="info-label">指定商品・役務</span>
                         <div class="info-value text-expandable">
-                            <div class="text-content collapsed">{result.get('designated_goods', 'なし')}</div>
+                            <div class="text-content collapsed">{result.get('designated_goods') or 'なし'}</div>
                             <button class="expand-btn">続きを見る</button>
                         </div>
                     </div>
@@ -181,12 +181,12 @@ class ResultsHTMLBuilder:
                 <div class="section-content">
                     <div class="info-item">
                         <span class="info-label">権利者名</span>
-                        <span class="info-value">{result.get('right_person_name', 'なし')}</span>
+                        <span class="info-value">{result.get('right_person_name') or 'なし'}</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">権利者住所</span>
                         <div class="info-value text-expandable">
-                            <div class="text-content collapsed">{result.get('right_person_addr', 'なし')}</div>
+                            <div class="text-content collapsed">{result.get('right_person_addr') or 'なし'}</div>
                             <button class="expand-btn">続きを見る</button>
                         </div>
                     </div>

@@ -18,33 +18,43 @@ class CorrectHTMLGenerator:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.searcher = CorrectTrademarkSearch()
     
-    def generate_html(self, mark_text: str, limit: int = 100) -> str:
+    def generate_html(self, mark_text: str = None, class_num: str = None, limit: int = 100) -> str:
         """HTML検索結果を生成"""
         
         # 正しい検索実行
-        results = self.searcher.search_by_mark_text(mark_text, limit)
+        if class_num:
+            results = self.searcher.search_by_class(class_num, limit)
+            search_key = f"区分{class_num}"
+            filename = f"class_{class_num}_search_results.html"
+        elif mark_text:
+            results = self.searcher.search_by_mark_text(mark_text, limit)
+            search_key = mark_text
+            filename = "correct_trademark_search_results.html"
+        else:
+            raise ValueError("mark_text または class_num のいずれかが必要です")
         
         # HTML生成
-        html_content = self._generate_html_content(mark_text, results)
+        html_content = self._generate_html_content(search_key, results, class_num is not None)
         
         # ファイル保存
-        output_file = self.output_dir / "correct_trademark_search_results.html"
+        output_file = self.output_dir / filename
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(html_content)
         
         return str(output_file)
     
-    def _generate_html_content(self, mark_text: str, results: list) -> str:
+    def _generate_html_content(self, search_key: str, results: list, is_class_search: bool = False) -> str:
         """HTML内容を生成"""
         
         current_time = datetime.now().strftime("%Y年%m月%d日 %H:%M:%S")
+        search_type = "商標区分" if is_class_search else "商標文字"
         
         html = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商標検索結果 - 商標文字: {mark_text}</title>
+    <title>商標検索結果 - {search_type}: {search_key}</title>
     <style>
         {self._generate_css()}
     </style>
@@ -58,7 +68,7 @@ class CorrectHTMLGenerator:
         
         <div class="search-conditions">
             <h3>📋 検索条件</h3>
-            <p><strong>商標文字: {mark_text}</strong></p>
+            <p><strong>{search_type}: {search_key}</strong></p>
         </div>
         
         <div class="results-summary">
@@ -84,7 +94,6 @@ class CorrectHTMLGenerator:
                         <th class="col-similar">類似群コード</th>
                         <th class="col-applicant">出願人</th>
                         <th class="col-rights">権利者</th>
-                        <th class="col-image">画像</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -122,6 +131,14 @@ class CorrectHTMLGenerator:
         rights_holder = result.get('rights_holder', '')
         has_image = result.get('has_image', 'NO')
         
+        # 商標の表示（画像優先表示）
+        if has_image == 'YES':
+            # 画像商標の場合は実際の画像を表示
+            image_path = f'../../images/final_complete/{app_num.replace("-", "")}.jpg'
+            mark_display = f'<img src="{image_path}" alt="{mark_text}" style="max-width: 200px; max-height: 100px; object-fit: contain;" onerror="this.style.display=\'none\'; this.nextElementSibling.style.display=\'inline\';"><span style="display: none;">🖼️ {mark_text}</span>'
+        else:
+            mark_display = mark_text
+        
         # 区分の表示
         if goods_classes and goods_classes != '調査中':
             class_display = goods_classes
@@ -136,20 +153,17 @@ class CorrectHTMLGenerator:
         else:
             goods_display = "なし"
         
-        # 類似群コードの表示
+        # 類似群コードの表示（半角スペース区切り）
         if similar_codes:
-            similar_display = similar_codes[:50] + "..." if len(similar_codes) > 50 else similar_codes
+            similar_display = similar_codes[:80] + "..." if len(similar_codes) > 80 else similar_codes
         else:
             similar_display = "なし"
-        
-        # 画像の表示
-        image_display = "🖼️ あり" if has_image == 'YES' else "📄 なし"
         
         return f"""
                     <tr>
                         <td class="col-no" style="text-align: center; font-weight: 600;">{index}</td>
                         <td class="col-mark">
-                            <div class="mark-text">{mark_text}</div>
+                            <div class="mark-text">{mark_display}</div>
                         </td>
                         <td class="col-app-num">
                             <span class="app-num">{app_num}</span>
@@ -174,9 +188,6 @@ class CorrectHTMLGenerator:
                         </td>
                         <td class="col-rights">
                             <div class="rights-text">{rights_holder if rights_holder else 'なし'}</div>
-                        </td>
-                        <td class="col-image" style="text-align: center;">
-                            <div class="image-text">{image_display}</div>
                         </td>
                     </tr>
         """
@@ -272,7 +283,7 @@ class CorrectHTMLGenerator:
             border-collapse: collapse;
             margin: 0;
             font-size: 0.9rem;
-            min-width: 1500px;
+            min-width: 1400px;
         }
         
         .results-table th {
@@ -296,16 +307,15 @@ class CorrectHTMLGenerator:
         }
         
         .col-no { width: 50px; }
-        .col-mark { width: 200px; }
+        .col-mark { width: 220px; }
         .col-app-num { width: 120px; }
         .col-reg-num { width: 120px; }
         .col-app-date { width: 100px; }
         .col-class { width: 80px; }
-        .col-goods { width: 300px; }
-        .col-similar { width: 150px; }
+        .col-goods { width: 320px; }
+        .col-similar { width: 180px; }
         .col-applicant { width: 200px; }
         .col-rights { width: 200px; }
-        .col-image { width: 80px; }
         
         .mark-text {
             font-weight: 600;
@@ -358,13 +368,23 @@ class CorrectHTMLGenerator:
 
 def main():
     parser = argparse.ArgumentParser(description="正しい検索アプローチのHTMLジェネレーター")
-    parser.add_argument("--mark-text", required=True, help="商標文字")
+    parser.add_argument("--mark-text", help="商標文字")
+    parser.add_argument("--class", dest="class_num", help="商標区分")
     parser.add_argument("--limit", type=int, default=100, help="検索結果件数")
     
     args = parser.parse_args()
     
     generator = CorrectHTMLGenerator()
-    output_file = generator.generate_html(args.mark_text, args.limit)
+    
+    if args.class_num:
+        output_file = generator.generate_html(class_num=args.class_num, limit=args.limit)
+    elif args.mark_text:
+        output_file = generator.generate_html(mark_text=args.mark_text, limit=args.limit)
+    else:
+        print("商標文字または区分を指定してください:")
+        print("  --mark-text '検索文字'")
+        print("  --class '区分番号'")
+        return
     
     print(f"✅ 正しい検索HTML生成完了: {output_file}")
     print(f"🌐 ブラウザで開くには: file://{Path(output_file).absolute()}")
