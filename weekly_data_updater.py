@@ -11,9 +11,20 @@ import csv
 import os
 import sys
 import shutil
+import logging
 from pathlib import Path
 from datetime import datetime
 import argparse
+
+# ログ設定
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('weekly_updater.log'),
+        logging.StreamHandler()
+    ]
+)
 
 class WeeklyDataUpdater:
     def __init__(self, db_path="output.db"):
@@ -26,14 +37,14 @@ class WeeklyDataUpdater:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         backup_path = self.backup_dir / f"output_backup_{timestamp}.db"
         
-        print(f"データベースをバックアップ中: {backup_path}")
+        logging.info(f"データベースをバックアップ中: {backup_path}")
         shutil.copy2(self.db_path, backup_path)
         
         # 古いバックアップを削除（最新5つを保持）
         backups = sorted(self.backup_dir.glob("output_backup_*.db"), reverse=True)
         for old_backup in backups[5:]:
             old_backup.unlink()
-            print(f"古いバックアップを削除: {old_backup}")
+            logging.info(f"古いバックアップを削除: {old_backup}")
         
         return backup_path
     
@@ -102,12 +113,12 @@ class WeeklyDataUpdater:
                     inserted += 1
                 
                 if (updated + inserted) % 1000 == 0:
-                    print(f"  処理済み: {updated + inserted} レコード")
+                    logging.debug(f"  処理済み: {updated + inserted} レコード")
         
         conn.commit()
         conn.close()
         
-        print(f"  jiken_c_t: 新規{inserted}件、更新{updated}件")
+        logging.info(f"  jiken_c_t: 新規{inserted}件、更新{updated}件")
         return inserted, updated
     
     def update_standard_char_t_art(self, tsv_path):
@@ -151,12 +162,12 @@ class WeeklyDataUpdater:
                     inserted += 1
                 
                 if (updated + inserted) % 1000 == 0:
-                    print(f"  処理済み: {updated + inserted} レコード")
+                    logging.debug(f"  処理済み: {updated + inserted} レコード")
         
         conn.commit()
         conn.close()
         
-        print(f"  standard_char_t_art: 新規{inserted}件、更新{updated}件")
+        logging.info(f"  standard_char_t_art: 新規{inserted}件、更新{updated}件")
         return inserted, updated
     
     def update_table_generic(self, table_name, tsv_path, column_mapping):
@@ -197,23 +208,23 @@ class WeeklyDataUpdater:
                     inserted += 1
                 
                 if (updated + inserted) % 1000 == 0:
-                    print(f"  処理済み: {updated + inserted} レコード")
+                    logging.debug(f"  処理済み: {updated + inserted} レコード")
         
         conn.commit()
         conn.close()
         
-        print(f"  {table_name}: 新規{inserted}件、更新{updated}件")
+        logging.info(f"  {table_name}: 新規{inserted}件、更新{updated}件")
         return inserted, updated
     
     def update_from_directory(self, tsv_dir):
         """TSVディレクトリから一括更新"""
         tsv_path = Path(tsv_dir)
         if not tsv_path.exists():
-            print(f"エラー: TSVディレクトリが見つかりません: {tsv_dir}")
+            logging.error(f"TSVディレクトリが見つかりません: {tsv_dir}")
             return False
         
-        print(f"=== 週次データ更新開始 ===")
-        print(f"TSVディレクトリ: {tsv_path}")
+        logging.info("=== 週次データ更新開始 ===")
+        logging.info(f"TSVディレクトリ: {tsv_path}")
         
         # バックアップ作成
         backup_path = self.create_backup()

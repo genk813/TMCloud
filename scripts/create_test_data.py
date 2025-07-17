@@ -120,8 +120,14 @@ def create_test_database():
         
         return True
         
+    except sqlite3.Error as e:
+        print(f"Database error creating test database: {e}")
+        return False
+    except FileNotFoundError as e:
+        print(f"File not found error: {e}")
+        return False
     except Exception as e:
-        print(f"Error creating test database: {e}")
+        print(f"Unexpected error creating test database: {e}")
         return False
         
     finally:

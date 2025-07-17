@@ -754,8 +754,17 @@ def main():
         
         searcher.close()
         
+    except sqlite3.Error as e:
+        print(f"データベースエラー: {e}", file=sys.stderr)
+        sys.exit(1)
+    except FileNotFoundError as e:
+        print(f"ファイルが見つかりません: {e}", file=sys.stderr)
+        sys.exit(1)
+    except KeyboardInterrupt:
+        print("\n検索が中断されました。", file=sys.stderr)
+        sys.exit(0)
     except Exception as e:
-        print(f"エラー: {e}", file=sys.stderr)
+        print(f"予期しないエラー: {e}", file=sys.stderr)
         sys.exit(1)
 
 

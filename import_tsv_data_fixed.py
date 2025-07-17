@@ -498,8 +498,14 @@ def main():
                 if table_name in import_functions:
                     try:
                         import_functions[table_name](conn, file_path)
+                    except sqlite3.Error as e:
+                        print(f"データベースエラー: {table_name} のインポートに失敗: {e}")
+                        continue
+                    except FileNotFoundError as e:
+                        print(f"ファイルエラー: {table_name} のファイルが見つかりません: {e}")
+                        continue
                     except Exception as e:
-                        print(f"エラー: {table_name} のインポートに失敗: {e}")
+                        print(f"予期しないエラー: {table_name} のインポートに失敗: {e}")
                         continue
         
         print("\n=== インポート完了 ===")
@@ -511,8 +517,17 @@ def main():
             count = cursor.fetchone()[0]
             print(f"{table_name}: {count} レコード")
         
+    except sqlite3.Error as e:
+        print(f"データベースエラー: {e}")
+        sys.exit(1)
+    except FileNotFoundError as e:
+        print(f"ファイルが見つかりません: {e}")
+        sys.exit(1)
+    except KeyboardInterrupt:
+        print("\nインポートが中断されました。")
+        sys.exit(0)
     except Exception as e:
-        print(f"エラー: {e}")
+        print(f"予期しないエラー: {e}")
         sys.exit(1)
     
     finally:

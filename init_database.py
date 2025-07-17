@@ -8,6 +8,7 @@ output.dbのテーブル構造を作成し、インデックスを設定しま�
 
 import sqlite3
 import os
+import logging
 from pathlib import Path
 
 def create_database(force=False):
@@ -77,8 +78,21 @@ def create_database(force=False):
         
         return True
         
+    except sqlite3.Error as e:
+        print(f"データベースエラー: {e}")
+        logging.error(f"Database error in create_database: {e}")
+        return False
+    except FileNotFoundError as e:
+        print(f"ファイルが見つかりません: {e}")
+        logging.error(f"File not found in create_database: {e}")
+        return False
+    except PermissionError as e:
+        print(f"ファイルアクセス権限エラー: {e}")
+        logging.error(f"Permission error in create_database: {e}")
+        return False
     except Exception as e:
-        print(f"エラー: {e}")
+        print(f"予期しないエラー: {e}")
+        logging.error(f"Unexpected error in create_database: {e}")
         return False
 
 def test_database():
@@ -113,16 +127,26 @@ def test_database():
                 cursor.execute(f"SELECT COUNT(*) FROM {table}")
                 count = cursor.fetchone()[0]
                 print(f"  {table}: {count} レコード")
-            except Exception as e:
-                print(f"  {table}: エラー - {e}")
+            except sqlite3.Error as e:
+                print(f"  {table}: データベースエラー - {e}")
+                logging.warning(f"Error counting records in table {table}: {e}")
         
         conn.close()
         print("データベーステストが完了しました。")
         
         return True
         
+    except sqlite3.Error as e:
+        print(f"データベースエラー: {e}")
+        logging.error(f"Database error in test_database: {e}")
+        return False
+    except FileNotFoundError as e:
+        print(f"データベースファイルが見つかりません: {e}")
+        logging.error(f"Database file not found in test_database: {e}")
+        return False
     except Exception as e:
-        print(f"エラー: {e}")
+        print(f"予期しないエラー: {e}")
+        logging.error(f"Unexpected error in test_database: {e}")
         return False
 
 if __name__ == "__main__":
