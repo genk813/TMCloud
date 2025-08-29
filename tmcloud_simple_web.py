@@ -9,6 +9,11 @@ from tmcloud_search_integrated import TMCloudIntegratedSearch
 from pathlib import Path
 import json
 import sys
+import logging
+import sys
+
+# エラーをコンソールに強制的に出す設定
+logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 
 app = Flask(__name__)
 
@@ -288,7 +293,7 @@ HTML_TEMPLATE = """
             document.getElementById('complexSearchForm').onsubmit = async (e) => {
                 e.preventDefault();
                 const resultsDiv = document.getElementById('results');
-                resultsDiv.innerHTML = '検索中...';
+                resultsDiv.textContent = '検索中...';
                 
                 // すべての条件を収集
                 const conditions = [];
@@ -297,9 +302,14 @@ HTML_TEMPLATE = """
                 conditionDivs.forEach(div => {
                     const id = div.id.split('_')[1];
                     const type = document.getElementById(`type_${id}`)?.value;
-                    const keyword = document.getElementById(`keyword_${id}`)?.value;
+                    let keyword = document.getElementById(`keyword_${id}`)?.value;
                     
                     if (type && keyword) {
+                        // 国際登録番号の場合は非数字文字を削除
+                        if (type === 'intl_reg_num') {
+                              // 数字・*・? だけ許可（全角混入などはここで弾く）
+                            keyword = (keyword || '').trim().replace(/[^\\d*?]/g, '');
+                        }
                         conditions.push({
                             type: type,
                             keyword: keyword
@@ -312,7 +322,7 @@ HTML_TEMPLATE = """
                 console.log('送信条件:', conditions, 'operator:', operator);  // デバッグ
                 
                 if (conditions.length === 0) {
-                    resultsDiv.innerHTML = '少なくとも1つの条件を入力してください';
+                    resultsDiv.textContent = '少なくとも1つの条件を入力してください';
                     return;
                 }
                 
@@ -337,7 +347,7 @@ HTML_TEMPLATE = """
                     displayResults(data);
                 } catch (error) {
                     console.error('複合検索エラー:', error);
-                    resultsDiv.innerHTML = 'エラー: ' + error.message;
+                    resultsDiv.textContent = 'エラー: ' + error.message;
                 }
             };
         });
@@ -447,11 +457,18 @@ HTML_TEMPLATE = """
                 // search_specificに拒絶条文コード情報があるかチェック
                 const isRejectionSearch = result.search_specific && result.search_specific.rejection_reason_code !== undefined;
                 
+                // デバッグ用（国際登録番号検索の場合）
+                if (result.search_specific && result.search_specific.search_type === 'intl_reg_num') {
+                    console.log('[DEBUG] International registration search detected, displaying full info');
+                }
+                
                 // 商標名または商標画像を表示
                 let trademarkDisplay = '';
                 if (info.trademark_name === '[商標画像]' && info.trademark_image_data) {
                     // Base64エンコードされた画像を表示
-                    trademarkDisplay = `<img src="data:image/jpeg;base64,${info.trademark_image_data}" alt="商標画像" style="max-width: 200px; max-height: 200px; display: block; margin: 10px 0;">`;
+                    // Base64データをエスケープ（不正なスクリプト挿入を防ぐ）
+                    const safeImageData = String(info.trademark_image_data).replace(/[^A-Za-z0-9+/=]/g, '');
+                    trademarkDisplay = `<img src="data:image/jpeg;base64,${safeImageData}" alt="商標画像" style="max-width: 200px; max-height: 200px; display: block; margin: 10px 0;">`;
                 } else {
                     trademarkDisplay = esc(info.trademark_name || 'N/A');
                 }
@@ -464,11 +481,29 @@ HTML_TEMPLATE = """
                     isMadrid = ['35', '36', '37'].includes(position5_6);
                 }
                 
+                // 出願番号をハイフン付きに変換
+                const formatAppNumForJPlatPat = (appNum) => {
+                    if (!appNum) return '';
+                    const numStr = appNum.toString();
+                    if (numStr.length >= 8) {
+                        return numStr.substring(0, 4) + '-' + numStr.substring(4);
+                    }
+                    return numStr;
+                };
+                
+                // J-PlatPatボタンのHTML（マドプロの場合は国際登録番号と国際登録日も渡す）
+                const jplatpatButton = info.app_num ? `
+                    <button onclick="openJPlatPat('${esc(info.app_num)}', '${esc(info.intl_reg_num || '')}', '${esc(info.intl_reg_date || '')}')" 
+                            title="J-PlatPatで${isMadrid && info.intl_reg_num ? '国際登録番号 ' + esc(info.intl_reg_num) : '出願番号 ' + esc(formatAppNumForJPlatPat(info.app_num))}を検索"
+                            style="margin-left: 10px; background: #0066cc; color: white; padding: 3px 10px; border: none; border-radius: 3px; cursor: pointer;">
+                        J-PlatPat
+                    </button>` : '';
+                
                 html += `
                     <div class="result">
                         <h3>[${index + 1}] ${trademarkDisplay}</h3>
-                        ${!isMadrid ? addField('出願番号', info.app_num) : addField('マドプロ管理番号', info.app_num)}
-                        ${isMadrid && info.intl_reg_num ? addField('国際登録番号', info.intl_reg_num) : ''}
+                        ${!isMadrid ? `<div class="field"><span class="field-label">出願番号:</span> ${esc(info.app_num)}${jplatpatButton}</div>` : `<div class="field"><span class="field-label">マドプロ管理番号:</span> ${esc(info.app_num)}</div>`}
+                        ${isMadrid && info.intl_reg_num ? `<div class="field"><span class="field-label">国際登録番号:</span> ${esc(info.intl_reg_num)}${jplatpatButton}</div>` : ''}
                         ${addField('登録番号', info.reg_num)}
                         ${addField('出願日', formatDate(info.app_date))}
                         ${addField('登録日', formatDate(info.reg_date))}
@@ -481,8 +516,17 @@ HTML_TEMPLATE = """
                     const rejectionDisplay = rejectionInfo.rejection_reason_article || 
                                            (rejectionInfo.rejection_reason_code ? `コード${rejectionInfo.rejection_reason_code}` : '');
                     html += addField('拒絶理由', rejectionDisplay);
-                } else {
-                    // 通常の検索結果の場合
+                }
+                
+                // 通常の検索結果の場合（拒絶条文検索以外はすべて表示）
+                if (!isRejectionSearch) {
+                    // デバッグ: データの存在を確認
+                    console.log('[DEBUG] Display info for app_num:', info.app_num);
+                    console.log('  - classes:', info.classes);
+                    console.log('  - phonetics:', info.phonetics);
+                    console.log('  - applicants:', info.applicants);
+                    console.log('  - isMadrid:', isMadrid);
+                    
                     html += addArrayField('区分', info.classes);
                     html += addArrayField('称呼', info.phonetics);
                     html += addArrayField('出願人', info.applicants);
@@ -503,6 +547,19 @@ HTML_TEMPLATE = """
                 html += addField('存続期間満了日', formatDate(info.conti_prd_expire_date));
                 html += addField('次回分納期限日', formatDate(info.next_pen_payment_limit_date));
                 
+                // マドプロ特有の情報
+                if (isMadrid) {
+                    html += addField('国際登録日', formatDate(info.intl_reg_date));
+                    html += addField('事後指定日', formatDate(info.after_designation_date));
+                    html += addField('マドプロ登録日', formatDate(info.madrid_reg_date));
+                    html += addField('マドプロ公開日', formatDate(info.madrid_public_date));
+                    html += addField('名義人', info.madrid_holder_name);
+                    html += addField('名義人住所', info.madrid_holder_address);
+                    html += addField('基礎国コード', info.base_country_code);
+                    html += addField('基礎出願日', formatDate(info.base_app_date));
+                    html += addField('優先権主張日', formatDate(info.prior_app_right_occr_dt));
+                }
+                
                 // 出願種別・付加情報
                 const appTypes = [];
                 if (info.app_type1) appTypes.push(info.app_type1);
@@ -513,7 +570,6 @@ HTML_TEMPLATE = """
                 if (appTypes.length > 0) {
                     html += `<div class="field"><span class="field-label">出願種別:</span> ${appTypes.map(t => esc(t)).join(', ')}</div>`;
                 }
-                html += addField('元出願種別', info.orig_app_type);
                 if (info.article3_2_flag === '1') {
                     html += addField('3条2項適用', 'あり');
                 }
@@ -951,6 +1007,48 @@ HTML_TEMPLATE = """
                 sortSelector.value = currentSort;
             }
         }
+        
+        // J-PlatPatを直接リンクで開く
+        function openJPlatPat(appNum, intlRegNum, intlRegDate) {
+            // 出願番号から直接URLを生成
+            const numStr = appNum.toString();
+            
+            // マドプロ案件の判定（5-6桁目が35,36,37）
+            let directUrl = '';
+            if (numStr.length >= 6) {
+                const position5_6 = numStr.substring(4, 6);
+                const isMadrid = ['35', '36', '37'].includes(position5_6);
+                
+                if (isMadrid && intlRegNum && intlRegDate) {
+                    // マドプロの場合、国際登録番号と国際登録日でURLを生成
+                    // 国際登録番号から先頭の0を削除
+                    const cleanIntlRegNum = intlRegNum.toString().replace(/^0+/, '');
+                    // 国際登録日が8桁の場合はそのまま使用
+                    const dateStr = intlRegDate.toString();
+                    // URLクエリパラメータとして渡す
+                    directUrl = `https://www.j-platpat.inpit.go.jp/?uri=/c1801/TR/JP-${cleanIntlRegNum}-${dateStr}/49/ja`;
+                } else if (isMadrid) {
+                    // 国際登録番号がない場合は検索ページへ
+                    directUrl = 'https://www.j-platpat.inpit.go.jp/t0000';
+                } else {
+                    // 通常の国内出願の場合
+                    // JP-YYYY-NNNNNN形式でURLを生成
+                    const year = numStr.substring(0, 4);
+                    const number = numStr.substring(4);
+                    // URLクエリパラメータとして渡す
+                    directUrl = `https://www.j-platpat.inpit.go.jp/?uri=/c1801/TR/JP-${year}-${number}/40/ja`;
+                }
+            } else {
+                // 短い番号の場合は検索ページへ
+                directUrl = 'https://www.j-platpat.inpit.go.jp/t0000';
+            }
+            
+            // 直接URLを新しいウィンドウで開く
+            const newWindow = window.open(directUrl, '_blank');
+            if (!newWindow) {
+                alert('ポップアップがブロックされました。ブラウザの設定を確認してください。');
+            }
+        }
     </script>
 </body>
 </html>
@@ -973,7 +1071,8 @@ def search():
         # POSTリクエストの場合
         else:
             data = request.json
-            search_type = data.get('search_type', 'trademark')
+            # 'type' と 'search_type' の両方を受け入れる（互換性のため）
+            search_type = data.get('type') or data.get('search_type', 'trademark')
             keyword = data.get('keyword', '')
             format_type = 'json'
         
@@ -1002,8 +1101,19 @@ def search():
             result = searcher.search_by_reg_num(keyword, unified_format=True)  # 単一番号検索
             results = [result] if result else []  # リストに変換
         elif search_type == 'intl_reg_num':
-            result = searcher.search_by_intl_reg_num(keyword, unified_format=True)  # 国際登録番号検索
-            results = [result] if result else []  # リストに変換
+            print(f"[DEBUG] IntlReg search raw: {keyword}", file=sys.stderr)
+            result = searcher.search_by_intl_reg_num(keyword, unified_format=True, limit=10000)
+
+            # ワイルドカード検索の場合はリスト、通常検索の場合は単一結果
+            if isinstance(result, list):
+                print(f"[DEBUG] IntlReg wildcard results: {len(result)} items", file=sys.stderr)
+                results = result
+            elif result:
+                print(f"[DEBUG] IntlReg result: {bool(result)} {result.get('app_num')}", file=sys.stderr)
+                results = [result]  # リストに変換
+            else:
+                results = []
+
         elif search_type == 'applicant':
             results = searcher.search_applicant(keyword, limit=3000, unified_format=True)
         elif search_type == 'similar_group':
@@ -1059,7 +1169,7 @@ def search_complex():
         searcher = TMCloudIntegratedSearch(str(DB_PATH))
         
         # デフォルトのlimit設定
-        limit = 3000
+        limit = 10000
         
         # 複合検索実行
         results = searcher.search_complex(conditions, operator=operator, limit=limit, unified_format=True)
@@ -1073,7 +1183,9 @@ def search_complex():
         })
         
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        import traceback
+        traceback.print_exc()   # ← 強制的にターミナルへ出す
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     import os

@@ -1753,6 +1753,49 @@ def import_shohyo_fuka_joho(conn, tsv_path):
     print(f"  Imported {count} records")
     return count
 
+def import_intl_goods_services_jp(conn, tsv_path):
+    """マドプロ指定商品役務の日本語訳テーブル"""
+    print("Importing intl_trademark_goods_services_jp...")
+    encoding = detect_encoding(tsv_path)
+    cursor = conn.cursor()
+    count = 0
+    
+    with open(tsv_path, 'r', encoding=encoding) as f:
+        reader = csv.DictReader(f, delimiter='\t')
+        for row in reader:
+            # 31桁の0はNULL扱い
+            for key in row:
+                if row[key] == '0' * 31:
+                    row[key] = None
+            
+            cursor.execute("""
+                INSERT OR REPLACE INTO intl_trademark_goods_services_jp (
+                    add_del_id, jpo_rfr_num, jpo_rfr_num_split_sign_cd,
+                    history_num, seq_num, madpro_class, 
+                    goods_service_name, goods_service_japanese_name,
+                    force_occur_dt, define_flg, updt_year_month_day,
+                    batch_updt_year_month_day
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                cleanse_data(row.get('add_del_id')),
+                cleanse_data(row.get('jpo_rfr_num')),
+                cleanse_data(row.get('jpo_rfr_num_split_sign_cd')),
+                cleanse_data(row.get('history_num')),
+                int(row.get('seq_num', 0)) if row.get('seq_num') else None,
+                cleanse_data(row.get('madopro_class')),
+                cleanse_data(row.get('goods_service_name')),
+                cleanse_data(row.get('goods_service_japanese_name')),
+                cleanse_data(row.get('force_occur_dt')),
+                cleanse_data(row.get('define_flg')),
+                cleanse_data(row.get('updt_year_month_day')),
+                cleanse_data(row.get('batch_updt_year_month_day'))
+            ))
+            count += 1
+    
+    conn.commit()
+    print(f"  Imported {count} records")
+    return count
+
 def import_all_tables(conn):
     """全テーブルのインポート"""
     
@@ -1800,6 +1843,8 @@ def import_all_tables(conn):
         ('upd_sec_goods_name.tsv', import_bougo_shohin_mei),
         ('upd_sec_updt_art.tsv', import_bougo_koshin_kiji),
         ('upd_t_add_info.tsv', import_shohyo_fuka_joho),
+        # マドプロ指定商品役務の日本語訳
+        ('upd_dsgn_gvrnmnt_dsgn_st_gds_srvc_app.tsv', import_intl_goods_services_jp),
     ]
     
     total_files = len(import_mappings)
