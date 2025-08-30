@@ -1,5 +1,78 @@
 # TMCloud Development History
 
+## 2025-08-30 国際登録番号検索とマドプロ案件の改善
+
+### 作業内容
+1. **国際登録番号検索機能の追加**
+   - SearchType.INTL_REG_NUMエナムを追加
+   - search_by_intl_reg_num メソッドを実装（LIKE検索対応）
+   - 複合検索（search_complex）に統合
+
+2. **マドプロ案件の詳細情報表示改善**
+   - 出願人（holder_name）、区分（madpro_class）、商品役務（英語/日本語）の表示
+   - 出願日の法的ロジック実装（事後指定日優先、なければ国際登録日）
+   - 英語と日本語の商品・役務を分離表示
+
+3. **日付範囲検索のマドプロ案件対応**
+   - search_by_date_rangeを修正し、国内案件とマドプロ案件の両方を検索
+   - マドプロ案件186件（2025年7月登録）、1691件（2025年出願）が検索可能に
+   - 正しいテーブルとカラム名への修正（instllmnt_expr_date_aft_des_date等）
+
+4. **J-PlatPatリンクの修正**
+   - マドプロ案件用のURL形式修正
+   - URLフォーマット: `https://www.j-platpat.inpit.go.jp/c1801/TR/JP-{国際登録番号}-{日付YYYYMMDD}/49/ja`
+   - 日付はハイフンなしのYYYYMMDD形式
+
+5. **UI/UXの改善**
+   - 日付検索を複合条件検索フォームに統合
+   - 条件選択時に動的に日付入力フィールドを表示
+   - 重複する区分表示を削除
+
+### 技術的詳細
+- 中間記録コードのJSON化（intermediate_codes.json）
+- 旧字体→新字体変換をJSONファイル（kanji_conversion.json）から読み込み
+- TextNormalizerクラスにload_kanji_conversion()メソッドを追加
+
+### 解決した問題
+- マドプロ案件が検索結果0件になる問題（テーブル分離による）
+- AttributeError: 'TextNormalizer' has no attribute 'OLD_TO_NEW_KANJI'
+- sqlite3.OperationalError: no such column エラーの修正
+
+## 2025-08-27 c0860_registration_codes.json変換作業
+
+### 作業内容
+**問題**: c0860_registration_codes.jsonファイルがタブ区切り形式で、正しいJSON形式になっていなかった
+
+**解決策**:
+- Bash sedコマンドを使用した1行ずつの丁寧な変換
+- 全1979行を手動で変換処理
+
+### 実施した変換
+1. **タブ区切り形式からJSON key-value形式への変換**
+   - 元: `1573	Ｒ３１１８０１	本権抹消登録申請書	（権利放棄）`
+   - 後: `"R311801": "本権抹消登録申請書    （権利放棄）",`
+
+2. **全角英数字から半角への変換**
+   - Ｒ → R
+   - ０-９ → 0-9
+   - Ａ-Ｚ → A-Z
+
+3. **同上記号（〃）の処理**
+   - 〃マークを直前の有効な説明文に置換
+   - 例: 登録申請書の〃 → 登録申請書
+
+4. **行番号の削除**
+   - 各行の先頭にあった行番号を削除
+
+### 技術的詳細
+- 処理方法: Bash sedコマンドによる1行ずつの変換
+- 総行数: 1979行
+- 作業時間: 約3時間（手動処理のため）
+
+### ファイル
+- 対象ファイル: `/config/final/c0860_registration_codes.json`
+- バックアップ: `/config/final/c0860_registration_codes_backup.json`
+
 ## 2025-08-24 商標検索システムの修正と改善
 
 ### 実施した修正

@@ -79,30 +79,45 @@ HTML_TEMPLATE = """
         </form>
     </div>
     
+    
     <div id="results"></div>
     
     <script>
         // XSS対策用のエスケープ関数
         const esc = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;', "'":'&#39;'}[c]));
         
-        // 拒絶条文コードヘルパーの表示/非表示切り替え
-        function toggleRejectionCodeHelper(selectElement) {
+        // フィールドヘルパーと入力タイプの切り替え
+        function toggleFieldHelper(selectElement) {
             const conditionDiv = selectElement.closest('.condition-item');
             const rejectionHelper = conditionDiv.querySelector('.rejection-code-helper');
             const typeHelper = conditionDiv.querySelector('.trademark-type-helper');
+            const conditionId = selectElement.id.split('_')[1];
+            const inputWrapper = document.getElementById(`input_wrapper_${conditionId}`);
             
             // すべてのヘルパーを非表示
             if (rejectionHelper) rejectionHelper.style.display = 'none';
             if (typeHelper) typeHelper.style.display = 'none';
             
-            // 選択されたタイプに応じてヘルパーを表示
-            if (selectElement.value === 'rejection_reason') {
-                if (rejectionHelper) {
-                    rejectionHelper.style.display = 'block';
-                }
-            } else if (selectElement.value === 'trademark_type') {
-                if (typeHelper) {
-                    typeHelper.style.display = 'block';
+            // 日付フィールドの場合は日付範囲入力に変更
+            if (selectElement.value === 'app_date' || selectElement.value === 'reg_date' || selectElement.value === 'pub_date') {
+                inputWrapper.innerHTML = `
+                    <input type="date" id="start_date_${conditionId}" style="padding: 5px;">
+                    <span> 〜 </span>
+                    <input type="date" id="end_date_${conditionId}" style="padding: 5px;">
+                `;
+            } else {
+                // 通常のテキスト入力に戻す
+                inputWrapper.innerHTML = `<input type="text" id="keyword_${conditionId}" placeholder="キーワード" style="width: 250px;">`;
+                
+                // 選択されたタイプに応じてヘルパーを表示
+                if (selectElement.value === 'rejection_reason') {
+                    if (rejectionHelper) {
+                        rejectionHelper.style.display = 'block';
+                    }
+                } else if (selectElement.value === 'trademark_type') {
+                    if (typeHelper) {
+                        typeHelper.style.display = 'block';
+                    }
                 }
             }
         }
@@ -128,7 +143,10 @@ HTML_TEMPLATE = """
             {value: 'similar_group', label: '類似群コード'},
             {value: 'goods_services', label: '商品・役務'},
             {value: 'rejection_reason', label: '拒絶条文コード'},
-            {value: 'vienna_code', label: 'ウィーンコード'}
+            {value: 'vienna_code', label: 'ウィーンコード'},
+            {value: 'app_date', label: '出願日'},
+            {value: 'reg_date', label: '登録日'},
+            {value: 'pub_date', label: '公開日'}
         ];
         
         // 条件を追加する関数
@@ -156,10 +174,12 @@ HTML_TEMPLATE = """
             
             condDiv.innerHTML = `
                 <label>条件${conditionCount}:
-                    <select id="type_${conditionCount}" onchange="toggleRejectionCodeHelper(this)">
+                    <select id="type_${conditionCount}" onchange="toggleFieldHelper(this)">
                         ${optionsHtml}
                     </select>
-                    <input type="text" id="keyword_${conditionCount}" placeholder="キーワード" style="width: 250px;">
+                    <span id="input_wrapper_${conditionCount}">
+                        <input type="text" id="keyword_${conditionCount}" placeholder="キーワード" style="width: 250px;">
+                    </span>
                     <button type="button" onclick="removeCondition(${conditionCount})" style="background: #dc3545; color: white; padding: 3px 8px; margin-left: 10px;">削除</button>
                 </label>
                 <div class="trademark-type-helper" style="display:none; margin-top:10px; padding:10px; background:#f9f9f9; border:1px solid #ddd; border-radius:4px;">
@@ -302,18 +322,40 @@ HTML_TEMPLATE = """
                 conditionDivs.forEach(div => {
                     const id = div.id.split('_')[1];
                     const type = document.getElementById(`type_${id}`)?.value;
-                    let keyword = document.getElementById(`keyword_${id}`)?.value;
                     
-                    if (type && keyword) {
-                        // 国際登録番号の場合は非数字文字を削除
-                        if (type === 'intl_reg_num') {
-                              // 数字・*・? だけ許可（全角混入などはここで弾く）
-                            keyword = (keyword || '').trim().replace(/[^\\d*?]/g, '');
+                    if (!type) return;
+                    
+                    // Check if this is a date type field
+                    if (type === 'app_date' || type === 'reg_date' || type === 'pub_date') {
+                        const startDate = document.getElementById(`start_date_${id}`)?.value;
+                        const endDate = document.getElementById(`end_date_${id}`)?.value;
+                        
+                        if (startDate || endDate) {
+                            // Format dates as YYYYMMDD for backend
+                            const formatDate = (dateStr) => {
+                                if (!dateStr) return '';
+                                return dateStr.replace(/-/g, '');
+                            };
+                            
+                            conditions.push({
+                                type: 'date_range',
+                                keyword: `${type}:${formatDate(startDate)}:${formatDate(endDate)}`
+                            });
                         }
-                        conditions.push({
-                            type: type,
-                            keyword: keyword
-                        });
+                    } else {
+                        let keyword = document.getElementById(`keyword_${id}`)?.value;
+                        
+                        if (type && keyword) {
+                            // 国際登録番号の場合は非数字文字を削除
+                            if (type === 'intl_reg_num') {
+                                  // 数字・*・? だけ許可（全角混入などはここで弾く）
+                                keyword = (keyword || '').trim().replace(/[^\\d*?]/g, '');
+                            }
+                            conditions.push({
+                                type: type,
+                                keyword: keyword
+                            });
+                        }
                     }
                 });
                 
@@ -350,6 +392,50 @@ HTML_TEMPLATE = """
                     resultsDiv.textContent = 'エラー: ' + error.message;
                 }
             };
+            
+            // 日付範囲検索
+            function searchByDateRange(event) {
+                event.preventDefault();
+                const dateType = document.getElementById('dateType').value;
+                const startDate = document.getElementById('startDate').value;
+                const endDate = document.getElementById('endDate').value;
+                
+                if (!startDate || !endDate) {
+                    alert('開始日と終了日を入力してください');
+                    return;
+                }
+                
+                // 日付をYYYYMMDD形式に変換
+                const formatDate = (dateStr) => dateStr.replace(/-/g, '');
+                
+                // 複合検索APIを使用
+                const conditions = [{
+                    type: 'date_range',
+                    keyword: `${dateType}:${formatDate(startDate)}:${formatDate(endDate)}`
+                }];
+                
+                const resultsDiv = document.getElementById('results');
+                resultsDiv.textContent = '検索中...';
+                
+                fetch('/search_complex', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        conditions: conditions,
+                        operator: 'AND'
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    displayResults(data);
+                })
+                .catch(error => {
+                    console.error('日付範囲検索エラー:', error);
+                    resultsDiv.textContent = 'エラー: ' + error.message;
+                });
+            }
         });
         
         // ========== リファクタリング用共通関数 ==========
@@ -440,7 +526,11 @@ HTML_TEMPLATE = """
                         'applicant': '出願人',
                         'similar_group': '類似群コード',
                         'goods_services': '商品・役務',
-                        'rejection_reason': '拒絶条文コード'
+                        'rejection_reason': '拒絶条文コード',
+                        'date_range': '日付範囲',
+                        'app_date': '出願日',
+                        'reg_date': '登録日',
+                        'pub_date': '公開日'
                     };
                     const conditionsText = data.conditions.map(c => 
                         `${typeLabels[c.type] || c.type}「${esc(c.keyword)}」`
@@ -491,9 +581,11 @@ HTML_TEMPLATE = """
                     return numStr;
                 };
                 
-                // J-PlatPatボタンのHTML（マドプロの場合は国際登録番号と国際登録日も渡す）
+                // J-PlatPatボタンのHTML（マドプロの場合は国際登録番号と出願日を渡す）
+                // マドプロの場合、出願日を国際登録日として使用
+                const madridDate = isMadrid ? (info.app_date || '') : '';
                 const jplatpatButton = info.app_num ? `
-                    <button onclick="openJPlatPat('${esc(info.app_num)}', '${esc(info.intl_reg_num || '')}', '${esc(info.intl_reg_date || '')}')" 
+                    <button onclick="openJPlatPat('${esc(info.app_num)}', '${esc(info.intl_reg_num || '')}', '${esc(madridDate)}')" 
                             title="J-PlatPatで${isMadrid && info.intl_reg_num ? '国際登録番号 ' + esc(info.intl_reg_num) : '出願番号 ' + esc(formatAppNumForJPlatPat(info.app_num))}を検索"
                             style="margin-left: 10px; background: #0066cc; color: white; padding: 3px 10px; border: none; border-radius: 3px; cursor: pointer;">
                         J-PlatPat
@@ -527,7 +619,8 @@ HTML_TEMPLATE = """
                     console.log('  - applicants:', info.applicants);
                     console.log('  - isMadrid:', isMadrid);
                     
-                    html += addArrayField('区分', info.classes);
+                    // 区分の表示を削除（商品・役務の項目で表示されるため）
+                    // html += addArrayField('区分', info.classes);
                     html += addArrayField('称呼', info.phonetics);
                     html += addArrayField('出願人', info.applicants);
                     html += addArrayField('代理人', info.agents);
@@ -747,13 +840,82 @@ HTML_TEMPLATE = """
                 html += addField('ステータス', info.status);
                 
                 if (info.goods_services && Object.keys(info.goods_services).length > 0) {
-                    html += '<div class="field"><span class="field-label">商品・役務:</span></div>';
                     // 区分を数値として昇順ソート
                     const sortedClasses = Object.keys(info.goods_services).sort((a, b) => parseInt(a) - parseInt(b));
+                    
+                    // 商品・役務を表示（日本語のみの場合は「商品・役務」として表示）
+                    let hasOnlyJapanese = true;
+                    
+                    // すべての項目が（日）で始まるかチェック
                     for (const cls of sortedClasses) {
                         const goods = info.goods_services[cls];
-                        // 全文表示（折りたたみ廃止）
-                        html += `<div class="goods-services">区分${esc(cls)}: ${esc(goods)}</div>`;
+                        if (!goods.startsWith('（日）')) {
+                            hasOnlyJapanese = false;
+                            break;
+                        }
+                    }
+                    
+                    if (hasOnlyJapanese) {
+                        // 日本語のみの場合
+                        html += '<div class="field"><span class="field-label">商品・役務:</span></div>';
+                        for (const cls of sortedClasses) {
+                            const goods = info.goods_services[cls];
+                            // （日）を削除して表示
+                            const cleanGoods = goods.replace(/^（日）/, '');
+                            html += `<div class="goods-services">第${esc(cls)}類: ${esc(cleanGoods)}</div>`;
+                        }
+                    } else {
+                        // 英語と日本語が混在している場合
+                        const englishGoods = {};
+                        const japaneseGoods = {};
+                        
+                        for (const cls of sortedClasses) {
+                            const goods = info.goods_services[cls];
+                            
+                            if (goods.startsWith('（日）')) {
+                                // 日本語データ
+                                japaneseGoods[cls] = goods.substring(4);
+                            } else if (goods.includes('、（日）')) {
+                                // 英語と日本語が混在
+                                const parts = goods.split('、');
+                                const englishParts = [];
+                                const japaneseParts = [];
+                                
+                                parts.forEach(part => {
+                                    if (part.startsWith('（日）')) {
+                                        japaneseParts.push(part.substring(4));
+                                    } else {
+                                        englishParts.push(part);
+                                    }
+                                });
+                                
+                                if (englishParts.length > 0) {
+                                    englishGoods[cls] = englishParts.join('、');
+                                }
+                                if (japaneseParts.length > 0) {
+                                    japaneseGoods[cls] = japaneseParts.join('、');
+                                }
+                            } else {
+                                // 英語データのみ
+                                englishGoods[cls] = goods;
+                            }
+                        }
+                        
+                        // 英語の商品・役務を表示
+                        if (Object.keys(englishGoods).length > 0) {
+                            html += '<div class="field"><span class="field-label">商品・役務:</span></div>';
+                            for (const cls of Object.keys(englishGoods).sort((a, b) => parseInt(a) - parseInt(b))) {
+                                html += `<div class="goods-services">第${esc(cls)}類: ${esc(englishGoods[cls])}</div>`;
+                            }
+                        }
+                        
+                        // 日本語の商品・役務を表示
+                        if (Object.keys(japaneseGoods).length > 0) {
+                            html += '<div class="field"><span class="field-label">商品・役務（訳）:</span></div>';
+                            for (const cls of Object.keys(japaneseGoods).sort((a, b) => parseInt(a) - parseInt(b))) {
+                                html += `<div class="goods-services">第${esc(cls)}類: ${esc(japaneseGoods[cls])}</div>`;
+                            }
+                        }
                     }
                 }
                 
@@ -973,13 +1135,82 @@ HTML_TEMPLATE = """
                 html += addField('ステータス', info.status);
                 
                 if (info.goods_services && Object.keys(info.goods_services).length > 0) {
-                    html += '<div class="field"><span class="field-label">商品・役務:</span></div>';
                     // 区分を数値として昇順ソート
                     const sortedClasses = Object.keys(info.goods_services).sort((a, b) => parseInt(a) - parseInt(b));
+                    
+                    // 商品・役務を表示（日本語のみの場合は「商品・役務」として表示）
+                    let hasOnlyJapanese = true;
+                    
+                    // すべての項目が（日）で始まるかチェック
                     for (const cls of sortedClasses) {
                         const goods = info.goods_services[cls];
-                        // 全文表示（折りたたみ廃止）
-                        html += `<div class="goods-services">区分${esc(cls)}: ${esc(goods)}</div>`;
+                        if (!goods.startsWith('（日）')) {
+                            hasOnlyJapanese = false;
+                            break;
+                        }
+                    }
+                    
+                    if (hasOnlyJapanese) {
+                        // 日本語のみの場合
+                        html += '<div class="field"><span class="field-label">商品・役務:</span></div>';
+                        for (const cls of sortedClasses) {
+                            const goods = info.goods_services[cls];
+                            // （日）を削除して表示
+                            const cleanGoods = goods.replace(/^（日）/, '');
+                            html += `<div class="goods-services">第${esc(cls)}類: ${esc(cleanGoods)}</div>`;
+                        }
+                    } else {
+                        // 英語と日本語が混在している場合
+                        const englishGoods = {};
+                        const japaneseGoods = {};
+                        
+                        for (const cls of sortedClasses) {
+                            const goods = info.goods_services[cls];
+                            
+                            if (goods.startsWith('（日）')) {
+                                // 日本語データ
+                                japaneseGoods[cls] = goods.substring(4);
+                            } else if (goods.includes('、（日）')) {
+                                // 英語と日本語が混在
+                                const parts = goods.split('、');
+                                const englishParts = [];
+                                const japaneseParts = [];
+                                
+                                parts.forEach(part => {
+                                    if (part.startsWith('（日）')) {
+                                        japaneseParts.push(part.substring(4));
+                                    } else {
+                                        englishParts.push(part);
+                                    }
+                                });
+                                
+                                if (englishParts.length > 0) {
+                                    englishGoods[cls] = englishParts.join('、');
+                                }
+                                if (japaneseParts.length > 0) {
+                                    japaneseGoods[cls] = japaneseParts.join('、');
+                                }
+                            } else {
+                                // 英語データのみ
+                                englishGoods[cls] = goods;
+                            }
+                        }
+                        
+                        // 英語の商品・役務を表示
+                        if (Object.keys(englishGoods).length > 0) {
+                            html += '<div class="field"><span class="field-label">商品・役務:</span></div>';
+                            for (const cls of Object.keys(englishGoods).sort((a, b) => parseInt(a) - parseInt(b))) {
+                                html += `<div class="goods-services">第${esc(cls)}類: ${esc(englishGoods[cls])}</div>`;
+                            }
+                        }
+                        
+                        // 日本語の商品・役務を表示
+                        if (Object.keys(japaneseGoods).length > 0) {
+                            html += '<div class="field"><span class="field-label">商品・役務（訳）:</span></div>';
+                            for (const cls of Object.keys(japaneseGoods).sort((a, b) => parseInt(a) - parseInt(b))) {
+                                html += `<div class="goods-services">第${esc(cls)}類: ${esc(japaneseGoods[cls])}</div>`;
+                            }
+                        }
                     }
                 }
                 
@@ -1010,6 +1241,8 @@ HTML_TEMPLATE = """
         
         // J-PlatPatを直接リンクで開く
         function openJPlatPat(appNum, intlRegNum, intlRegDate) {
+            console.log('openJPlatPat called with:', {appNum, intlRegNum, intlRegDate}); // デバッグ用
+            
             // 出願番号から直接URLを生成
             const numStr = appNum.toString();
             
@@ -1023,20 +1256,23 @@ HTML_TEMPLATE = """
                     // マドプロの場合、国際登録番号と国際登録日でURLを生成
                     // 国際登録番号から先頭の0を削除
                     const cleanIntlRegNum = intlRegNum.toString().replace(/^0+/, '');
-                    // 国際登録日が8桁の場合はそのまま使用
+                    // 国際登録日は8桁のYYYYMMDD形式のまま使用
                     const dateStr = intlRegDate.toString();
-                    // URLクエリパラメータとして渡す
-                    directUrl = `https://www.j-platpat.inpit.go.jp/?uri=/c1801/TR/JP-${cleanIntlRegNum}-${dateStr}/49/ja`;
+                    // マドプロ用URLフォーマット（日付はハイフンなし）
+                    directUrl = `https://www.j-platpat.inpit.go.jp/c1801/TR/JP-${cleanIntlRegNum}-${dateStr}/49/ja`;
+                    console.log('Madrid URL:', directUrl); // デバッグ用
                 } else if (isMadrid) {
-                    // 国際登録番号がない場合は検索ページへ
-                    directUrl = 'https://www.j-platpat.inpit.go.jp/t0000';
+                    // 国際登録番号がない場合は出願番号で検索
+                    const year = numStr.substring(0, 4);
+                    const number = numStr.substring(4);
+                    directUrl = `https://www.j-platpat.inpit.go.jp/c1801/TR/JP-${year}-${number}/40/ja`;
                 } else {
                     // 通常の国内出願の場合
                     // JP-YYYY-NNNNNN形式でURLを生成
                     const year = numStr.substring(0, 4);
                     const number = numStr.substring(4);
                     // URLクエリパラメータとして渡す
-                    directUrl = `https://www.j-platpat.inpit.go.jp/?uri=/c1801/TR/JP-${year}-${number}/40/ja`;
+                    directUrl = `https://www.j-platpat.inpit.go.jp/c1801/TR/JP-${year}-${number}/40/ja`;
                 }
             } else {
                 // 短い番号の場合は検索ページへ
@@ -1161,6 +1397,9 @@ def search_complex():
         data = request.json
         conditions = data.get('conditions', [])
         operator = data.get('operator', 'AND')
+        
+        # デバッグ: 受信した条件をログ出力
+        print(f"[DEBUG] Received conditions: {conditions}", file=sys.stderr)
         
         if not conditions:
             return jsonify({'error': '検索条件を入力してください'}), 400
