@@ -1,0 +1,478 @@
+{
+  "total_success": 204494,
+  "total_errors": 909198,
+  "total_skipped": 37,
+  "table_stats": {
+    "aki_uktk_syri_syri_dt_ar": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "appl_reg_info": {
+      "success": 1795,
+      "errors": 0,
+      "skipped": 0
+    },
+    "atty_art_t": {
+      "success": 0,
+      "errors": 20610,
+      "skipped": 0
+    },
+    "design_state_gvrnmnt_mstr_mk": {
+      "success": 33,
+      "errors": 3220,
+      "skipped": 0
+    },
+    "design_state_gvrnmnt_mstr_pri": {
+      "success": 26,
+      "errors": 2307,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_appl_info": {
+      "success": 0,
+      "errors": 39,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_bul_info": {
+      "success": 33,
+      "errors": 3232,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_dsgn_st_gds_srvc_app": {
+      "success": 99,
+      "errors": 9550,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg": {
+      "success": 18,
+      "errors": 383,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_fundamental_num": {
+      "success": 46,
+      "errors": 5019,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_intnl_atty": {
+      "success": 24,
+      "errors": 2899,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_intrmd_rec": {
+      "success": 109,
+      "errors": 17298,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_latest_gds_srvc": {
+      "success": 0,
+      "errors": 38,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_main_mgt_app": {
+      "success": 33,
+      "errors": 3220,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_main_mgt_reg": {
+      "success": 13,
+      "errors": 1114,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_name_addr_app": {
+      "success": 64,
+      "errors": 6234,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_name_addr_reg": {
+      "success": 18,
+      "errors": 487,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_sbstt_reg_num": {
+      "success": 0,
+      "errors": 2,
+      "skipped": 0
+    },
+    "duplicate_t_doni": {
+      "success": 0,
+      "errors": 47,
+      "skipped": 0
+    },
+    "gnsn_snpn_zkn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "goods_class_art": {
+      "success": 120,
+      "errors": 30722,
+      "skipped": 0
+    },
+    "gugkn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "higu_snpn_zkn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "hnkt_bnri": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "hssu_syri": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "h_tkky_bnkn_suh": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "h_tkky_snku_bnkn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "ig_ktti": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "ig_ktti_bnri": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "ig_mustt": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "indct_use_t_art": {
+      "success": 0,
+      "errors": 34257,
+      "skipped": 0
+    },
+    "intl_t_org_org_reg_mgt_info": {
+      "success": 0,
+      "errors": 1127,
+      "skipped": 0
+    },
+    "intl_t_org_prog_info": {
+      "success": 0,
+      "errors": 1789,
+      "skipped": 0
+    },
+    "intl_t_org_set_crr_nm_addr": {
+      "success": 0,
+      "errors": 868,
+      "skipped": 0
+    },
+    "intl_t_org_set_dsgn_gds_srvc": {
+      "success": 0,
+      "errors": 1973,
+      "skipped": 0
+    },
+    "intl_t_org_set_frst_indct": {
+      "success": 0,
+      "errors": 1122,
+      "skipped": 0
+    },
+    "jiken_c_t": {
+      "success": 18061,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_chonai_dv": {
+      "success": 1869,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_kian_dv": {
+      "success": 17271,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_kohohako_joho": {
+      "success": 2450,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_old": {
+      "success": 80,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_shohin_joho": {
+      "success": 36639,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_shousaina_setumei": {
+      "success": 16,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_shutugannindairinin": {
+      "success": 39739,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_sinsei_dv": {
+      "success": 35002,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_yusenken_joho": {
+      "success": 338,
+      "errors": 0,
+      "skipped": 0
+    },
+    "knpu_kukk": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "kusi_ktti": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "madpro_snpn_zkn_kyu": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_t": {
+      "success": 69,
+      "errors": 17582,
+      "skipped": 0
+    },
+    "mrgn_t_rwrt_app_num": {
+      "success": 18,
+      "errors": 3344,
+      "skipped": 0
+    },
+    "mustt_kkr_sikyuku": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mustt_kkr_sti_syuhn_ekmmi": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_t": {
+      "success": 0,
+      "errors": 235815,
+      "skipped": 0
+    },
+    "right_goods_name": {
+      "success": 0,
+      "errors": 30840,
+      "skipped": 0
+    },
+    "right_person_art_t": {
+      "success": 0,
+      "errors": 17880,
+      "skipped": 0
+    },
+    "search_use_t_art_table": {
+      "success": 0,
+      "errors": 44388,
+      "skipped": 0
+    },
+    "sec_art": {
+      "success": 0,
+      "errors": 664,
+      "skipped": 0
+    },
+    "sec_goods_name": {
+      "success": 0,
+      "errors": 1160,
+      "skipped": 0
+    },
+    "sec_updt_art": {
+      "success": 0,
+      "errors": 1220,
+      "skipped": 0
+    },
+    "sisu": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "smi_tut": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "sngi_turk_bngu": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snksi_sust_rigi": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snkt": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snkt_bnri": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snk_ktti": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snk_ktti_bnri": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snk_snsi": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snpn_sk_kkr_st_sh_ekmmi": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snpn_tuzsy": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snpn_tzs_ssn_cd_ys_juhu": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snpn_zkn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "standard_char_t_art": {
+      "success": 0,
+      "errors": 16373,
+      "skipped": 0
+    },
+    "suk_snr_juhu": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "sutt": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "syss_jukk_juhu": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "syss_tisyu_snkttu": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "tkky_snku_bnkn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_t": {
+      "success": 131,
+      "errors": 30764,
+      "skipped": 0
+    },
+    "tyuni_syri": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "t_add_info": {
+      "success": 0,
+      "errors": 37213,
+      "skipped": 0
+    },
+    "t_basic_item_art": {
+      "success": 37213,
+      "errors": 0,
+      "skipped": 0
+    },
+    "t_dsgnt_art": {
+      "success": 0,
+      "errors": 89766,
+      "skipped": 0
+    },
+    "t_first_indct_div": {
+      "success": 68,
+      "errors": 17574,
+      "skipped": 0
+    },
+    "t_knd_info_art_table": {
+      "success": 0,
+      "errors": 84469,
+      "skipped": 0
+    },
+    "t_sample": {
+      "success": 12812,
+      "errors": 0,
+      "skipped": 0
+    },
+    "t_updt_art": {
+      "success": 243,
+      "errors": 17646,
+      "skipped": 0
+    },
+    "t_vienna_class_grphc_term_art": {
+      "success": 0,
+      "errors": 114943,
+      "skipped": 0
+    },
+    "uktk_syri": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "under_integ_appl_info_mgt": {
+      "success": 44,
+      "errors": 0,
+      "skipped": 0
+    },
+    "znt_turk": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    }
+  },
+  "column_mismatches": [
+    {
+      "table": "t_add_info",
+      "matched_count": 10,
+      "tsv_only": [
+        "consent_coe_reg_id"
+      ],
+      "db_only": [],
+      "timestamp": "2025-09-03T12:45:34.595484"
+    }
+  ]
+}

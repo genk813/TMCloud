@@ -1,0 +1,347 @@
+{
+  "spec_file": "/mnt/c/Users/ygenk/Desktop/TMCloud/csv_extracted/154_154_商標基本項目記事ファイル_clean.csv",
+  "tsv_file": "/mnt/c/Users/ygenk/Desktop/TMCloud/tsv_data/tsv/20250611/upd_t_basic_item_art.tsv",
+  "spec_columns": [
+    {
+      "seq": 1,
+      "logical_name": "追加削除識別",
+      "physical_name": "add_del_id"
+    },
+    {
+      "seq": 2,
+      "logical_name": "管理番号",
+      "physical_name": "mgt_num"
+    },
+    {
+      "seq": 3,
+      "logical_name": "レコード状態識別",
+      "physical_name": "rec_status_id"
+    },
+    {
+      "seq": 4,
+      "logical_name": "出願番号",
+      "physical_name": "app_num"
+    },
+    {
+      "seq": 5,
+      "logical_name": "登録番号",
+      "physical_name": "reg_num"
+    },
+    {
+      "seq": 6,
+      "logical_name": "分割番号",
+      "physical_name": "split_num"
+    },
+    {
+      "seq": 7,
+      "logical_name": "防護番号",
+      "physical_name": "sec_num"
+    },
+    {
+      "seq": 8,
+      "logical_name": "出願種別防護",
+      "physical_name": "app_typ_sec"
+    },
+    {
+      "seq": 9,
+      "logical_name": "出願種別分割",
+      "physical_name": "app_typ_split"
+    },
+    {
+      "seq": 10,
+      "logical_name": "出願種別補却",
+      "physical_name": "app_typ_complement_rjct"
+    },
+    {
+      "seq": 11,
+      "logical_name": "出願種別変更",
+      "physical_name": "app_typ_chan"
+    },
+    {
+      "seq": 12,
+      "logical_name": "出願種別優先",
+      "physical_name": "app_typ_priorty"
+    },
+    {
+      "seq": 13,
+      "logical_name": "出願種別団体",
+      "physical_name": "app_typ_group"
+    },
+    {
+      "seq": 14,
+      "logical_name": "出願種別地域団体",
+      "physical_name": "app_typ_area_group"
+    },
+    {
+      "seq": 15,
+      "logical_name": "出願日",
+      "physical_name": "app_dt"
+    },
+    {
+      "seq": 16,
+      "logical_name": "先願権発生日",
+      "physical_name": "prior_app_right_occr_dt"
+    },
+    {
+      "seq": 17,
+      "logical_name": "拒絶査定発送日",
+      "physical_name": "rjct_finl_dcsn_dsptch_dt"
+    },
+    {
+      "seq": 18,
+      "logical_name": "最終処分コード",
+      "physical_name": "final_dspst_cd"
+    },
+    {
+      "seq": 19,
+      "logical_name": "最終処分日",
+      "physical_name": "final_dspst_dt"
+    },
+    {
+      "seq": 20,
+      "logical_name": "書換申請番号",
+      "physical_name": "rwrt_app_num"
+    },
+    {
+      "seq": 21,
+      "logical_name": "旧法類",
+      "physical_name": "old_law"
+    },
+    {
+      "seq": 22,
+      "logical_name": "版コード",
+      "physical_name": "ver_num"
+    },
+    {
+      "seq": 23,
+      "logical_name": "国際登録番号",
+      "physical_name": "intl_reg_num"
+    },
+    {
+      "seq": 24,
+      "logical_name": "国際登録分割番号",
+      "physical_name": "intl_reg_split_num"
+    },
+    {
+      "seq": 25,
+      "logical_name": "国際登録日",
+      "physical_name": "intl_reg_dt"
+    },
+    {
+      "seq": 26,
+      "logical_name": "レコード最新更新日",
+      "physical_name": "rec_latest_updt_dt"
+    },
+    {
+      "seq": 27,
+      "logical_name": "存続期間満了日",
+      "physical_name": "conti_prd_expire_dt"
+    },
+    {
+      "seq": 28,
+      "logical_name": "分納満了日／事後指定日",
+      "physical_name": "instllmnt_expr_dt_aft_des_dt"
+    },
+    {
+      "seq": 29,
+      "logical_name": "分納識別",
+      "physical_name": "installments_id"
+    },
+    {
+      "seq": 30,
+      "logical_name": "設定登録日",
+      "physical_name": "set_reg_dt"
+    }
+  ],
+  "tsv_headers": [
+    "add_del_id",
+    "mgt_num",
+    "rec_status_id",
+    "app_num",
+    "reg_num",
+    "split_num",
+    "sec_num",
+    "app_typ_sec",
+    "app_typ_split",
+    "app_typ_complement_rjct",
+    "app_typ_chan",
+    "app_typ_priorty",
+    "app_typ_group",
+    "app_typ_area_group",
+    "app_dt",
+    "prior_app_right_occr_dt",
+    "rjct_finl_dcsn_dsptch_dt",
+    "final_dspst_cd",
+    "final_dspst_dt",
+    "rwrt_app_num",
+    "old_law",
+    "ver_num",
+    "intl_reg_num",
+    "intl_reg_split_num",
+    "intl_reg_dt",
+    "rec_latest_updt_dt",
+    "conti_prd_expire_dt",
+    "instllmnt_expr_dt_aft_des_dt",
+    "installments_id",
+    "set_reg_dt"
+  ],
+  "validation": {
+    "total_spec": 30,
+    "total_tsv": 30,
+    "matches": [
+      {
+        "index": 0,
+        "name": "add_del_id",
+        "status": "OK"
+      },
+      {
+        "index": 1,
+        "name": "mgt_num",
+        "status": "OK"
+      },
+      {
+        "index": 2,
+        "name": "rec_status_id",
+        "status": "OK"
+      },
+      {
+        "index": 3,
+        "name": "app_num",
+        "status": "OK"
+      },
+      {
+        "index": 4,
+        "name": "reg_num",
+        "status": "OK"
+      },
+      {
+        "index": 5,
+        "name": "split_num",
+        "status": "OK"
+      },
+      {
+        "index": 6,
+        "name": "sec_num",
+        "status": "OK"
+      },
+      {
+        "index": 7,
+        "name": "app_typ_sec",
+        "status": "OK"
+      },
+      {
+        "index": 8,
+        "name": "app_typ_split",
+        "status": "OK"
+      },
+      {
+        "index": 9,
+        "name": "app_typ_complement_rjct",
+        "status": "OK"
+      },
+      {
+        "index": 10,
+        "name": "app_typ_chan",
+        "status": "OK"
+      },
+      {
+        "index": 11,
+        "name": "app_typ_priorty",
+        "status": "OK"
+      },
+      {
+        "index": 12,
+        "name": "app_typ_group",
+        "status": "OK"
+      },
+      {
+        "index": 13,
+        "name": "app_typ_area_group",
+        "status": "OK"
+      },
+      {
+        "index": 14,
+        "name": "app_dt",
+        "status": "OK"
+      },
+      {
+        "index": 15,
+        "name": "prior_app_right_occr_dt",
+        "status": "OK"
+      },
+      {
+        "index": 16,
+        "name": "rjct_finl_dcsn_dsptch_dt",
+        "status": "OK"
+      },
+      {
+        "index": 17,
+        "name": "final_dspst_cd",
+        "status": "OK"
+      },
+      {
+        "index": 18,
+        "name": "final_dspst_dt",
+        "status": "OK"
+      },
+      {
+        "index": 19,
+        "name": "rwrt_app_num",
+        "status": "OK"
+      },
+      {
+        "index": 20,
+        "name": "old_law",
+        "status": "OK"
+      },
+      {
+        "index": 21,
+        "name": "ver_num",
+        "status": "OK"
+      },
+      {
+        "index": 22,
+        "name": "intl_reg_num",
+        "status": "OK"
+      },
+      {
+        "index": 23,
+        "name": "intl_reg_split_num",
+        "status": "OK"
+      },
+      {
+        "index": 24,
+        "name": "intl_reg_dt",
+        "status": "OK"
+      },
+      {
+        "index": 25,
+        "name": "rec_latest_updt_dt",
+        "status": "OK"
+      },
+      {
+        "index": 26,
+        "name": "conti_prd_expire_dt",
+        "status": "OK"
+      },
+      {
+        "index": 27,
+        "name": "instllmnt_expr_dt_aft_des_dt",
+        "status": "OK"
+      },
+      {
+        "index": 28,
+        "name": "installments_id",
+        "status": "OK"
+      },
+      {
+        "index": 29,
+        "name": "set_reg_dt",
+        "status": "OK"
+      }
+    ],
+    "mismatches": [],
+    "missing_in_tsv": [],
+    "extra_in_tsv": []
+  }
+}

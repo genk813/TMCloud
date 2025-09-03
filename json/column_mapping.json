@@ -1,0 +1,3528 @@
+{
+  "tsv_columns": {
+    "snpn_zkn": [
+      "skbt_flg",
+      "snpn_bngu",
+      "sytgn_bngu",
+      "ynpu_kbn",
+      "turk_bngu",
+      "bnkt_bngu",
+      "riz_bngu",
+      "bug_bngu",
+      "snkyu_sybt",
+      "snpn_sybt",
+      "snpn_sikyu_dt",
+      "sytgn_bngu_kbn",
+      "snpn_zkn_sisyu_sybn_cd",
+      "sisyu_sybn_kkti_dt",
+      "kusn_ntz_bat"
+    ],
+    "t_basic_item_art": [
+      "add_del_id",
+      "mgt_num",
+      "rec_status_id",
+      "app_num",
+      "reg_num",
+      "split_num",
+      "sec_num",
+      "app_typ_sec",
+      "app_typ_split",
+      "app_typ_complement_rjct",
+      "app_typ_chan",
+      "app_typ_priorty",
+      "app_typ_group",
+      "app_typ_area_group",
+      "app_dt",
+      "prior_app_right_occr_dt",
+      "rjct_finl_dcsn_dsptch_dt",
+      "final_dspst_cd",
+      "final_dspst_dt",
+      "rwrt_app_num",
+      "old_law",
+      "ver_num",
+      "intl_reg_num",
+      "intl_reg_split_num",
+      "intl_reg_dt",
+      "rec_latest_updt_dt",
+      "conti_prd_expire_dt",
+      "instllmnt_expr_dt_aft_des_dt",
+      "installments_id",
+      "set_reg_dt"
+    ],
+    "aki_uktk_syri_syri_dt_ar": [
+      "skbt_flg",
+      "uktk_syri_bngu",
+      "snpn_bngu",
+      "tyukn_cd",
+      "syri_ssds_dt",
+      "syri_uktk_dt",
+      "sri_kykr_kbn",
+      "husk_sybn_stat",
+      "hssu_syri_bngu",
+      "sir_bngu",
+      "syri_sybt_cd",
+      "syri_bnri_cd",
+      "yuku_flg",
+      "tiou_mk",
+      "etrn_kns_flg",
+      "hnku_tisyu_sytgnnn_dirnn_cd",
+      "yusnkn_tisytkk_cd",
+      "syri_ztti_rrk_bngu",
+      "misisy_ver",
+      "mkug_syri_um",
+      "syri_fomt_sybt",
+      "tksk_bngu",
+      "dna_hirthyu_um",
+      "yuyksy_tnp_syri_sikyu_hni_um",
+      "tnp_syri_pagesu",
+      "syri_siz",
+      "kusn_ntz_bat"
+    ],
+    "appl_reg_info": [
+      "data_id_cd",
+      "appl_cd",
+      "appl_name",
+      "appl_cana_name",
+      "appl_postcode",
+      "appl_addr",
+      "wes_join_name",
+      "wes_join_addr",
+      "integ_appl_cd",
+      "dbl_reg_integ_mgt_srl_num"
+    ],
+    "atty_art_t": [
+      "processing_type",
+      "law_cd",
+      "reg_num",
+      "split_num",
+      "app_num",
+      "rec_num",
+      "pe_num",
+      "atty_art_upd_ymd",
+      "atty_appl_id",
+      "atty_typ",
+      "atty_name_len",
+      "atty_name"
+    ],
+    "design_state_gvrnmnt_mstr_mk": [
+      "add_del_id",
+      "jpo_rfr_num",
+      "jpo_rfr_num_split_sign_cd",
+      "history_num",
+      "standard_char_declarat_flg",
+      "color_clim_detail",
+      "color_clim_detail_japanese",
+      "emblem_transliterat_detail",
+      "three_dmns_emblem_flg",
+      "sound_t_flg",
+      "group_cert_warranty_flg",
+      "emblem_doc_detail",
+      "emblem_doc_detail_japanese",
+      "vienna_class",
+      "exam_art_03_prgrph_02_flg",
+      "exam_color_proviso_apply_flg",
+      "exam_art_09_prgrph_01_flg",
+      "acclrtd_exam_class",
+      "define_flg",
+      "updt_year_month_day",
+      "batch_updt_year_month_day",
+      "special_t_typ",
+      "t_dtl_explntn",
+      "t_dtl_explntn_japanese",
+      "dtl_explntn_doc_submt_dt",
+      "color_chk_box",
+      "disclaimer",
+      "opt_emblem_doc_detail",
+      "opt_emblem_doc_detail_jp"
+    ],
+    "design_state_gvrnmnt_mstr_pri": [
+      "add_del_id",
+      "jpo_rfr_num",
+      "jpo_rfr_num_split_sign_cd",
+      "history_num",
+      "pri_clim_id",
+      "pri_finding_flg",
+      "pri_app_gvrn_cntrcntry_cd",
+      "pri_app_num",
+      "pri_app_year_month_day",
+      "define_flg",
+      "updt_year_month_day",
+      "batch_updt_year_month_day"
+    ],
+    "duplicate_t_doni": [
+      "processing_type",
+      "law_cd",
+      "reg_num",
+      "split_num",
+      "app_num",
+      "dpl_t_doni_upd_ymd",
+      "mu_num",
+      "duplicate_t_reg_split_num"
+    ],
+    "goods_class_art": [
+      "processing_type",
+      "law_cd",
+      "reg_num",
+      "split_num",
+      "app_num",
+      "goods_cls_art_upd_ymd",
+      "mu_num",
+      "desig_goods_or_desig_wrk_class"
+    ],
+    "gugkn": [
+      "skbt_flg",
+      "snpn_bngu",
+      "krkes_bngu",
+      "gugkn_cd",
+      "kusn_ntz_bat"
+    ],
+    "h_tkky_bnkn_suh": [
+      "skbt_flg",
+      "hssu_syri_bngu",
+      "suh_tisyu_hssu_syri_bngu",
+      "kusn_ntz_bat"
+    ],
+    "h_tkky_snku_bnkn": [
+      "skbt_flg",
+      "snpn_bngu",
+      "krkes_bngu",
+      "h_tkky_snku_bnknmi",
+      "kusn_ntz_bat"
+    ],
+    "higu_snpn_zkn": [
+      "skbt_flg",
+      "snpn_bngu",
+      "krkes_bngu",
+      "knrn_snpn_bngu",
+      "higu_kij_flg",
+      "kusn_ntz_bat"
+    ],
+    "hnkt_bnri": [
+      "skbt_flg",
+      "sibnsy_cd",
+      "zkn_krk_hgu_cd",
+      "zkn_bngu",
+      "ssyu_kbn",
+      "krkes_bngu",
+      "ynpu_kbn",
+      "snkyu_sybt",
+      "snpn_sybt",
+      "hnz_zku_cd",
+      "hnkt_bnri_ktrn_cd",
+      "hj_bnri_skbt",
+      "syum_skbt",
+      "kusn_ntz_bat"
+    ],
+    "hssu_syri": [
+      "skbt_flg",
+      "hssu_syri_bngu",
+      "snpn_bngu",
+      "tyukn_cd",
+      "gnsyri_bngu",
+      "syri_hssu_dt",
+      "atsk_sybt",
+      "ig_tuzsy_bngu",
+      "snk_snsi_bngu",
+      "uktk_syri_bngu",
+      "kan_dt",
+      "yuku_flg",
+      "tiou_mk",
+      "etrn_kns_flg",
+      "syri_ztti_rrk_bngu",
+      "syri_fomt_sybt",
+      "kusn_ntz_bat"
+    ],
+    "ig_ktti": [
+      "skbt_flg",
+      "snpn_bngu",
+      "mustt_bngu",
+      "ig_ktti_bngu",
+      "hssu_syri_bngu",
+      "ig_ktti_kkti_stat",
+      "kusn_ntz_bat"
+    ],
+    "ig_ktti_bnri": [
+      "skbt_flg",
+      "snpn_bngu",
+      "mustt_bngu",
+      "ig_ktti_bngu",
+      "krkes_bngu",
+      "ynpu_kbn",
+      "tkyu_huk_skbt",
+      "snkyu_sybt",
+      "snpn_sybt",
+      "hnz_zku_cd",
+      "ig_ktti_bnri_ktrn_cd",
+      "hj_bnri_skbt",
+      "kusn_ntz_bat"
+    ],
+    "ig_mustt": [
+      "skbt_flg",
+      "snpn_bngu",
+      "mustt_bngu",
+      "ig_mustt_dt",
+      "ig_mustt_sisyu_sybn_cd",
+      "sisyu_sybn_kkti_dt",
+      "kusn_ntz_bat"
+    ],
+    "indct_use_t_art": [
+      "add_del_id",
+      "app_num",
+      "split_num",
+      "sub_data_num",
+      "indct_use_t"
+    ],
+    "intl_t_org_org_reg_mgt_info": [
+      "add_del_id",
+      "intl_reg_num",
+      "intl_reg_num_updt_cnt_sign_cd",
+      "intl_reg_num_split_sign_cd",
+      "aft_desig_year_month_day",
+      "intl_reg_year_month_day",
+      "jpo_rfr_num",
+      "jpo_rfr_num_split_sign_cd",
+      "set_reg_year_month_day",
+      "right_ersr_id",
+      "right_disppr_year_month_day",
+      "close_reg_year_month_day",
+      "inspct_prhbt_flg",
+      "define_flg",
+      "updt_year_month_day",
+      "batch_updt_year_month_day"
+    ]
+  },
+  "csv_spec_columns": {
+    "pmac_g_app_case": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "ac_delete_flg",
+        "logical_name": "出願事件_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "ac_update_dttm",
+        "logical_name": "出願事件_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_delete_flg",
+        "logical_name": "出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_dt",
+        "logical_name": "出願記事_出願日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_1",
+        "logical_name": "出願記事_出願種別1",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_2",
+        "logical_name": "出願記事_出願種別2",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_3",
+        "logical_name": "出願記事_出願種別3",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_4",
+        "logical_name": "出願記事_出願種別4",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_5",
+        "logical_name": "出願記事_出願種別5",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_refer_num",
+        "logical_name": "出願記事_整理番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_org_lang_app_flg",
+        "logical_name": "出願記事_原語出願フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acup_delete_flg",
+        "logical_name": "公開記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acup_pub_num",
+        "logical_name": "公開記事_公開番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acup_pub_dt",
+        "logical_name": "公開記事_公開日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "actp_delete_flg",
+        "logical_name": "公表・再公表記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "actp_trnsl_pub_num",
+        "logical_name": "公表・再公表記事_公表番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "actp_trnsl_pub_dt",
+        "logical_name": "公表・再公表記事_公表日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "actp_trnsl_repub_dt",
+        "logical_name": "公表・再公表記事_再公表日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acap_delete_flg",
+        "logical_name": "審判記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acld_delete_flg",
+        "logical_name": "最終処分記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acld_final_dspst_typ",
+        "logical_name": "最終処分記事_最終処分種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acld_final_dspst_dt",
+        "logical_name": "最終処分記事_最終処分日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrg_delete_flg",
+        "logical_name": "登録記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrg_reg_num",
+        "logical_name": "登録記事_登録番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrg_reg_dt",
+        "logical_name": "登録記事_登録日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrb_delete_flg",
+        "logical_name": "登録公報記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrb_reg_bul_publish_dt",
+        "logical_name": "登録公報記事_登録公報発行日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_delete_flg",
+        "logical_name": "国際出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_intl_app_num",
+        "logical_name": "国際出願記事_国際出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_intl_pub_num",
+        "logical_name": "国際出願記事_国際公開番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_intl_pub_dt",
+        "logical_name": "国際出願記事_国際公開日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_trnsl_submit_dt",
+        "logical_name": "国際出願記事_翻訳文提出日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_lang_flg",
+        "logical_name": "国際出願記事_言語フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmac_gr_app_case_repeat_data": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "article_id",
+        "logical_name": "記事ID",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "repeat_num",
+        "logical_name": "繰返番号",
+        "data_type": "数値型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "acap_appeal_num",
+        "logical_name": "審判記事_西暦審判番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmcs_g_case_stat": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "cs_delete_flg",
+        "logical_name": "事件ステータス_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cs_update_dttm",
+        "logical_name": "事件ステータス_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_delete_flg",
+        "logical_name": "事件ステータス記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_exam_claim_list_mk",
+        "logical_name": "事件ステータス記事_審査請求リストマーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_final_dspst_dt",
+        "logical_name": "事件ステータス記事_最終処分日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_acclrtd_exam_mk",
+        "logical_name": "事件ステータス記事_早期審査マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_pub_prep_flg",
+        "logical_name": "事件ステータス記事_公開準備フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_applicable_law_class",
+        "logical_name": "事件ステータス記事_適用法規区分",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_exam_typ",
+        "logical_name": "事件ステータス記事_審査種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_litigate_cd",
+        "logical_name": "事件ステータス記事_訴訟コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_final_decision_typ_cd",
+        "logical_name": "事件ステータス記事_査定種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_exam_claim_cnt",
+        "logical_name": "事件ステータス記事_審査請求数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_newapp_flg",
+        "logical_name": "事件ステータス記事_新願フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_later_intnl_pri_flg",
+        "logical_name": "事件ステータス記事_後の国内優先権フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_citd_others_mk",
+        "logical_name": "事件ステータス記事_参考文献マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmab_g_appl_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "ab_delete_flg",
+        "logical_name": "出願人発の事件書誌_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "ab_update_dttm",
+        "logical_name": "出願人発の事件書誌_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abcn_delete_flg",
+        "logical_name": "請求項の数記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abcn_app_claim_cnt",
+        "logical_name": "請求項の数記事_請求項の数（出願時）",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abcn_exam_pub_claim_cnt",
+        "logical_name": "請求項の数記事_請求項の数（公告決定時）",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abcn_reg_claim_cnt",
+        "logical_name": "請求項の数記事_請求項の数（登録査定時）",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abrt_delete_flg",
+        "logical_name": "権利譲渡記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abrt_right_trf",
+        "logical_name": "権利譲渡記事_権利譲渡",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abrt_license_permission",
+        "logical_name": "権利譲渡記事_実施権許諾",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpp_delete_flg",
+        "logical_name": "パリ条約に基づく優先権記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_delete_flg",
+        "logical_name": "国内優先権記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_delete_flg",
+        "logical_name": "新出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_delete_flg",
+        "logical_name": "原出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_parent_app_typ",
+        "logical_name": "原出願記事_原出願種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_parent_app_law_cd",
+        "logical_name": "原出願記事_原出願の四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_parent_app_num",
+        "logical_name": "原出願記事_原出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_retroacted_dt",
+        "logical_name": "原出願記事_遡及日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abin_delete_flg",
+        "logical_name": "発明の名称記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abin_invent_title",
+        "logical_name": "発明の名称記事_発明の名称",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_delete_flg",
+        "logical_name": "出願人・代理人記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abii_delete_flg",
+        "logical_name": "発明者記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_delete_flg",
+        "logical_name": "信託記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abds_delete_flg",
+        "logical_name": "指定国属性記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpl_delete_flg",
+        "logical_name": "薬事法記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpl_dspst_content",
+        "logical_name": "薬事法記事_処分の内容",
+        "data_type": "全角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpl_patent_num",
+        "logical_name": "薬事法記事_特許番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpl_dspst_dt",
+        "logical_name": "薬事法記事_処分日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpl_ext_period",
+        "logical_name": "薬事法記事_延長期間",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abli_delete_flg",
+        "logical_name": "後の国内優先権記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abdp_delete_flg",
+        "logical_name": "菌寄託記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abnl_delete_flg",
+        "logical_name": "新規性喪失の例外記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abnl_novelty_lack_class",
+        "logical_name": "新規性喪失の例外記事_新規性喪失例外区分",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_delete_flg",
+        "logical_name": "住所・氏名記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_delete_flg",
+        "logical_name": "審判請求人・代理人記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "aban_delete_flg",
+        "logical_name": "審判住所・氏名記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmab_gr_appl_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "article_id",
+        "logical_name": "記事ID",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "repeat_num",
+        "logical_name": "繰返番号",
+        "data_type": "数値型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "abpp_pri_app_num",
+        "logical_name": "パリ条約に基づく優先権記事_優先権出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpp_pri_claim_dt",
+        "logical_name": "パリ条約に基づく優先権記事_優先権主張日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpp_pri_cntry_cd",
+        "logical_name": "パリ条約に基づく優先権記事_優先権国コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_intnl_pri_law_cd",
+        "logical_name": "国内優先権記事_国内優先権四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_intnl_pri_app_num",
+        "logical_name": "国内優先権記事_国内優先権出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_intl_app_num",
+        "logical_name": "国内優先権記事_国際出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_claim_dt",
+        "logical_name": "国内優先権記事_主張日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_newapp_app_typ",
+        "logical_name": "新出願記事_新願出願種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_newapp_law_cd",
+        "logical_name": "新出願記事_新願四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_newapp_app_num",
+        "logical_name": "新出願記事_新願出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_appl_atty_class",
+        "logical_name": "出願人・代理人記事_出願人代理人識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_appl_atty_id",
+        "logical_name": "出願人・代理人記事_出願人・代理人IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_change_num",
+        "logical_name": "出願人・代理人記事_変更番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_req_typ",
+        "logical_name": "出願人・代理人記事_個法官別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_nationality_cd",
+        "logical_name": "出願人・代理人記事_国籍コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_pref_cd",
+        "logical_name": "出願人・代理人記事_国県コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_rep_appl_id",
+        "logical_name": "出願人・代理人記事_代表出願人識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_above_appl_cnt",
+        "logical_name": "出願人・代理人記事_上記出願人何名",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_atty_other_cnt",
+        "logical_name": "出願人・代理人記事_代理人外何名",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_atty_typ_cd",
+        "logical_name": "出願人・代理人記事_代理人種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_atty_qualify_cd",
+        "logical_name": "出願人・代理人記事_代理人資格コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_crrspnd_num",
+        "logical_name": "出願人・代理人記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abii_inventor_name",
+        "logical_name": "発明者記事_発明者氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abii_inventor_addr",
+        "logical_name": "発明者記事_発明者住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_trust_typ",
+        "logical_name": "信託記事_信託種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_nationality_cd",
+        "logical_name": "信託記事_国籍コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_name",
+        "logical_name": "信託記事_氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_addr",
+        "logical_name": "信託記事_住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abds_design_state_cd",
+        "logical_name": "指定国属性記事_指定国コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abds_regional_patent_mk",
+        "logical_name": "指定国属性記事_広域特許マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abli_later_pri_law_cd",
+        "logical_name": "後の国内優先権記事_後の優先権四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abli_later_pri_app_num",
+        "logical_name": "後の国内優先権記事_後の優先権出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abli_later_pri_app_dt",
+        "logical_name": "後の国内優先権記事_後の優先権出願日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abdp_mcrb_dpst_instt_id",
+        "logical_name": "菌寄託記事_微生物受託機関識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abdp_mcrb_dpst_num",
+        "logical_name": "菌寄託記事_微生物受託番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abnl_novelty_lack_art_cd",
+        "logical_name": "新規性喪失の例外記事_新規性喪失の例外条文コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abnl_novelty_lack_content",
+        "logical_name": "新規性喪失の例外記事_新規性喪失例外内容",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_crrspnd_num",
+        "logical_name": "住所・氏名記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_appl_atty_addr",
+        "logical_name": "住所・氏名記事_出願人・代理人住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_appl_atty_name",
+        "logical_name": "住所・氏名記事_出願人・代理人氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_clmt_atty_class",
+        "logical_name": "審判請求人・代理人記事_請求人・代理人区分",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_clmt_atty_id",
+        "logical_name": "審判請求人・代理人記事_請求人・代理人IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_change_num",
+        "logical_name": "審判請求人・代理人記事_変更番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_req_typ",
+        "logical_name": "審判請求人・代理人記事_個法官別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_pref_cd",
+        "logical_name": "審判請求人・代理人記事_国県コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_rep_clmt_id",
+        "logical_name": "審判請求人・代理人記事_代表請求人識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_atty_typ_cd",
+        "logical_name": "審判請求人・代理人記事_代理人種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_crrspnd_num",
+        "logical_name": "審判請求人・代理人記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "aban_crrspnd_num",
+        "logical_name": "審判住所・氏名記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "aban_clmt_atty_addr",
+        "logical_name": "審判住所・氏名記事_請求人・代理人住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "aban_clmt_atty_name",
+        "logical_name": "審判住所・氏名記事_請求人・代理人氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmjb_g_jpo_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "jb_delete_flg",
+        "logical_name": "特許庁発の事件書誌_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jb_update_dttm",
+        "logical_name": "特許庁発の事件書誌_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbui_delete_flg",
+        "logical_name": "公開・公表IPC記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbri_delete_flg",
+        "logical_name": "登録IPC記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdc_delete_flg",
+        "logical_name": "指定分類IPC記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdc_desig_class_ipc",
+        "logical_name": "指定分類IPC記事_指定分類IPC",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jboi_delete_flg",
+        "logical_name": "担当官記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jboi_staff_id",
+        "logical_name": "担当官記事_担当官IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jboi_div_cd",
+        "logical_name": "担当官記事_所属コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbpo_delete_flg",
+        "logical_name": "公序良俗記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbpo_goodmoral_mk",
+        "logical_name": "公序良俗記事_公序良俗マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_delete_flg",
+        "logical_name": "公開・公表FI記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_delete_flg",
+        "logical_name": "登録FI記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_delete_flg",
+        "logical_name": "指定分類FI記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_section",
+        "logical_name": "指定分類FI記事_セクション",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_class",
+        "logical_name": "指定分類FI記事_クラス",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_subclass",
+        "logical_name": "指定分類FI記事_サブクラス",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_main_grp",
+        "logical_name": "指定分類FI記事_メイングループ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_separator",
+        "logical_name": "指定分類FI記事_セパレータ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_sub_grp",
+        "logical_name": "指定分類FI記事_サブグループ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_subdiv_sign",
+        "logical_name": "指定分類FI記事_展開記号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_separate_vol_class",
+        "logical_name": "指定分類FI記事_分冊識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_facet",
+        "logical_name": "指定分類FI記事_ファセット",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmjb_gr_jpo_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "article_id",
+        "logical_name": "記事ID",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "repeat_num",
+        "logical_name": "繰返番号",
+        "data_type": "数値型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "jbui_amend_mk",
+        "logical_name": "公開・公表IPC記事_補正マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbui_ver_num",
+        "logical_name": "公開・公表IPC記事_版コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbui_seq_num",
+        "logical_name": "公開・公表IPC記事_順序番号",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbui_pub_ipc",
+        "logical_name": "公開・公表IPC記事_公開・公表IPC分類",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbri_amend_mk",
+        "logical_name": "登録IPC記事_補正マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbri_ver_num",
+        "logical_name": "登録IPC記事_版コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbri_seq_num",
+        "logical_name": "登録IPC記事_順序番号",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbri_reg_ipc",
+        "logical_name": "登録IPC記事_登録IPC分類",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_class_typ",
+        "logical_name": "公開・公表FI記事_分類種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_left_sign",
+        "logical_name": "公開・公表FI記事_左記号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_section",
+        "logical_name": "公開・公表FI記事_セクション",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_class",
+        "logical_name": "公開・公表FI記事_クラス",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_subclass",
+        "logical_name": "公開・公表FI記事_サブクラス",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_main_grp",
+        "logical_name": "公開・公表FI記事_メイングループ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_separator",
+        "logical_name": "公開・公表FI記事_セパレータ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_sub_grp",
+        "logical_name": "公開・公表FI記事_サブグループ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_subdiv_sign",
+        "logical_name": "公開・公表FI記事_展開記号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_separate_vol_class",
+        "logical_name": "公開・公表FI記事_分冊識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_facet",
+        "logical_name": "公開・公表FI記事_ファセット",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_right_sign",
+        "logical_name": "公開・公表FI記事_右記号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_jpo_refer_num",
+        "logical_name": "公開・公表FI記事_庁内整理番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_amend_mk",
+        "logical_name": "公開・公表FI記事_補正マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_fi_prlmnry",
+        "logical_name": "公開・公表FI記事_予備",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_class_typ",
+        "logical_name": "登録FI記事_分類種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_left_sign",
+        "logical_name": "登録FI記事_左記号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_section",
+        "logical_name": "登録FI記事_セクション",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_class",
+        "logical_name": "登録FI記事_クラス",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_subclass",
+        "logical_name": "登録FI記事_サブクラス",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_main_grp",
+        "logical_name": "登録FI記事_メイングループ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_separator",
+        "logical_name": "登録FI記事_セパレータ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_sub_grp",
+        "logical_name": "登録FI記事_サブグループ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_subdiv_sign",
+        "logical_name": "登録FI記事_展開記号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_separate_vol_class",
+        "logical_name": "登録FI記事_分冊識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_facet",
+        "logical_name": "登録FI記事_ファセット",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_right_sign",
+        "logical_name": "登録FI記事_右記号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_jpo_refer_num",
+        "logical_name": "登録FI記事_庁内整理番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_amend_mk",
+        "logical_name": "登録FI記事_補正マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_fi_prlmnry",
+        "logical_name": "登録FI記事_予備",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmap_g_app_doc": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "storing_seq_num",
+        "logical_name": "格納順序番号",
+        "data_type": "数値型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "article_id",
+        "logical_name": "記事ID",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "ap_delete_flg",
+        "logical_name": "出願書類_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "ap_update_dttm",
+        "logical_name": "出願書類_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_delete_flg",
+        "logical_name": "申請書類記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_update_dttm",
+        "logical_name": "申請書類記事_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_create_dt",
+        "logical_name": "申請書類記事_作成日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_valid_flg",
+        "logical_name": "申請書類記事_有効フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_intrmd_doc_cd",
+        "logical_name": "申請書類記事_中間書類コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_crrspnd_mk",
+        "logical_name": "申請書類記事_対応マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_submit_dt",
+        "logical_name": "申請書類記事_差出日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_rcpt_dt",
+        "logical_name": "申請書類記事_受付日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_inspect_prhbt_flg",
+        "logical_name": "申請書類記事_閲覧禁止フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_opp_num",
+        "logical_name": "申請書類記事_異議申立番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_rcpt_num",
+        "logical_name": "申請書類記事_受付番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_frml_chked_mk",
+        "logical_name": "申請書類記事_方式完マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_instructed_flg",
+        "logical_name": "申請書類記事_指令完フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_dspst_dt",
+        "logical_name": "申請書類記事_処分日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_change_appl_atty_id",
+        "logical_name": "申請書類記事_変更対象出願人・代理人IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_pri_submit_cntry_cd",
+        "logical_name": "申請書類記事_優先権提出国コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_ver_num",
+        "logical_name": "申請書類記事_バージョン番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_descript_ver_num",
+        "logical_name": "申請書類記事_明細書バージョン",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_invalid_doc_flg",
+        "logical_name": "申請書類記事_無効後書類有無",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_doc_frmt_typ",
+        "logical_name": "申請書類記事_書類フォーマット種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_crrspnd_doc_num",
+        "logical_name": "申請書類記事_対応する書類番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_doc_typ_cd",
+        "logical_name": "申請書類記事_書類種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_amend_doc_rcpt_num",
+        "logical_name": "申請書類記事_補正対象書類受付番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_store_num",
+        "logical_name": "申請書類記事_蓄積番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_dna_flg",
+        "logical_name": "申請書類記事_DNA配列表有無フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_description_page",
+        "logical_name": "申請書類記事_明細書、補正の内容等の頁数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_descript_flg",
+        "logical_name": "申請書類記事_明細書の有無",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_drawing_page",
+        "logical_name": "申請書類記事_図面頁数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_drawing_flg",
+        "logical_name": "申請書類記事_図面の有無",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_abstrct_doc_page",
+        "logical_name": "申請書類記事_要約書頁数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_abstrct_flg",
+        "logical_name": "申請書類記事_要約書、添付書類、請求の範囲の有無",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_attchd_doc_page",
+        "logical_name": "申請書類記事_添付書類頁数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apad_doc_size",
+        "logical_name": "申請書類記事_書類サイズ",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_delete_flg",
+        "logical_name": "発送書類記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_create_dt",
+        "logical_name": "発送書類記事_作成日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_valid_flg",
+        "logical_name": "発送書類記事_有効フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_intrmd_doc_cd",
+        "logical_name": "発送書類記事_中間書類コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_crrspnd_mk",
+        "logical_name": "発送書類記事_対応マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_draft_dt",
+        "logical_name": "発送書類記事_起案日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_dsptch_dt",
+        "logical_name": "発送書類記事_発送日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_inspect_prhbt_flg",
+        "logical_name": "発送書類記事_閲覧禁止フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_opp_num",
+        "logical_name": "発送書類記事_異議申立番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_dsptch_doc_num",
+        "logical_name": "発送書類記事_発送書類番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_rjct_reason_art_cd",
+        "logical_name": "発送書類記事_拒絶理由条文コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_ver_num",
+        "logical_name": "発送書類記事_バージョン番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_invalid_doc_flg",
+        "logical_name": "発送書類記事_無効後書類有無",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_doc_frmt_typ",
+        "logical_name": "発送書類記事_書類フォーマット種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_crrspnd_doc_num",
+        "logical_name": "発送書類記事_対応する書類番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_doc_typ_cd",
+        "logical_name": "発送書類記事_書類種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_dsptch_doc_image_page",
+        "logical_name": "発送書類記事_発送書類イメージ頁数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apdd_doc_size",
+        "logical_name": "発送書類記事_書類サイズ",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_delete_flg",
+        "logical_name": "庁内書類記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_create_dt",
+        "logical_name": "庁内書類記事_作成日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_valid_flg",
+        "logical_name": "庁内書類記事_有効フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_intrmd_doc_cd",
+        "logical_name": "庁内書類記事_中間書類コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_crrspnd_mk",
+        "logical_name": "庁内書類記事_対応マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_jpo_doc_create_dt",
+        "logical_name": "庁内書類記事_庁内書類作成日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_inspect_prhbt_flg",
+        "logical_name": "庁内書類記事_閲覧禁止フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_admnst_appeal_num",
+        "logical_name": "庁内書類記事_行服番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_litigate_num",
+        "logical_name": "庁内書類記事_出訴番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_jpo_doc_num",
+        "logical_name": "庁内書類記事_庁内書類番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_goodmoral_violate_cd",
+        "logical_name": "庁内書類記事_公序良俗違反コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_ver_num",
+        "logical_name": "庁内書類記事_バージョン番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_invalid_doc_flg",
+        "logical_name": "庁内書類記事_無効後書類有無",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_doc_frmt_typ",
+        "logical_name": "庁内書類記事_書類フォーマット種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_crrspnd_doc_num",
+        "logical_name": "庁内書類記事_対応する書類番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_doc_typ_cd",
+        "logical_name": "庁内書類記事_書類種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_jpo_doc_image_page",
+        "logical_name": "庁内書類記事_庁内書類イメージ頁数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "apjd_doc_size",
+        "logical_name": "庁内書類記事_書類サイズ",
+        "data_type": "数値型",
+        "primary_key": false
+      }
+    ],
+    "pmos_g_old_case_stat": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "os_delete_flg",
+        "logical_name": "旧事件ステータス_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "osos_delete_flg",
+        "logical_name": "旧事件ステータス記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "osos_opp_cnt",
+        "logical_name": "旧事件ステータス記事_異議件数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "osos_opp_valid_cnt",
+        "logical_name": "旧事件ステータス記事_異議有効数",
+        "data_type": "数値型",
+        "primary_key": false
+      }
+    ],
+    "pmoa_g_old_app_case": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "oa_delete_flg",
+        "logical_name": "旧出願事件_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oa_update_dttm",
+        "logical_name": "旧出願事件_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oaep_delete_flg",
+        "logical_name": "公告記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oaep_exam_pub_num",
+        "logical_name": "公告記事_公告番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oaep_exam_pub_dt",
+        "logical_name": "公告記事_公告日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmob_g_old_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "ob_delete_flg",
+        "logical_name": "旧事件書誌_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "ob_update_dttm",
+        "logical_name": "旧事件書誌_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obpr_delete_flg",
+        "logical_name": "公害防止記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obpr_pllt_ctrl_relate_tech_mk",
+        "logical_name": "公害防止記事_公害防止・関連技術マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obao_delete_flg",
+        "logical_name": "追加の原特許記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obao_num_typ_cd",
+        "logical_name": "追加の原特許記事_番号種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obao_parent_app_num",
+        "logical_name": "追加の原特許記事_原出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obao_reg_num",
+        "logical_name": "追加の原特許記事_登録番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obpt_delete_flg",
+        "logical_name": "独立または追加の原出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obpt_past_law_cd",
+        "logical_name": "独立または追加の原出願記事_変更前の四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obpt_past_app_num",
+        "logical_name": "独立または追加の原出願記事_変更前の出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obei_delete_flg",
+        "logical_name": "審査官記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obpd_delete_flg",
+        "logical_name": "参考文献(特許文献名)記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obnp_delete_flg",
+        "logical_name": "参考文献(非特許文献名)記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmob_gr_old_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "article_id",
+        "logical_name": "記事ID",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "repeat_num",
+        "logical_name": "繰返番号",
+        "data_type": "数値型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "obei_examiner_typ",
+        "logical_name": "審査官記事_審査官審判官種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obei_examiner_id",
+        "logical_name": "審査官記事_審査官IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obei_name",
+        "logical_name": "審査官記事_氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obpd_patent_doc_title",
+        "logical_name": "参考文献(特許文献名)記事_特許文献名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "obnp_non_patent_doc_title",
+        "logical_name": "参考文献(非特許文献名)記事_非特許文献名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmoi_g_opposition_info": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "opp_num",
+        "logical_name": "異議番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "oi_delete_flg",
+        "logical_name": "異議情報_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oi_create_dttm",
+        "logical_name": "異議情報_作成日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oici_delete_flg",
+        "logical_name": "事件の表示記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oici_opp_dt",
+        "logical_name": "事件の表示記事_異議申立日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oiop_delete_flg",
+        "logical_name": "異議情報記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oiop_opp_decision_content",
+        "logical_name": "異議情報記事_異議決定の内容",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_delete_flg",
+        "logical_name": "異議申立人・申立代理人記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oion_delete_flg",
+        "logical_name": "異議住所・氏名記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "pmoi_gr_opposition_info": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "opp_num",
+        "logical_name": "異議番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "article_id",
+        "logical_name": "記事ID",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "repeat_num",
+        "logical_name": "繰返番号",
+        "data_type": "数値型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "oioa_oppn_atty_class",
+        "logical_name": "異議申立人・申立代理人記事_異議申立人・申立代理人区分",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_oppn_atty_id",
+        "logical_name": "異議申立人・申立代理人記事_異議申立人・申立代理人IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_change_num",
+        "logical_name": "異議申立人・申立代理人記事_変更番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_req_typ",
+        "logical_name": "異議申立人・申立代理人記事_個法官別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_pref_cd",
+        "logical_name": "異議申立人・申立代理人記事_国県コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_above_oppn_cnt",
+        "logical_name": "異議申立人・申立代理人記事_上記異議申立人何名",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_opp_atty_other_cnt",
+        "logical_name": "異議申立人・申立代理人記事_異議申立代理人外何名",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_opp_atty_typ_cd",
+        "logical_name": "異議申立人・申立代理人記事_異議申立代理人種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_opp_atty_qualify_cd",
+        "logical_name": "異議申立人・申立代理人記事_異議申立代理人資格コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oioa_crrspnd_num",
+        "logical_name": "異議申立人・申立代理人記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oion_crrspnd_num",
+        "logical_name": "異議住所・氏名記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oion_clmt_atty_addr",
+        "logical_name": "異議住所・氏名記事_請求人・代理人住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oion_clmt_atty_name",
+        "logical_name": "異議住所・氏名記事_請求人・代理人氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oion_representative_name",
+        "logical_name": "異議住所・氏名記事_代表者等氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oion_office_addr",
+        "logical_name": "異議住所・氏名記事_営業所住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "oion_wrk_place_addr",
+        "logical_name": "異議住所・氏名記事_就業先住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "umac_g_app_case": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "ac_delete_flg",
+        "logical_name": "出願事件_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "ac_update_dttm",
+        "logical_name": "出願事件_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_delete_flg",
+        "logical_name": "出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_dt",
+        "logical_name": "出願記事_出願日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_1",
+        "logical_name": "出願記事_出願種別1",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_2",
+        "logical_name": "出願記事_出願種別2",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_3",
+        "logical_name": "出願記事_出願種別3",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_4",
+        "logical_name": "出願記事_出願種別4",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_app_typ_5",
+        "logical_name": "出願記事_出願種別5",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_refer_num",
+        "logical_name": "出願記事_整理番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acai_org_lang_app_flg",
+        "logical_name": "出願記事_原語出願フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acup_delete_flg",
+        "logical_name": "公開記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acup_pub_num",
+        "logical_name": "公開記事_公開番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acup_pub_dt",
+        "logical_name": "公開記事_公開日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "actp_delete_flg",
+        "logical_name": "公表・再公表記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "actp_trnsl_pub_num",
+        "logical_name": "公表・再公表記事_公表番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "actp_trnsl_pub_dt",
+        "logical_name": "公表・再公表記事_公表日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "actp_trnsl_repub_dt",
+        "logical_name": "公表・再公表記事_再公表日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acap_delete_flg",
+        "logical_name": "審判記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acld_delete_flg",
+        "logical_name": "最終処分記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acld_final_dspst_typ",
+        "logical_name": "最終処分記事_最終処分種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acld_final_dspst_dt",
+        "logical_name": "最終処分記事_最終処分日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrg_delete_flg",
+        "logical_name": "登録記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrg_reg_num",
+        "logical_name": "登録記事_登録番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrg_reg_dt",
+        "logical_name": "登録記事_登録日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrb_delete_flg",
+        "logical_name": "登録公報記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acrb_reg_bul_publish_dt",
+        "logical_name": "登録公報記事_登録公報発行日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_delete_flg",
+        "logical_name": "国際出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_intl_app_num",
+        "logical_name": "国際出願記事_国際出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_intl_pub_num",
+        "logical_name": "国際出願記事_国際公開番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_intl_pub_dt",
+        "logical_name": "国際出願記事_国際公開日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_trnsl_submit_dt",
+        "logical_name": "国際出願記事_翻訳文提出日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "acia_lang_flg",
+        "logical_name": "国際出願記事_言語フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "umac_gr_app_case": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "article_id",
+        "logical_name": "記事ID",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "repeat_num",
+        "logical_name": "繰返番号",
+        "data_type": "数値型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "acap_appeal_num",
+        "logical_name": "審判記事_西暦審判番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "umcs_g_case_stat": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "cs_delete_flg",
+        "logical_name": "事件ステータス_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cs_update_dttm",
+        "logical_name": "事件ステータス_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_delete_flg",
+        "logical_name": "事件ステータス記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_exam_claim_list_mk",
+        "logical_name": "事件ステータス記事_審査請求リストマーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_final_dspst_dt",
+        "logical_name": "事件ステータス記事_最終処分日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_acclrtd_exam_mk",
+        "logical_name": "事件ステータス記事_早期審査マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_pub_prep_flg",
+        "logical_name": "事件ステータス記事_公開準備フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_applicable_law_class",
+        "logical_name": "事件ステータス記事_適用法規区分",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_exam_typ",
+        "logical_name": "事件ステータス記事_審査種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_litigate_cd",
+        "logical_name": "事件ステータス記事_訴訟コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_final_decision_typ_cd",
+        "logical_name": "事件ステータス記事_査定種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_exam_claim_cnt",
+        "logical_name": "事件ステータス記事_審査請求数",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_newapp_flg",
+        "logical_name": "事件ステータス記事_新願フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_later_intnl_pri_flg",
+        "logical_name": "事件ステータス記事_後の国内優先権フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "cscs_citd_others_mk",
+        "logical_name": "事件ステータス記事_参考文献マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "umab_g_appl_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "ab_delete_flg",
+        "logical_name": "出願人発の事件書誌_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "ab_update_dttm",
+        "logical_name": "出願人発の事件書誌_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abcn_delete_flg",
+        "logical_name": "請求項の数記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abcn_app_claim_cnt",
+        "logical_name": "請求項の数記事_請求項の数（出願時）",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abcn_exam_pub_claim_cnt",
+        "logical_name": "請求項の数記事_請求項の数（公告決定時）",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abcn_reg_claim_cnt",
+        "logical_name": "請求項の数記事_請求項の数（登録査定時）",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abrt_delete_flg",
+        "logical_name": "権利譲渡記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abrt_right_trf",
+        "logical_name": "権利譲渡記事_権利譲渡",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abrt_license_permission",
+        "logical_name": "権利譲渡記事_実施権許諾",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpp_delete_flg",
+        "logical_name": "パリ条約に基づく優先権記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_delete_flg",
+        "logical_name": "国内優先権記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_delete_flg",
+        "logical_name": "新出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_delete_flg",
+        "logical_name": "原出願記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_parent_app_typ",
+        "logical_name": "原出願記事_原出願種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_parent_app_law_cd",
+        "logical_name": "原出願記事_原出願の四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_parent_app_num",
+        "logical_name": "原出願記事_原出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpa_retroacted_dt",
+        "logical_name": "原出願記事_遡及日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abdn_delete_flg",
+        "logical_name": "考案の名称記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abdn_device_title",
+        "logical_name": "考案の名称記事_考案の名称",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_delete_flg",
+        "logical_name": "出願人・代理人記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abde_delete_flg",
+        "logical_name": "考案者記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_delete_flg",
+        "logical_name": "信託記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abds_delete_flg",
+        "logical_name": "指定国属性記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abli_delete_flg",
+        "logical_name": "後の国内優先権記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abdp_delete_flg",
+        "logical_name": "菌寄託記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abnl_delete_flg",
+        "logical_name": "新規性喪失の例外記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abnl_novelty_lack_class",
+        "logical_name": "新規性喪失の例外記事_新規性喪失例外区分",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_delete_flg",
+        "logical_name": "住所・氏名記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_delete_flg",
+        "logical_name": "審判請求人・代理人記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "aban_delete_flg",
+        "logical_name": "審判住所・氏名記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "umab_gr_appl_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "article_id",
+        "logical_name": "記事ID",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "repeat_num",
+        "logical_name": "繰返番号",
+        "data_type": "数値型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "abpp_pri_app_num",
+        "logical_name": "パリ条約に基づく優先権記事_優先権出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpp_pri_claim_dt",
+        "logical_name": "パリ条約に基づく優先権記事_優先権主張日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abpp_pri_cntry_cd",
+        "logical_name": "パリ条約に基づく優先権記事_優先権国コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_intnl_pri_law_cd",
+        "logical_name": "国内優先権記事_国内優先権四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_intnl_pri_app_num",
+        "logical_name": "国内優先権記事_国内優先権出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_intl_app_num",
+        "logical_name": "国内優先権記事_国際出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abip_claim_dt",
+        "logical_name": "国内優先権記事_主張日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_newapp_app_typ",
+        "logical_name": "新出願記事_新願出願種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_newapp_law_cd",
+        "logical_name": "新出願記事_新願四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_newapp_app_num",
+        "logical_name": "新出願記事_新願出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abna_newapp_app_dt",
+        "logical_name": "新出願記事_新願出願日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_appl_atty_class",
+        "logical_name": "出願人・代理人記事_出願人代理人識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_appl_atty_id",
+        "logical_name": "出願人・代理人記事_出願人・代理人IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_change_num",
+        "logical_name": "出願人・代理人記事_変更番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_req_typ",
+        "logical_name": "出願人・代理人記事_個法官別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_nationality_cd",
+        "logical_name": "出願人・代理人記事_国籍コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_pref_cd",
+        "logical_name": "出願人・代理人記事_国県コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_rep_appl_id",
+        "logical_name": "出願人・代理人記事_代表出願人識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_above_appl_cnt",
+        "logical_name": "出願人・代理人記事_上記出願人何名",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_atty_other_cnt",
+        "logical_name": "出願人・代理人記事_代理人外何名",
+        "data_type": "数値型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_atty_typ_cd",
+        "logical_name": "出願人・代理人記事_代理人種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_atty_qualify_cd",
+        "logical_name": "出願人・代理人記事_代理人資格コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abaa_crrspnd_num",
+        "logical_name": "出願人・代理人記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abde_device_creator_name",
+        "logical_name": "考案者記事_考案者氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abde_device_creator_addr",
+        "logical_name": "考案者記事_考案者住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_trust_typ",
+        "logical_name": "信託記事_信託種別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_nationality_cd",
+        "logical_name": "信託記事_国籍コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_name",
+        "logical_name": "信託記事_氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abti_addr",
+        "logical_name": "信託記事_住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abds_design_state_cd",
+        "logical_name": "指定国属性記事_指定国コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abds_regional_patent_mk",
+        "logical_name": "指定国属性記事_広域特許マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abli_later_pri_law_cd",
+        "logical_name": "後の国内優先権記事_後の優先権四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abli_later_pri_app_num",
+        "logical_name": "後の国内優先権記事_後の優先権出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abli_later_pri_app_dt",
+        "logical_name": "後の国内優先権記事_後の優先権出願日",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abdp_mcrb_dpst_instt_id",
+        "logical_name": "菌寄託記事_微生物受託機関識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abdp_mcrb_dpst_num",
+        "logical_name": "菌寄託記事_微生物受託番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abnl_novelty_lack_art_cd",
+        "logical_name": "新規性喪失の例外記事_新規性喪失の例外条文コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abnl_novelty_lack_content",
+        "logical_name": "新規性喪失の例外記事_新規性喪失例外内容",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_crrspnd_num",
+        "logical_name": "住所・氏名記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_appl_atty_addr",
+        "logical_name": "住所・氏名記事_出願人・代理人住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_appl_atty_name",
+        "logical_name": "住所・氏名記事_出願人・代理人氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_representative_name",
+        "logical_name": "住所・氏名記事_代表者等氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_office_addr",
+        "logical_name": "住所・氏名記事_営業所住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abae_wrk_place_addr",
+        "logical_name": "住所・氏名記事_就業先住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_clmt_atty_id",
+        "logical_name": "審判請求人・代理人記事_請求人・代理人IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_req_typ",
+        "logical_name": "審判請求人・代理人記事_個法官別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_pref_cd",
+        "logical_name": "審判請求人・代理人記事_国県コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_rep_clmt_id",
+        "logical_name": "審判請求人・代理人記事_代表請求人識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_atty_typ_cd",
+        "logical_name": "審判請求人・代理人記事_代理人種別コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "abct_crrspnd_num",
+        "logical_name": "審判請求人・代理人記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "aban_crrspnd_num",
+        "logical_name": "審判住所・氏名記事_対応番号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "aban_clmt_atty_addr",
+        "logical_name": "審判住所・氏名記事_請求人・代理人住所",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "aban_clmt_atty_name",
+        "logical_name": "審判住所・氏名記事_請求人・代理人氏名",
+        "data_type": "全半角文字列型",
+        "primary_key": false
+      }
+    ],
+    "umjb_g_jpo_case_biblog": [
+      {
+        "physical_name": "law_cd",
+        "logical_name": "四法コード",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "app_num",
+        "logical_name": "出願番号",
+        "data_type": "半角文字列型",
+        "primary_key": true
+      },
+      {
+        "physical_name": "jb_delete_flg",
+        "logical_name": "特許庁発の事件書誌_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jb_update_dttm",
+        "logical_name": "特許庁発の事件書誌_更新日時",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbui_delete_flg",
+        "logical_name": "公開・公表IPC記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbri_delete_flg",
+        "logical_name": "登録IPC記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdc_delete_flg",
+        "logical_name": "指定分類IPC記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdc_desig_class_ipc",
+        "logical_name": "指定分類IPC記事_指定分類IPC",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jboi_delete_flg",
+        "logical_name": "担当官記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jboi_staff_id",
+        "logical_name": "担当官記事_担当官IDコード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jboi_div_cd",
+        "logical_name": "担当官記事_所属コード",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbpo_delete_flg",
+        "logical_name": "公序良俗記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbpo_goodmoral_mk",
+        "logical_name": "公序良俗記事_公序良俗マーク",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbuf_delete_flg",
+        "logical_name": "公開・公表FI記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbrf_delete_flg",
+        "logical_name": "登録FI記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_delete_flg",
+        "logical_name": "指定分類FI記事_削除フラグ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_section",
+        "logical_name": "指定分類FI記事_セクション",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_class",
+        "logical_name": "指定分類FI記事_クラス",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_subclass",
+        "logical_name": "指定分類FI記事_サブクラス",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_main_grp",
+        "logical_name": "指定分類FI記事_メイングループ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_separator",
+        "logical_name": "指定分類FI記事_セパレータ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_sub_grp",
+        "logical_name": "指定分類FI記事_サブグループ",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_subdiv_sign",
+        "logical_name": "指定分類FI記事_展開記号",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_separate_vol_class",
+        "logical_name": "指定分類FI記事_分冊識別",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      },
+      {
+        "physical_name": "jbdf_fi_facet",
+        "logical_name": "指定分類FI記事_ファセット",
+        "data_type": "半角文字列型",
+        "primary_key": false
+      }
+    ]
+  }
+}

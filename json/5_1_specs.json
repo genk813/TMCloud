@@ -1,0 +1,4213 @@
+{
+  "appl_case": {
+    "table_info": {
+      "sheet_name": "057_審判事件ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "審判事件ファイル",
+      "physical_name": "appl_case",
+      "file_name": "appl_case.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "登録番号",
+        "physical_name": "reg_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 7,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "分割番号",
+        "physical_name": "split_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 32,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "類似番号",
+        "physical_name": "smlr_dsgn_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "防護番号",
+        "physical_name": "sec_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "登録公報発行日",
+        "physical_name": "reg_bul_pub_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "設定登録日",
+        "physical_name": "set_reg_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "審理経過ステータス",
+        "physical_name": "appeal_prog_stts",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "併合審理有無",
+        "physical_name": "merge_appeal_flg",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "審級種別",
+        "physical_name": "instance_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 14,
+        "logical_name": "審判種別",
+        "physical_name": "appl_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 15,
+        "logical_name": "審判請求日",
+        "physical_name": "appl_clim_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 16,
+        "logical_name": "最終処分コード",
+        "physical_name": "final_dspst_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 17,
+        "logical_name": "最終処分確定日",
+        "physical_name": "final_dspst_define_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 18,
+        "logical_name": "早期優先審理フラグ",
+        "physical_name": "early_priority_appeal_flg",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 19,
+        "logical_name": "公開番号",
+        "physical_name": "pub_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 20,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "rcpt_doc": {
+    "table_info": {
+      "sheet_name": "058_受付書類ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "受付書類ファイル",
+      "physical_name": "rcpt_doc",
+      "file_name": "rcpt_doc.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "中間コード",
+        "physical_name": "intrmd_cd",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 7,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "受付書類番号",
+        "physical_name": "rcpt_doc_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 11,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "書類差出日",
+        "physical_name": "doc_submit_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "書類受付日",
+        "physical_name": "doc_rcpt_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "書類処分コード",
+        "physical_name": "doc_dspst_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "対応発送書類番号",
+        "physical_name": "crrspnd_dsptch_doc_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 11,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "整理番号",
+        "physical_name": "rfr_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "書類種別ｺｰﾄﾞ",
+        "physical_name": "doc_typ_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "intrmd_cd",
+      "rcpt_doc_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "dsptch_doc": {
+    "table_info": {
+      "sheet_name": "059_発送書類ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "発送書類ファイル",
+      "physical_name": "dsptch_doc",
+      "file_name": "dsptch_doc.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "中間コード",
+        "physical_name": "intrmd_cd",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 7,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "発送書類番号",
+        "physical_name": "dsptch_doc_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 11,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "書類発送日",
+        "physical_name": "doc_dsptch_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "宛先種別",
+        "physical_name": "addr_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "宛先番号",
+        "physical_name": "addr_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "拒絶理由条文コード",
+        "physical_name": "rjct_rsn_art_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 4,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "送達日",
+        "physical_name": "transmittal_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "官報公告処分日",
+        "physical_name": "gztt_exam_pub_dspst_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "対応受付書類番号",
+        "physical_name": "crrspnd_rcpt_doc_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 11,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "起案日",
+        "physical_name": "draft_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "対応番号",
+        "physical_name": "crrspnd_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 14,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "intrmd_cd",
+      "dsptch_doc_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "jpo_doc": {
+    "table_info": {
+      "sheet_name": "060_庁内書類ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "庁内書類ファイル",
+      "physical_name": "jpo_doc",
+      "file_name": "jpo_doc.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "中間コード",
+        "physical_name": "intrmd_cd",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 7,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "庁内書類番号",
+        "physical_name": "jpo_doc_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 11,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "処分日",
+        "physical_name": "dspst_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "宛先種別",
+        "physical_name": "addr_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "宛先番号",
+        "physical_name": "addr_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "対応受付書類番号",
+        "physical_name": "crrspnd_rcpt_doc_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 11,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "intrmd_cd",
+      "jpo_doc_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "opp": {
+    "table_info": {
+      "sheet_name": "061_異議申立ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "異議申立ファイル",
+      "physical_name": "opp",
+      "file_name": "opp.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "異議申立番号",
+        "physical_name": "opp_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "異議申立日",
+        "physical_name": "opp_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "最終処分コード",
+        "physical_name": "final_dspst_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "最終処分確定日",
+        "physical_name": "final_dspst_define_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "opp_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "opp_class_cd": {
+    "table_info": {
+      "sheet_name": "062_異議申立分類コードファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "異議申立分類コードファイル",
+      "physical_name": "opp_class_cd",
+      "file_name": "opp_class_cd.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "異議申立番号",
+        "physical_name": "opp_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "適用法規識別",
+        "physical_name": "apply_law_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "審級種別",
+        "physical_name": "instance_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "審判種別",
+        "physical_name": "appl_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "判示事項コード",
+        "physical_name": "jdgmn_item_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "結論コード",
+        "physical_name": "conclusion_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "補助分類識別",
+        "physical_name": "sub_class_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 13,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "訟務識別",
+        "physical_name": "litigation_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "opp_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "maintain_claim": {
+    "table_info": {
+      "sheet_name": "063_維持する請求項ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "維持する請求項ファイル",
+      "physical_name": "maintain_claim",
+      "file_name": "maintain_claim.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "適用区分",
+        "physical_name": "apply_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "異議申立番号",
+        "physical_name": "opp_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "請求項コード",
+        "physical_name": "claim_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "apply_class",
+      "opp_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "cancel_claim": {
+    "table_info": {
+      "sheet_name": "064_取消す請求項ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "取消す請求項ファイル",
+      "physical_name": "cancel_claim",
+      "file_name": "cancel_claim.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "適用区分",
+        "physical_name": "apply_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "異議申立番号",
+        "physical_name": "opp_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "請求項コード",
+        "physical_name": "claim_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "apply_class",
+      "opp_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "rlt_case": {
+    "table_info": {
+      "sheet_name": "065_関連事件ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "関連事件ファイル",
+      "physical_name": "rlt_case",
+      "file_name": "rlt_case.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "関連事件種別",
+        "physical_name": "rlt_case_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "併合審理有無",
+        "physical_name": "merge_appeal_flg",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "審級種別",
+        "physical_name": "instance_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "審判種別",
+        "physical_name": "appl_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "関連審判番号",
+        "physical_name": "rlt_appl_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "consultation_authorities": {
+    "table_info": {
+      "sheet_name": "066_合議官ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "合議官ファイル",
+      "physical_name": "consultation_authorities",
+      "file_name": "consultation_authorities.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "履歴番号",
+        "physical_name": "history_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "合議官コード",
+        "physical_name": "consultation_authorities_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 4,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "history_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "clim_exam_pub_art": {
+    "table_info": {
+      "sheet_name": "067_請求公告記事ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "請求公告記事ファイル",
+      "physical_name": "clim_exam_pub_art",
+      "file_name": "clim_exam_pub_art.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "公告番号",
+        "physical_name": "exam_pub_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "公告日",
+        "physical_name": "exam_pub_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "exam_pub_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "join_app": {
+    "table_info": {
+      "sheet_name": "068_参加申請ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "参加申請ファイル",
+      "physical_name": "join_app",
+      "file_name": "join_app.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "申請番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "申請日",
+        "physical_name": "app_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "態様識別",
+        "physical_name": "aspect_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "最終処分種別",
+        "physical_name": "final_dspst_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "app_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "join_app_class_cd": {
+    "table_info": {
+      "sheet_name": "069_参加決定分類コードファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "参加決定分類コードファイル",
+      "physical_name": "join_app_class_cd",
+      "file_name": "join_app_class_cd.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "参加申請番号",
+        "physical_name": "join_app_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "適用法規識別",
+        "physical_name": "apply_law_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "審級種別",
+        "physical_name": "instance_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "審判種別",
+        "physical_name": "appl_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "判示事項コード",
+        "physical_name": "jdgmnt_item_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "結論コード",
+        "physical_name": "conclusion_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "補助分類識別",
+        "physical_name": "sub_class_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 13,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "訟務識別",
+        "physical_name": "litigation_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "join_app_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "litigate": {
+    "table_info": {
+      "sheet_name": "070_出訴ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "出訴ファイル",
+      "physical_name": "litigate",
+      "file_name": "litigate.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "出訴事件番号_年号",
+        "physical_name": "litigate_case_num_year_issu",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "出訴事件番号_年",
+        "physical_name": "litigate_case_num_year",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "出訴事件番号_番号",
+        "physical_name": "litigate_case_num_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "上告提起事件番号_年号",
+        "physical_name": "fnl_appeal_case_no_year_issu",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "上告提起事件番号_年",
+        "physical_name": "final_appeal_case_num_year",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "上告提起事件番号_番号",
+        "physical_name": "final_appeal_case_num_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "上告番号_年号",
+        "physical_name": "final_appeal_num_year_issu",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "上告番号_年",
+        "physical_name": "final_appeal_num_year",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "上告番号_番号",
+        "physical_name": "final_appeal_num_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "上告受理申立事件番号_年号",
+        "physical_name": "fnl_appeal_acpt_opp_cs_no_yrcd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "上告受理申立事件番号_年",
+        "physical_name": "fnl_appeal_acpt_opp_cs_no_year",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 14,
+        "logical_name": "上告受理申立事件番号_番号",
+        "physical_name": "fnl_appeal_acpt_opp_cse_no_no",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 15,
+        "logical_name": "上告受理番号_年号",
+        "physical_name": "fnl_appeal_acpt_no_year_issu",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 16,
+        "logical_name": "上告受理番号_年",
+        "physical_name": "final_appeal_accpt_num_year",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 17,
+        "logical_name": "上告受理番号_番号",
+        "physical_name": "final_appeal_accpt_num_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 18,
+        "logical_name": "出訴日",
+        "physical_name": "litigate_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 19,
+        "logical_name": "上告提起日",
+        "physical_name": "final_appeal_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 20,
+        "logical_name": "所属民事部コード",
+        "physical_name": "div_civil_div_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 21,
+        "logical_name": "異議申立番号",
+        "physical_name": "opp_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 22,
+        "logical_name": "上告受理申立日",
+        "physical_name": "final_appeal_accpt_opp_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 23,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "litigate_case_num_year_issu",
+      "litigate_case_num_year",
+      "litigate_case_num_num",
+      "appl_num",
+      "opp_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "litigate_cnt": {
+    "table_info": {
+      "sheet_name": "071_出訴CNT情報ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "出訴CNT情報ファイル",
+      "physical_name": "litigate_cnt",
+      "file_name": "litigate_cnt.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "出訴事件番号_年号",
+        "physical_name": "litigate_case_num_year_issu",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "出訴事件番号_年",
+        "physical_name": "litigate_case_num_year",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "出訴事件番号_番号",
+        "physical_name": "litigate_case_num_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "訴訟区分",
+        "physical_name": "litigate_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "litigate_case_num_year_issu",
+      "litigate_case_num_year",
+      "litigate_case_num_num",
+      "litigate_class"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "desig_atty": {
+    "table_info": {
+      "sheet_name": "072_指定代理人ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "指定代理人ファイル",
+      "physical_name": "desig_atty",
+      "file_name": "desig_atty.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "出訴事件番号_年号",
+        "physical_name": "litigate_case_num_year_issu",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "出訴事件番号_年",
+        "physical_name": "litigate_case_num_year",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "出訴事件番号_番号",
+        "physical_name": "litigate_case_num_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "訴訟区分",
+        "physical_name": "litigate_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "指定代理人コード",
+        "physical_name": "desig_atty_cd",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 4,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "履歴番号",
+        "physical_name": "history_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "指定日",
+        "physical_name": "desig_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "主任マーク",
+        "physical_name": "cheaf_mk",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "解任日",
+        "physical_name": "dismissal_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "解任ステータス",
+        "physical_name": "dismissal_stts",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "litigate_case_num_year_issu",
+      "litigate_case_num_year",
+      "litigate_case_num_num",
+      "litigate_class",
+      "desig_atty_cd",
+      "history_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "jdgmnt": {
+    "table_info": {
+      "sheet_name": "073_判決ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "判決ファイル",
+      "physical_name": "jdgmnt",
+      "file_name": "jdgmnt.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "出訴事件番号_年号",
+        "physical_name": "litigate_case_num_year_issu",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "出訴事件番号_年",
+        "physical_name": "litigate_case_num_year",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "出訴事件番号_番号",
+        "physical_name": "litigate_case_num_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "訴訟区分",
+        "physical_name": "litigate_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "判決言渡日",
+        "physical_name": "give_jdgmnt_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "判決主文種別",
+        "physical_name": "jdgmnt_main_clause_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "litigate_case_num_year_issu",
+      "litigate_case_num_year",
+      "litigate_case_num_num",
+      "litigate_class"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "jdgmnt_class_cd": {
+    "table_info": {
+      "sheet_name": "074_判決分類コードファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "判決分類コードファイル",
+      "physical_name": "jdgmnt_class_cd",
+      "file_name": "jdgmnt_class_cd.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "出訴事件番号_年号",
+        "physical_name": "litigate_case_num_year_issu",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "出訴事件番号_年",
+        "physical_name": "litigate_case_num_year",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "出訴事件番号_番号",
+        "physical_name": "litigate_case_num_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "訴訟区分",
+        "physical_name": "litigate_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "適用法規識別",
+        "physical_name": "apply_law_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "審級種別",
+        "physical_name": "instance_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "審判種別",
+        "physical_name": "appl_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "判示事項コード",
+        "physical_name": "jdgmnt_item_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "結論コード",
+        "physical_name": "conclusion_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 4,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "補助分類識別",
+        "physical_name": "complement_sub_class_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 13,
+        "code_index": null
+      },
+      {
+        "seq": 14,
+        "logical_name": "訟務識別",
+        "physical_name": "litigation_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 15,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "litigate_case_num_year_issu",
+      "litigate_case_num_year",
+      "litigate_case_num_num",
+      "litigate_class",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "app_typ": {
+    "table_info": {
+      "sheet_name": "075_出願種別ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "出願種別ファイル",
+      "physical_name": "app_typ",
+      "file_name": "app_typ.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "出願種別",
+        "physical_name": "app_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "app_exam_pub_art": {
+    "table_info": {
+      "sheet_name": "076_出願公告記事ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "出願公告記事ファイル",
+      "physical_name": "app_exam_pub_art",
+      "file_name": "app_exam_pub_art.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "公告番号",
+        "physical_name": "exam_pub_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "公告日",
+        "physical_name": "exam_pub_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "exam_pub_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "trial_dcsn": {
+    "table_info": {
+      "sheet_name": "077_審決ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "審決ファイル",
+      "physical_name": "trial_dcsn",
+      "file_name": "trial_dcsn.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "審決番号",
+        "physical_name": "trial_dcsn_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "trial_dcsn_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "trial_dcsn_class_cd": {
+    "table_info": {
+      "sheet_name": "078_審決分類コードファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "審決分類コードファイル",
+      "physical_name": "trial_dcsn_class_cd",
+      "file_name": "trial_dcsn_class_cd.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "審決番号",
+        "physical_name": "trial_dcsn_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "適用法規識別",
+        "physical_name": "apply_law_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "審級種別",
+        "physical_name": "instance_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "審判種別",
+        "physical_name": "appl_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "判示事項コード",
+        "physical_name": "jdgmnt_item_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "結論コード",
+        "physical_name": "conclusion_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "補助分類識別",
+        "physical_name": "complement_sub_class_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 13,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "訟務識別",
+        "physical_name": "litigation_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "trial_dcsn_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "trial_dcsn_info": {
+    "table_info": {
+      "sheet_name": "079_審決情報ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "審決情報ファイル",
+      "physical_name": "trial_dcsn_info",
+      "file_name": "trial_dcsn_info.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "遡及日",
+        "physical_name": "rtrctd_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "appl_concerned_person": {
+    "table_info": {
+      "sheet_name": "080_審判当事者ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "審判当事者ファイル",
+      "physical_name": "appl_concerned_person",
+      "file_name": "appl_concerned_person.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "異議参加番号",
+        "physical_name": "opp_join_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "当事者種別",
+        "physical_name": "concerned_person_typ",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "申請人ＩＤコード",
+        "physical_name": "appl_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 9,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "個法官種別",
+        "physical_name": "requestor_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "国県コード",
+        "physical_name": "pref_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "代理人種別",
+        "physical_name": "atty_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "代理人資格種別",
+        "physical_name": "atty_qualify_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "住所",
+        "physical_name": "addr",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 200,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "氏名",
+        "physical_name": "name",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 200,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "代理人コード",
+        "physical_name": "atty_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 4,
+        "code_index": null
+      },
+      {
+        "seq": 14,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "opp_join_num",
+      "sequence_num",
+      "concerned_person_typ"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "early_precede_appeal_info": {
+    "table_info": {
+      "sheet_name": "081_早期・優先審理情報ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "早期・優先審理情報ファイル",
+      "physical_name": "early_precede_appeal_info",
+      "file_name": "early_precede_appeal_info.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "早期優先審理識別",
+        "physical_name": "early_precede_appeal_id",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "審理選定ステータス",
+        "physical_name": "appeal_appoint_stts",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "early_precede_appeal_id"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "invent_etc_title": {
+    "table_info": {
+      "sheet_name": "082_発明等の名称ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "発明等の名称ファイル",
+      "physical_name": "invent_etc_title",
+      "file_name": "invent_etc_title.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "商品区分",
+        "physical_name": "goods_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "発明等の名称",
+        "physical_name": "invent_etc_title",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 6000,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "goods_class"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "dcln_amnd_dcsn": {
+    "table_info": {
+      "sheet_name": "083_補正却下の決定ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "補正却下の決定ファイル",
+      "physical_name": "dcln_amnd_dcsn",
+      "file_name": "dcln_amnd_dcsn.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "補正却下決定番号",
+        "physical_name": "dcln_amnd_dcsn_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "補正書差出日",
+        "physical_name": "amnd_doc_submit_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "補正却下確定日",
+        "physical_name": "dcln_amnd_define_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "最終処分コード",
+        "physical_name": "final_dspst_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "dcln_amnd_dcsn_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "dcln_amnd_dcsn_class_cd": {
+    "table_info": {
+      "sheet_name": "084_補正却下の決定分類コードファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "補正却下の決定分類コードファイル",
+      "physical_name": "dcln_amnd_dcsn_class_cd",
+      "file_name": "dcln_amnd_dcsn_class_cd.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "決定番号",
+        "physical_name": "dcsn_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "適用法規識別",
+        "physical_name": "apply_law_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "審級種別",
+        "physical_name": "instance_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "審判種別",
+        "physical_name": "appl_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "判示事項コード",
+        "physical_name": "jdgmnt_item_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "結論コード",
+        "physical_name": "conclusion_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "補助分類識別",
+        "physical_name": "complement_sub_class_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 13,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "訟務識別",
+        "physical_name": "litigation_id",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "dcsn_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "opp_desig_goods_name": {
+    "table_info": {
+      "sheet_name": "085_申立に係る指定商品名ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "申立に係る指定商品名ファイル",
+      "physical_name": "opp_desig_goods_name",
+      "file_name": "opp_desig_goods_name.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "異議申立番号",
+        "physical_name": "opp_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "商品区分",
+        "physical_name": "goods_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "指定商品名",
+        "physical_name": "desig_goods_name",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 6000,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "opp_num",
+      "goods_class"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "cancel_desig_goods_name": {
+    "table_info": {
+      "sheet_name": "086_取消す指定商品名ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "取消す指定商品名ファイル",
+      "physical_name": "cancel_desig_goods_name",
+      "file_name": "cancel_desig_goods_name.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "異議申立番号",
+        "physical_name": "opp_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "商品区分",
+        "physical_name": "goods_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "指定商品名",
+        "physical_name": "desig_goods_name",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 6000,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "opp_num",
+      "goods_class"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "infringement_litigate": {
+    "table_info": {
+      "sheet_name": "087_侵害訴訟ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "侵害訴訟ファイル",
+      "physical_name": "infringement_litigate",
+      "file_name": "infringement_litigate.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "侵害訴訟事件番号",
+        "physical_name": "infringement_litigate_case_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "事件記録符号コード",
+        "physical_name": "case_rec_code_cd",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "裁判所庁名コード",
+        "physical_name": "court_office_name_id_cd",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "裁判所支部等",
+        "physical_name": "court_branch_etc",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 20,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "終局日",
+        "physical_name": "close_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "終局事由コード",
+        "physical_name": "close_rsn_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "infringement_litigate_case_num",
+      "case_rec_code_cd",
+      "court_office_name_id_cd"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "infringement_reg_num": {
+    "table_info": {
+      "sheet_name": "088_侵害登録番号ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "侵害登録番号ファイル",
+      "physical_name": "infringement_reg_num",
+      "file_name": "infringement_reg_num.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "侵害訴訟事件番号",
+        "physical_name": "infringement_litigate_case_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "事件記録符号コード",
+        "physical_name": "case_rec_code_cd",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "登録番号",
+        "physical_name": "reg_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 7,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "分割番号",
+        "physical_name": "split_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 32,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "類似番号",
+        "physical_name": "smlr_dsgn_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "防護番号",
+        "physical_name": "sec_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "裁判所庁名コード",
+        "physical_name": "court_office_name_id_cd",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "infringement_litigate_case_num",
+      "case_rec_code_cd",
+      "law_cd_class",
+      "reg_num",
+      "split_num",
+      "smlr_dsgn_num",
+      "sec_num",
+      "court_office_name_id_cd"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "deposit": {
+    "table_info": {
+      "sheet_name": "089_菌寄託ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "菌寄託ファイル",
+      "physical_name": "deposit",
+      "file_name": "deposit.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "受託機関コード",
+        "physical_name": "depository_instt_cd",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 15,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "受託番号",
+        "physical_name": "depository_num",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 100,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "novelty_lack": {
+    "table_info": {
+      "sheet_name": "090_新規性喪失例外ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "新規性喪失例外ファイル",
+      "physical_name": "novelty_lack",
+      "file_name": "novelty_lack.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "条文コード",
+        "physical_name": "art_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "内容",
+        "physical_name": "detail",
+        "is_primary_key": false,
+        "data_type": "全角文字列型",
+        "max_length": 2000,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "p_citd_others": {
+    "table_info": {
+      "sheet_name": "091_特許参考文献ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "特許参考文献ファイル",
+      "physical_name": "p_citd_others",
+      "file_name": "p_citd_others.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "文献名",
+        "physical_name": "doc_title",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 126,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "non_p_citd_others": {
+    "table_info": {
+      "sheet_name": "092_非特許参考文献ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "非特許参考文献ファイル",
+      "physical_name": "non_p_citd_others",
+      "file_name": "non_p_citd_others.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "シーケンス番号",
+        "physical_name": "sequence_num",
+        "is_primary_key": true,
+        "data_type": "数値型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "文献名",
+        "physical_name": "doc_title",
+        "is_primary_key": false,
+        "data_type": "全半角文字列型",
+        "max_length": 2000,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num",
+      "sequence_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "madrid_protocol_appl_case": {
+    "table_info": {
+      "sheet_name": "093_マドプロ審判事件ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "マドプロ審判事件ファイル",
+      "physical_name": "madrid_protocol_appl_case",
+      "file_name": "madrid_protocol_appl_case.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "登録番号",
+        "physical_name": "reg_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 7,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "分割番号",
+        "physical_name": "split_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 32,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "類似番号",
+        "physical_name": "smlr_dsgn_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "防護番号",
+        "physical_name": "sec_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "審理経過ステータス",
+        "physical_name": "appeal_prog_stts",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "審級種別",
+        "physical_name": "instance_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "審判種別",
+        "physical_name": "appl_typ",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 3,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "審判請求日",
+        "physical_name": "appl_clim_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "最終処分コード",
+        "physical_name": "final_dspst_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 14,
+        "logical_name": "最終処分確定日",
+        "physical_name": "final_dspst_define_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 15,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "md_appl_case_unique_table": {
+    "table_info": {
+      "sheet_name": "094_マドプロ審判事件固有ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "マドプロ審判事件固有ファイル",
+      "physical_name": "md_appl_case_unique_table",
+      "file_name": "md_appl_case_unique_table.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "審判番号",
+        "physical_name": "appl_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "庁内整理番号",
+        "physical_name": "jpo_rfr_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "庁内整理番号分割記号コード",
+        "physical_name": "jpo_rfr_num_split_sign_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "国際登録番号更新回数記号コード",
+        "physical_name": "intl_reg_num_updt_cnt_sign_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "国際登録番号",
+        "physical_name": "intl_reg_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 7,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "国際番号分割記号コード",
+        "physical_name": "intl_num_split_sign_cd",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 8,
+        "logical_name": "国際登録日",
+        "physical_name": "intl_reg_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 9,
+        "logical_name": "事後指定日",
+        "physical_name": "aft_desig_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 10,
+        "logical_name": "拒絶通報期間満了日",
+        "physical_name": "rjct_info_prd_expire_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 11,
+        "logical_name": "分類",
+        "physical_name": "madopro_class",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 150,
+        "code_index": null
+      },
+      {
+        "seq": 12,
+        "logical_name": "出訴事件番号_年号",
+        "physical_name": "litigate_case_num_year_issu",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 13,
+        "logical_name": "出訴事件番号_年",
+        "physical_name": "litigate_case_num_year",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 2,
+        "code_index": null
+      },
+      {
+        "seq": 14,
+        "logical_name": "出訴事件番号_番号",
+        "physical_name": "litigate_case_num_num",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 5,
+        "code_index": null
+      },
+      {
+        "seq": 15,
+        "logical_name": "出訴日",
+        "physical_name": "litigate_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 16,
+        "logical_name": "判決言渡日",
+        "physical_name": "jdgmnt_give_dt",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 8,
+        "code_index": null
+      },
+      {
+        "seq": 17,
+        "logical_name": "WIPO関連書類フラグ",
+        "physical_name": "Wipo_rlt_doc_flg",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 18,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "appl_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  },
+  "u_model_reg_ascrb_p_app": {
+    "table_info": {
+      "sheet_name": "095_実用新案登録に基づく特許出願ファイル",
+      "subject_area": "審判マスタ",
+      "logical_name": "実用新案登録に基づく特許出願ファイル",
+      "physical_name": "u_model_reg_ascrb_p_app",
+      "file_name": "u_model_reg_ascrb_p_app.tsv"
+    },
+    "columns": [
+      {
+        "seq": 1,
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 2,
+        "logical_name": "四法区分",
+        "physical_name": "law_cd_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 3,
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 4,
+        "logical_name": "新出願四法区分",
+        "physical_name": "new_app_law_cd_class",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 5,
+        "logical_name": "新出願番号",
+        "physical_name": "new_app_num",
+        "is_primary_key": true,
+        "data_type": "半角文字列型",
+        "max_length": 10,
+        "code_index": null
+      },
+      {
+        "seq": 6,
+        "logical_name": "審判通知受信内容",
+        "physical_name": "appl_ntc_reception_detail",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 1,
+        "code_index": null
+      },
+      {
+        "seq": 7,
+        "logical_name": "更新日時",
+        "physical_name": "updt_dttm",
+        "is_primary_key": false,
+        "data_type": "半角文字列型",
+        "max_length": 12,
+        "code_index": null
+      }
+    ],
+    "primary_keys": [
+      "law_cd_class",
+      "app_num",
+      "new_app_law_cd_class",
+      "new_app_num"
+    ],
+    "column_positions": {
+      "seq": 1,
+      "logical_name": 3,
+      "physical_name": 24,
+      "primary_key": 37,
+      "data_type": 39,
+      "max_length": 44,
+      "code_index": null
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "table_info": {
+    "subject_area": "商標基本マスタ",
+    "logical_name": "商標基本項目記事ファイル",
+    "physical_name": "t_basic_item_art",
+    "file_name": "t_basic_item_art.tsv"
+  },
+  "columns": [
+    {
+      "seq": 1,
+      "logical_name": "追加削除識別",
+      "physical_name": "add_del_id",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 2,
+      "logical_name": "管理番号",
+      "physical_name": "mgt_num",
+      "is_primary_key": true,
+      "data_type": "数値型",
+      "max_length": 10,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 3,
+      "logical_name": "レコード状態識別",
+      "physical_name": "rec_status_id",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 4,
+      "logical_name": "出願番号",
+      "physical_name": "app_num",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 10,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 5,
+      "logical_name": "登録番号",
+      "physical_name": "reg_num",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 7,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 6,
+      "logical_name": "分割番号",
+      "physical_name": "split_num",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 31,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 7,
+      "logical_name": "防護番号",
+      "physical_name": "sec_num",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 3,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 8,
+      "logical_name": "出願種別防護",
+      "physical_name": "app_typ_sec",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 9,
+      "logical_name": "出願種別分割",
+      "physical_name": "app_typ_split",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 10,
+      "logical_name": "出願種別補却",
+      "physical_name": "app_typ_complement_rjct",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 11,
+      "logical_name": "出願種別変更",
+      "physical_name": "app_typ_chan",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 12,
+      "logical_name": "出願種別優先",
+      "physical_name": "app_typ_priorty",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 13,
+      "logical_name": "出願種別団体",
+      "physical_name": "app_typ_group",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 14,
+      "logical_name": "出願種別地域団体",
+      "physical_name": "app_typ_area_group",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 15,
+      "logical_name": "出願日",
+      "physical_name": "app_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 16,
+      "logical_name": "先願権発生日",
+      "physical_name": "prior_app_right_occr_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 17,
+      "logical_name": "拒絶査定発送日",
+      "physical_name": "rjct_finl_dcsn_dsptch_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 18,
+      "logical_name": "最終処分コード",
+      "physical_name": "final_dspst_cd",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 3,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 19,
+      "logical_name": "最終処分日",
+      "physical_name": "final_dspst_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 20,
+      "logical_name": "書換申請番号",
+      "physical_name": "rwrt_app_num",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 10,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 21,
+      "logical_name": "旧法類",
+      "physical_name": "old_law",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 2,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 22,
+      "logical_name": "版コード",
+      "physical_name": "ver_num",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 2,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 23,
+      "logical_name": "国際登録番号",
+      "physical_name": "intl_reg_num",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 7,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 24,
+      "logical_name": "国際登録分割番号",
+      "physical_name": "intl_reg_split_num",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 25,
+      "logical_name": "国際登録日",
+      "physical_name": "intl_reg_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 26,
+      "logical_name": "レコード最新更新日",
+      "physical_name": "rec_latest_updt_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 27,
+      "logical_name": "存続期間満了日",
+      "physical_name": "conti_prd_expire_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 28,
+      "logical_name": "分納満了日／事後指定日",
+      "physical_name": "instllmnt_expr_dt_aft_des_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 29,
+      "logical_name": "分納識別",
+      "physical_name": "installments_id",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 1,
+      "code_index": null,
+      "remarks": null
+    },
+    {
+      "seq": 30,
+      "logical_name": "設定登録日",
+      "physical_name": "set_reg_dt",
+      "is_primary_key": false,
+      "data_type": "半角文字列型",
+      "max_length": 8,
+      "code_index": null,
+      "remarks": null
+    }
+  ],
+  "primary_keys": [
+    "mgt_num"
+  ]
+}

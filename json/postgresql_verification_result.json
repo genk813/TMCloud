@@ -1,0 +1,872 @@
+{
+  "conversion_log": {
+    "type_conversions": {
+      "TEXT": "TEXT",
+      "INTEGER": "INTEGER",
+      "REAL": "REAL",
+      "BLOB": "BYTEA",
+      "NUMERIC": "NUMERIC",
+      "DECIMAL": "DECIMAL",
+      "BOOLEAN": "BOOLEAN",
+      "DATE": "DATE",
+      "TIME": "TIME",
+      "DATETIME": "TIMESTAMP",
+      "TIMESTAMP": "TIMESTAMP"
+    },
+    "default_conversions": {
+      "CURRENT_TIMESTAMP": "CURRENT_TIMESTAMP",
+      "CURRENT_DATE": "CURRENT_DATE",
+      "CURRENT_TIME": "CURRENT_TIME",
+      "NULL": "NULL",
+      "TRUE": "TRUE",
+      "FALSE": "FALSE"
+    },
+    "table_count": 194,
+    "validation_results": {
+      "table_count": {
+        "sqlite": 194,
+        "postgresql": 194
+      },
+      "columns": {
+        "pmac_g_app_case": {
+          "sqlite": 36,
+          "postgresql": 36
+        },
+        "pmac_gr_app_case_repeat_data": {
+          "sqlite": 8,
+          "postgresql": 8
+        },
+        "pmcs_g_case_stat": {
+          "sqlite": 18,
+          "postgresql": 18
+        },
+        "pmab_g_appl_case_biblog": {
+          "sqlite": 38,
+          "postgresql": 38
+        },
+        "pmab_gr_appl_case_biblog": {
+          "sqlite": 58,
+          "postgresql": 58
+        },
+        "pmjb_g_jpo_case_biblog": {
+          "sqlite": 26,
+          "postgresql": 26
+        },
+        "pmjb_gr_jpo_case_biblog": {
+          "sqlite": 45,
+          "postgresql": 45
+        },
+        "pmap_g_app_doc": {
+          "sqlite": 77,
+          "postgresql": 77
+        },
+        "pmos_g_old_case_stat": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "pmoa_g_old_app_case": {
+          "sqlite": 8,
+          "postgresql": 8
+        },
+        "pmob_g_old_case_biblog": {
+          "sqlite": 17,
+          "postgresql": 17
+        },
+        "pmob_gr_old_case_biblog": {
+          "sqlite": 12,
+          "postgresql": 12
+        },
+        "pmoi_g_opposition_info": {
+          "sqlite": 13,
+          "postgresql": 13
+        },
+        "pmoi_gr_opposition_info": {
+          "sqlite": 25,
+          "postgresql": 25
+        },
+        "umac_g_app_case": {
+          "sqlite": 36,
+          "postgresql": 36
+        },
+        "umac_gr_app_case": {
+          "sqlite": 8,
+          "postgresql": 8
+        },
+        "umcs_g_case_stat": {
+          "sqlite": 18,
+          "postgresql": 18
+        },
+        "umab_g_appl_case_biblog": {
+          "sqlite": 33,
+          "postgresql": 33
+        },
+        "umab_gr_appl_case_biblog": {
+          "sqlite": 60,
+          "postgresql": 60
+        },
+        "umjb_g_jpo_case_biblog": {
+          "sqlite": 26,
+          "postgresql": 26
+        },
+        "umjb_gr_jpo_case_biblog": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "umap_g_app_doc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "umos_g_old_case_stat": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "umoa_g_old_app_case": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "umob_g_old_case_biblog": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "umob_gr_old_case_biblog": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "umoi_g_opposition_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "umoi_gr_opposition_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "cmis_g_intl_app_case_stat": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "cmia_g_intl_app_doc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "cmdo_ib_intermed_rec": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "cmbi_g_bul_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "sinseinin": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "abc_cd_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "jiken_c_d": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_d_yusenken_joho": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_d_shutugannindairinin": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_d_sosakusha_joho": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_d_sinsei_dv": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_d_kian_dv": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_d_chonai_dv": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_kohohako_joho": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_yusenken_joho": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_rengoshogan_joho": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_rengotoroku_joho": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_shutugannindairinin": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_shohin_joho": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_shousaina_setumei": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_igi_joho": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_igimositatnnmsttdrnn": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_sinsei_dv": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_kian_dv": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_chonai_dv": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "appl_reg_info": {
+          "sqlite": 10,
+          "postgresql": 10
+        },
+        "under_integ_appl_info_mgt": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "appl_case": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "rcpt_doc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsptch_doc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "jpo_doc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "opp": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "opp_class_cd": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "maintain_claim": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "cancel_claim": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "rlt_case": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "consultation_authorities": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "clim_exam_pub_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "join_app": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "join_app_class_cd": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "litigate": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "litigate_cnt": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "desig_atty": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "jdgmnt": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "jdgmnt_class_cd": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "app_typ": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "app_exam_pub_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "trial_dcsn": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "trial_dcsn_class_cd": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "trial_dcsn_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "appl_concerned_person": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "early_precede_appeal_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "invent_etc_title": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dcln_amnd_dcsn": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dcln_amnd_dcsn_class_cd": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "opp_desig_goods_name": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "cancel_desig_goods_name": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "infringement_litigate": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "infringement_reg_num": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "deposit": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "novelty_lack": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "p_citd_others": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "non_p_citd_others": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "madrid_protocol_appl_case": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "md_appl_case_unique_table": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "u_model_reg_ascrb_p_app": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "mgt_info_p": {
+          "sqlite": 6,
+          "postgresql": 6
+        },
+        "mrgn_ext_app_num_p": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "trnsfr_rcpt_info_p": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "add_p_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "right_person_art_p": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "atty_art_p": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "prog_info_div_p": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "mgt_info_u": {
+          "sqlite": 6,
+          "postgresql": 6
+        },
+        "trnsfr_rcpt_info_u": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "right_person_art_u": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "atty_art_u": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "prog_info_div_u": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "mgt_info_d": {
+          "sqlite": 6,
+          "postgresql": 6
+        },
+        "trnsfr_rcpt_info_d": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "smlr_dsgn_d_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "right_person_art_d": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "atty_art_d": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "prog_info_div_d": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "smlr_dsgn_commodity_name": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "mgt_info_t": {
+          "sqlite": 6,
+          "postgresql": 6
+        },
+        "mrgn_t_rwrt_app_num": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "goods_class_art": {
+          "sqlite": 8,
+          "postgresql": 8
+        },
+        "duplicate_t_doni": {
+          "sqlite": 8,
+          "postgresql": 8
+        },
+        "trnsfr_rcpt_info_t": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "mrgn_sec_rwrt_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "t_updt_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "sec_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "sec_updt_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "right_person_art_t": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "atty_art_t": {
+          "sqlite": 12,
+          "postgresql": 12
+        },
+        "prog_info_div_t": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "right_goods_name": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "sec_goods_name": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "t_first_indct_div": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "duplicate_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "mgt_info_hague": {
+          "sqlite": 6,
+          "postgresql": 6
+        },
+        "trnsfr_rcpt_info_hague": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "hague_mgt_info": {
+          "sqlite": 6,
+          "postgresql": 6
+        },
+        "right_person_art_hague": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "atty_art_hague": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "prog_info_div_hague": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "search_mstr": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "search_mstr_theme": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "search_mstr_search_ipc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "search_mstr_link_ipc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "search_mstr_f_term": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "srch_forward_exam_free_word": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intnl_citation_doc_mstr": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intnl_citation_doc_det_mstr": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "non_p_mstr": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "non_p_bib": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsptch_fin_ipc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "known_doc_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "known_do_d_class_d_term_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "known_doc_biblog": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "foreign_doc_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "frign_doc_d_class_d_term_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "d_citd_others_info_table": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "t_basic_item_art": {
+          "sqlite": 30,
+          "postgresql": 30
+        },
+        "t_add_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "indct_use_t_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "standard_char_t_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "search_use_t_art_table": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "t_dsgnt_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "t_knd_info_art_table": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "t_vienna_class_grphc_term_art": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_main_mgt_app": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_main_mgt_reg": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_intrmd_rec": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_name_addr_app": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_name_addr_reg": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "design_state_gvrnmnt_mstr_pri": {
+          "sqlite": 12,
+          "postgresql": 12
+        },
+        "design_state_gvrnmnt_mstr_mk": {
+          "sqlite": 29,
+          "postgresql": 29
+        },
+        "dsgn_gvrnmnt_fundamental_num": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_dsgn_st_gds_srvc_app": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_latest_gds_srvc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_appl_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_bul_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_sbstt_reg_num": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "dsgn_gvrnmnt_intnl_atty": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_org_reg_mgt_info": {
+          "sqlite": 16,
+          "postgresql": 16
+        },
+        "intl_t_org_prog_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_set_frst_indct": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_set_dsgn_gds_srvc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_set_crr_nm_addr": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_secnd_indct_div": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_sec_gds_srvc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_dsgn_gds_srvc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_crr_nm_addr": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intl_t_org_dplct_num_info": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "t_sample": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intrmd_rec_intl_d_bul_d": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intrmd_rec_draft_doc": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "search_mstr_facet": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "non_p_mstr_facet": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "intnl_citation_doc_mstr_data": {
+          "sqlite": 5,
+          "postgresql": 5
+        },
+        "jiken_c_d_old": {
+          "sqlite": 7,
+          "postgresql": 7
+        },
+        "jiken_c_t_old": {
+          "sqlite": 7,
+          "postgresql": 7
+        }
+      },
+      "indexes": {},
+      "warnings": [],
+      "errors": []
+    }
+  },
+  "schema_analysis": {
+    "tables": 194,
+    "indexes": 11,
+    "data_types": {
+      "TEXT": 1059,
+      "INTEGER": 147,
+      "TIME": 330
+    },
+    "constraints": {
+      "UNIQUE": 2,
+      "PRIMARY KEY": 127,
+      "DEFAULT": 330
+    },
+    "issues": [
+      "SERIAL型が使用されていません（AUTO_INCREMENT相当）",
+      "TIMESTAMPにタイムゾーンが指定されていない可能性があります"
+    ]
+  },
+  "comparison": {
+    "sqlite": {
+      "lines": 2905,
+      "size": 73534,
+      "tables": 194,
+      "indexes": 11,
+      "views": 1,
+      "virtual_tables": 1
+    },
+    "postgresql": {
+      "lines": 2511,
+      "size": 66107,
+      "tables": 194,
+      "indexes": 11,
+      "views": 0,
+      "virtual_tables": 0
+    },
+    "differences": {
+      "lines": {
+        "sqlite": 2905,
+        "postgresql": 2511,
+        "difference": -394
+      },
+      "size": {
+        "sqlite": 73534,
+        "postgresql": 66107,
+        "difference": -7427
+      },
+      "views": {
+        "sqlite": 1,
+        "postgresql": 0,
+        "difference": -1
+      },
+      "virtual_tables": {
+        "sqlite": 1,
+        "postgresql": 0,
+        "difference": -1
+      }
+    }
+  },
+  "validation_passed": true
+}

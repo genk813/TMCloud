@@ -1,0 +1,22 @@
+{
+  "start_time": "2025-08-31T08:13:57.804021",
+  "targets": [
+    "JPWAT"
+  ],
+  "date": "latest",
+  "download": {
+    "total": 1,
+    "success": 0,
+    "failed": 1,
+    "targets": {
+      "JPWAT": {
+        "target": "JPWAT",
+        "date": "latest",
+        "status": "failed",
+        "file": null,
+        "error": "Failed to select JPWAT"
+      }
+    }
+  },
+  "end_time": "2025-08-31T08:14:25.227243"
+}

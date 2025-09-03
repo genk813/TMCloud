@@ -1,0 +1,1192 @@
+{
+  "total_success": 1176941,
+  "total_errors": 0,
+  "total_skipped": 145,
+  "table_stats": {
+    "pmac_g_app_case": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmac_gr_app_case_repeat_data": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmcs_g_case_stat": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmab_g_appl_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmab_gr_appl_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmjb_g_jpo_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmjb_gr_jpo_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmap_g_app_doc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmos_g_old_case_stat": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmoa_g_old_app_case": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmob_g_old_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmob_gr_old_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmoi_g_opposition_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmoi_gr_opposition_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umac_g_app_case": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umac_gr_app_case": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umcs_g_case_stat": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umab_g_appl_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umab_gr_appl_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umjb_g_jpo_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umjb_gr_jpo_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umap_g_app_doc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umos_g_old_case_stat": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umoa_g_old_app_case": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umob_g_old_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umob_gr_old_case_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umoi_g_opposition_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umoi_gr_opposition_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cmis_g_intl_app_case_stat": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cmia_g_intl_app_doc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cmdo_ib_intermed_rec": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cmbi_g_bul_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "sinseinin": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "abc_cd_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_yusenken_joho": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_shutugannindairinin": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_sosakusha_joho": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_sinsei_dv": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_kian_dv": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_chonai_dv": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t": {
+      "success": 18061,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_kohohako_joho": {
+      "success": 2450,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_yusenken_joho": {
+      "success": 338,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_rengoshogan_joho": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_rengotoroku_joho": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_shutugannindairinin": {
+      "success": 39739,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_shohin_joho": {
+      "success": 36639,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_shousaina_setumei": {
+      "success": 16,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_igi_joho": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_igimositatnnmsttdrnn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_sinsei_dv": {
+      "success": 35002,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_kian_dv": {
+      "success": 17271,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jiken_c_t_chonai_dv": {
+      "success": 1869,
+      "errors": 0,
+      "skipped": 0
+    },
+    "appl_reg_info": {
+      "success": 1795,
+      "errors": 0,
+      "skipped": 0
+    },
+    "under_integ_appl_info_mgt": {
+      "success": 44,
+      "errors": 0,
+      "skipped": 0
+    },
+    "mgt_info_p": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mrgn_ext_app_num_p": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_p": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "add_p_art": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "right_person_art_p": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "atty_art_p": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_p": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_u": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_u": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "right_person_art_u": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "atty_art_u": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_u": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_d": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_d": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "smlr_dsgn_d_art": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "right_person_art_d": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "atty_art_d": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_d": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "smlr_dsgn_commodity_name": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_t": {
+      "success": 17651,
+      "errors": 0,
+      "skipped": 0
+    },
+    "mrgn_t_rwrt_app_num": {
+      "success": 3362,
+      "errors": 0,
+      "skipped": 0
+    },
+    "goods_class_art": {
+      "success": 30842,
+      "errors": 0,
+      "skipped": 0
+    },
+    "duplicate_t_doni": {
+      "success": 47,
+      "errors": 0,
+      "skipped": 0
+    },
+    "trnsfr_rcpt_info_t": {
+      "success": 30895,
+      "errors": 0,
+      "skipped": 0
+    },
+    "mrgn_sec_rwrt_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "t_updt_art": {
+      "success": 17889,
+      "errors": 0,
+      "skipped": 0
+    },
+    "sec_art": {
+      "success": 664,
+      "errors": 0,
+      "skipped": 0
+    },
+    "sec_updt_art": {
+      "success": 1220,
+      "errors": 0,
+      "skipped": 0
+    },
+    "right_person_art_t": {
+      "success": 17880,
+      "errors": 0,
+      "skipped": 0
+    },
+    "atty_art_t": {
+      "success": 20610,
+      "errors": 0,
+      "skipped": 0
+    },
+    "prog_info_div_t": {
+      "success": 235815,
+      "errors": 0,
+      "skipped": 0
+    },
+    "right_goods_name": {
+      "success": 30840,
+      "errors": 0,
+      "skipped": 0
+    },
+    "sec_goods_name": {
+      "success": 1160,
+      "errors": 0,
+      "skipped": 0
+    },
+    "t_first_indct_div": {
+      "success": 17642,
+      "errors": 0,
+      "skipped": 0
+    },
+    "duplicate_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_hague": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_hague": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "hague_mgt_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "right_person_art_hague": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "atty_art_hague": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_hague": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_theme": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_search_ipc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_link_ipc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_f_term": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "srch_forward_exam_free_word": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intnl_citation_doc_mstr": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intnl_citation_doc_det_mstr": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "non_p_mstr": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "non_p_bib": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsptch_fin_ipc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "known_doc_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "known_do_d_class_d_term_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "known_doc_biblog": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "foreign_doc_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "frign_doc_d_class_d_term_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "d_citd_others_info_table": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "t_basic_item_art": {
+      "success": 37213,
+      "errors": 0,
+      "skipped": 0
+    },
+    "t_add_info": {
+      "success": 37213,
+      "errors": 0,
+      "skipped": 0
+    },
+    "indct_use_t_art": {
+      "success": 34257,
+      "errors": 0,
+      "skipped": 0
+    },
+    "standard_char_t_art": {
+      "success": 16373,
+      "errors": 0,
+      "skipped": 0
+    },
+    "search_use_t_art_table": {
+      "success": 44388,
+      "errors": 0,
+      "skipped": 0
+    },
+    "t_dsgnt_art": {
+      "success": 89766,
+      "errors": 0,
+      "skipped": 0
+    },
+    "t_knd_info_art_table": {
+      "success": 84469,
+      "errors": 0,
+      "skipped": 0
+    },
+    "t_vienna_class_grphc_term_art": {
+      "success": 114943,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_main_mgt_app": {
+      "success": 3253,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_main_mgt_reg": {
+      "success": 1127,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_intrmd_rec": {
+      "success": 17407,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_name_addr_app": {
+      "success": 6298,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_name_addr_reg": {
+      "success": 505,
+      "errors": 0,
+      "skipped": 0
+    },
+    "design_state_gvrnmnt_mstr_pri": {
+      "success": 2333,
+      "errors": 0,
+      "skipped": 0
+    },
+    "design_state_gvrnmnt_mstr_mk": {
+      "success": 3253,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_fundamental_num": {
+      "success": 5065,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_dsgn_st_gds_srvc_app": {
+      "success": 9649,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg": {
+      "success": 401,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_latest_gds_srvc": {
+      "success": 38,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_appl_info": {
+      "success": 39,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_bul_info": {
+      "success": 3265,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_sbstt_reg_num": {
+      "success": 2,
+      "errors": 0,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_intnl_atty": {
+      "success": 2923,
+      "errors": 0,
+      "skipped": 0
+    },
+    "intl_t_org_org_reg_mgt_info": {
+      "success": 1127,
+      "errors": 0,
+      "skipped": 0
+    },
+    "intl_t_org_prog_info": {
+      "success": 1789,
+      "errors": 0,
+      "skipped": 0
+    },
+    "intl_t_org_set_frst_indct": {
+      "success": 1122,
+      "errors": 0,
+      "skipped": 0
+    },
+    "intl_t_org_set_dsgn_gds_srvc": {
+      "success": 1973,
+      "errors": 0,
+      "skipped": 0
+    },
+    "intl_t_org_set_crr_nm_addr": {
+      "success": 868,
+      "errors": 0,
+      "skipped": 0
+    },
+    "intl_t_org_secnd_indct_div": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_sec_gds_srvc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_dsgn_gds_srvc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_crr_nm_addr": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_dplct_num_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "t_sample": {
+      "success": 12812,
+      "errors": 0,
+      "skipped": 0
+    },
+    "intrmd_rec_intl_d_bul_d": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intrmd_rec_draft_doc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_facet": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "non_p_mstr_facet": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intnl_citation_doc_mstr_data": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_old": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_old": {
+      "success": 80,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snpn_zkn": {
+      "success": 2911,
+      "errors": 0,
+      "skipped": 0
+    },
+    "uktk_syri": {
+      "success": 5010,
+      "errors": 0,
+      "skipped": 0
+    },
+    "hssu_syri": {
+      "success": 14261,
+      "errors": 0,
+      "skipped": 0
+    },
+    "smi_tut": {
+      "success": 4034,
+      "errors": 0,
+      "skipped": 0
+    },
+    "kusi_ktti": {
+      "success": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    "h_tkky_bnkn_suh": {
+      "success": 205,
+      "errors": 0,
+      "skipped": 0
+    },
+    "tyuni_syri": {
+      "success": 6142,
+      "errors": 0,
+      "skipped": 0
+    },
+    "bmn_ikn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "znt_turk": {
+      "success": 390,
+      "errors": 0,
+      "skipped": 0
+    },
+    "sisu": {
+      "success": 46,
+      "errors": 0,
+      "skipped": 0
+    },
+    "knpu_kukk": {
+      "success": 6,
+      "errors": 0,
+      "skipped": 0
+    },
+    "sutt": {
+      "success": 1034,
+      "errors": 0,
+      "skipped": 0
+    },
+    "kkn_entyu_kyk": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "gyusi_hhk_mustt": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "gyusi_hhk_sisyu_sybn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "ig_mustt": {
+      "success": 289,
+      "errors": 0,
+      "skipped": 0
+    },
+    "ig_ktti": {
+      "success": 65,
+      "errors": 0,
+      "skipped": 0
+    },
+    "ig_ktti_bnri": {
+      "success": 141,
+      "errors": 0,
+      "skipped": 0
+    },
+    "mustt_kkr_sikyuku": {
+      "success": 2193,
+      "errors": 0,
+      "skipped": 0
+    },
+    "gnsn_snpn_zkn": {
+      "success": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    "higu_snpn_zkn": {
+      "success": 3,
+      "errors": 0,
+      "skipped": 0
+    },
+    "gugkn": {
+      "success": 5451,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snk_snsi": {
+      "success": 8,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snk_ktti": {
+      "success": 8,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snk_ktti_bnri": {
+      "success": 8,
+      "errors": 0,
+      "skipped": 0
+    },
+    "syss_tisyu_snkttu": {
+      "success": 26,
+      "errors": 0,
+      "skipped": 0
+    },
+    "syss_jukk_juhu": {
+      "success": 75,
+      "errors": 0,
+      "skipped": 0
+    },
+    "hnkt_bnri": {
+      "success": 54,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snkt": {
+      "success": 472,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snkt_bnri": {
+      "success": 960,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snpn_tuzsy": {
+      "success": 11496,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snpn_tzs_ssn_cd_ys_juhu": {
+      "success": 1520,
+      "errors": 0,
+      "skipped": 0
+    },
+    "suk_snr_juhu": {
+      "success": 21,
+      "errors": 0,
+      "skipped": 0
+    },
+    "snpn_sk_kkr_st_sh_ekmmi": {
+      "success": 202,
+      "errors": 0,
+      "skipped": 0
+    },
+    "mustt_kkr_sti_syuhn_ekmmi": {
+      "success": 43,
+      "errors": 0,
+      "skipped": 0
+    },
+    "sngi_ssyu": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "sngi_turk_bngu": {
+      "success": 106,
+      "errors": 0,
+      "skipped": 0
+    },
+    "knktk": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "snksi_sust_rigi": {
+      "success": 28,
+      "errors": 0,
+      "skipped": 0
+    },
+    "tkky_snku_bnkn": {
+      "success": 996,
+      "errors": 0,
+      "skipped": 0
+    },
+    "h_tkky_snku_bnkn": {
+      "success": 106,
+      "errors": 0,
+      "skipped": 0
+    },
+    "madpro_snpn_zkn_kyu": {
+      "success": 29,
+      "errors": 0,
+      "skipped": 0
+    },
+    "aki_uktk_syri_syri_dt_ar": {
+      "success": 4908,
+      "errors": 0,
+      "skipped": 0
+    },
+    "appl_case": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "rcpt_doc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsptch_doc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jpo_doc": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "opp": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "opp_class_cd": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "maintain_claim": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cancel_claim": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "rlt_case": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "consultation_authorities": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "clim_exam_pub_art": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "join_app": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "join_app_class_cd": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "litigate": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "litigate_cnt": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "desig_atty": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jdgmnt": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jdgmnt_class_cd": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "app_typ": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "app_exam_pub_art": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trial_dcsn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trial_dcsn_class_cd": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trial_dcsn_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "appl_concerned_person": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "early_precede_appeal_info": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "invent_etc_title": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dcln_amnd_dcsn": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dcln_amnd_dcsn_class_cd": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "opp_desig_goods_name": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cancel_desig_goods_name": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "infringement_litigate": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "infringement_reg_num": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "deposit": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "novelty_lack": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "p_citd_others": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "non_p_citd_others": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "madrid_protocol_appl_case": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "md_appl_case_unique_table": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "u_model_reg_ascrb_p_app": {
+      "success": 0,
+      "errors": 0,
+      "skipped": 1
+    }
+  }
+}

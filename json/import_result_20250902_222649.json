@@ -1,0 +1,22 @@
+{
+  "total_files": 1,
+  "total_inserted": 1677,
+  "total_updated": 0,
+  "total_deleted": 0,
+  "total_errors": 0,
+  "total_skipped": 0,
+  "total_elapsed": 0.114519,
+  "details": [
+    {
+      "table_name": "appl_reg_info",
+      "operation": "UPDATE",
+      "inserted": 1677,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.113971
+    }
+  ]
+}

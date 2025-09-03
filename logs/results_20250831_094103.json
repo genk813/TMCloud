@@ -1,0 +1,90 @@
+{
+  "start_time": "2025-08-31T09:38:32.773459",
+  "targets": [
+    "JPWAC",
+    "JPWAT",
+    "JPWDI",
+    "JPWMG",
+    "JPWMP",
+    "JPWRT",
+    "JPWT",
+    "JPWSA"
+  ],
+  "date": "latest",
+  "download": {
+    "total": 8,
+    "success": 1,
+    "failed": 7,
+    "targets": {
+      "JPWAC": {
+        "target": "JPWAC",
+        "date": "latest",
+        "status": "success",
+        "file": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/raw/JPWAC_20250827.tar.gz",
+        "error": null
+      },
+      "JPWAT": {
+        "target": "JPWAT",
+        "date": "latest",
+        "status": "failed",
+        "file": null,
+        "error": "Failed to navigate to download page"
+      },
+      "JPWDI": {
+        "target": "JPWDI",
+        "date": "latest",
+        "status": "failed",
+        "file": null,
+        "error": "Failed to navigate to download page"
+      },
+      "JPWMG": {
+        "target": "JPWMG",
+        "date": "latest",
+        "status": "failed",
+        "file": null,
+        "error": "Failed to navigate to download page"
+      },
+      "JPWMP": {
+        "target": "JPWMP",
+        "date": "latest",
+        "status": "failed",
+        "file": null,
+        "error": "Failed to navigate to download page"
+      },
+      "JPWRT": {
+        "target": "JPWRT",
+        "date": "latest",
+        "status": "failed",
+        "file": null,
+        "error": "Failed to navigate to download page"
+      },
+      "JPWT": {
+        "target": "JPWT",
+        "date": "latest",
+        "status": "failed",
+        "file": null,
+        "error": "Failed to navigate to download page"
+      },
+      "JPWSA": {
+        "target": "JPWSA",
+        "date": "latest",
+        "status": "failed",
+        "file": null,
+        "error": "Failed to navigate to download page"
+      }
+    }
+  },
+  "extraction": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "targets": {
+      "JPWAC": {
+        "status": "success",
+        "extracted_to": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/extracted/JPWAC/latest",
+        "raw_file": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/raw/JPWAC_20250827.tar.gz"
+      }
+    }
+  },
+  "end_time": "2025-08-31T09:41:03.028065"
+}

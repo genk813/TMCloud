@@ -1,0 +1,22 @@
+{
+  "total_files": 1,
+  "total_inserted": 17599,
+  "total_updated": 0,
+  "total_deleted": 0,
+  "total_errors": 0,
+  "total_skipped": 0,
+  "total_elapsed": 0.510269,
+  "details": [
+    {
+      "table_name": "jiken_c_t",
+      "operation": "UPDATE",
+      "inserted": 17599,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.509707
+    }
+  ]
+}

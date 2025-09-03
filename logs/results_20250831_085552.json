@@ -1,0 +1,34 @@
+{
+  "start_time": "2025-08-31T08:54:02.151905",
+  "targets": [
+    "JPWAT"
+  ],
+  "date": "latest",
+  "download": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "targets": {
+      "JPWAT": {
+        "target": "JPWAT",
+        "date": "latest",
+        "status": "success",
+        "file": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/raw/JPWAT_20250827.tar.gz",
+        "error": null
+      }
+    }
+  },
+  "extraction": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "targets": {
+      "JPWAT": {
+        "status": "success",
+        "extracted_to": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/extracted/JPWAT/latest",
+        "raw_file": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/raw/JPWAT_20250827.tar.gz"
+      }
+    }
+  },
+  "end_time": "2025-08-31T08:55:52.184089"
+}

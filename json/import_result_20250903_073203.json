@@ -1,0 +1,989 @@
+{
+  "total_files": 82,
+  "total_inserted": 19777,
+  "total_updated": 0,
+  "total_deleted": 0,
+  "total_errors": 38,
+  "total_skipped": 40,
+  "total_elapsed": 45.223172,
+  "details": [
+    {
+      "table_name": "snpn_zkn",
+      "operation": "DELETE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_basic_item_art",
+      "operation": "DELETE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "aki_uktk_syri_syri_dt_ar",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "appl_reg_info",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: COPY tmp_appl_reg_info_20250903073118 () FROM STDIN WITH CSV...\n                                               ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "atty_art_t",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_atty_art_t_20250903073119_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_atty_art_t_20250903073119, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "design_state_gvrnmnt_mstr_mk",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: ... tmp_design_state_gvrnmnt_mstr_mk_20250903073119 () FROM STD...\n                                                             ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "design_state_gvrnmnt_mstr_pri",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: ...tmp_design_state_gvrnmnt_mstr_pri_20250903073119 () FROM STD...\n                                                             ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "duplicate_t_doni",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_duplicate_t_doni_20250903073119_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1992237442) already exists.\nCONTEXT:  COPY tmp_duplicate_t_doni_20250903073119, line 3\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "goods_class_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_goods_class_art_20250903073120_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_goods_class_art_20250903073120, line 3\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "gugkn",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "h_tkky_bnkn_suh",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "h_tkky_snku_bnkn",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "higu_snpn_zkn",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "hnkt_bnri",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "hssu_syri",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "ig_ktti",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "ig_ktti_bnri",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "ig_mustt",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "indct_use_t_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_indct_use_t_art_20250903073121\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1934019718).\nCONTEXT:  COPY tmp_indct_use_t_art_20250903073121, line 1: \"1934019718\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "intl_t_org_org_reg_mgt_info",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: ...Y tmp_intl_t_org_org_reg_mgt_info_20250903073121 () FROM STD...\n                                                             ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "intl_t_org_prog_info",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: COPY tmp_intl_t_org_prog_info_20250903073121 () FROM STDIN W...\n                                                      ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "intl_t_org_set_crr_nm_addr",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: ...PY tmp_intl_t_org_set_crr_nm_addr_20250903073121 () FROM STD...\n                                                             ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "intl_t_org_set_dsgn_gds_srvc",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: ... tmp_intl_t_org_set_dsgn_gds_srvc_20250903073121 () FROM STD...\n                                                             ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "intl_t_org_set_frst_indct",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: ...OPY tmp_intl_t_org_set_frst_indct_20250903073121 () FROM STD...\n                                                             ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "jiken_c_t",
+      "operation": "UPDATE",
+      "inserted": 16688,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.73056
+    },
+    {
+      "table_name": "jiken_c_t_chonai_dv",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_jiken_c_t_chonai_dv_20250903073122_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 2019169099) already exists.\nCONTEXT:  COPY tmp_jiken_c_t_chonai_dv_20250903073122, line 4\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "jiken_c_t_kian_dv",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_jiken_c_t_kian_dv_20250903073122_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 2000099258) already exists.\nCONTEXT:  COPY tmp_jiken_c_t_kian_dv_20250903073122, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "jiken_c_t_kohohako_joho",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_jiken_c_t_kohohako_joho_20250903073123_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 2019169102) already exists.\nCONTEXT:  COPY tmp_jiken_c_t_kohohako_joho_20250903073123, line 8\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "jiken_c_t_old",
+      "operation": "UPDATE",
+      "inserted": 77,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.098293
+    },
+    {
+      "table_name": "jiken_c_t_shohin_joho",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_jiken_c_t_shohin_joho_20250903073125_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 2024138451) already exists.\nCONTEXT:  COPY tmp_jiken_c_t_shohin_joho_20250903073125, line 5\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "jiken_c_t_shousaina_setumei",
+      "operation": "UPDATE",
+      "inserted": 17,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.088532
+    },
+    {
+      "table_name": "jiken_c_t_shutugannindairinin",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_jiken_c_t_shutugannindairinin_20250903073125_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 2000099258) already exists.\nCONTEXT:  COPY tmp_jiken_c_t_shutugannindairinin_20250903073125, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "jiken_c_t_sinsei_dv",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_jiken_c_t_sinsei_dv_20250903073126_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 2000099258) already exists.\nCONTEXT:  COPY tmp_jiken_c_t_sinsei_dv_20250903073126, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "jiken_c_t_yusenken_joho",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_jiken_c_t_yusenken_joho_20250903073126_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 2024042327) already exists.\nCONTEXT:  COPY tmp_jiken_c_t_yusenken_joho_20250903073126, line 9\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "knktk",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "knpu_kukk",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "kusi_ktti",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "madpro_snpn_zkn_kyu",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "mgt_info_t",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_mgt_info_t_20250903073127_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1980064069) already exists.\nCONTEXT:  COPY tmp_mgt_info_t_20250903073127, line 122\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "mrgn_t_rwrt_app_num",
+      "operation": "UPDATE",
+      "inserted": 2995,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.175202
+    },
+    {
+      "table_name": "mustt_kkr_sikyuku",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "mustt_kkr_sti_syuhn_ekmmi",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "prog_info_div_t",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_prog_info_div_t_20250903073132_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_prog_info_div_t_20250903073132, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "right_goods_name",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_right_goods_name_20250903073135_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_right_goods_name_20250903073135, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "right_person_art_t",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_right_person_art_t_20250903073136_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_right_person_art_t_20250903073136, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "search_use_t_art_table",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_search_use_t_art_table_20250903073136\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 2024104688).\nCONTEXT:  COPY tmp_search_use_t_art_table_20250903073136, line 1: \"2024104688\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "sec_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_sec_art_20250903073136_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1946011704) already exists.\nCONTEXT:  COPY tmp_sec_art_20250903073136, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "sec_goods_name",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"app_num\" of relation \"tmp_sec_goods_name_20250903073136\" violates not-null constraint\nDETAIL:  Failing row contains (0, 4, null).\nCONTEXT:  COPY tmp_sec_goods_name_20250903073136, line 1: \"0,4\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "sec_updt_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_sec_updt_art_20250903073137_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1946011704) already exists.\nCONTEXT:  COPY tmp_sec_updt_art_20250903073137, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "sisu",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "smi_tut",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "sngi_ssyu",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "sngi_turk_bngu",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snk_ktti",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snk_ktti_bnri",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snk_snsi",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snksi_sust_rigi",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snkt",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snkt_bnri",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snpn_sk_kkr_st_sh_ekmmi",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snpn_tuzsy",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snpn_tzs_ssn_cd_ys_juhu",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "snpn_zkn",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "standard_char_t_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_standard_char_t_art_20250903073137\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1997102833).\nCONTEXT:  COPY tmp_standard_char_t_art_20250903073137, line 1: \"1997102833\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "suk_snr_juhu",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "sutt",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "syss_jukk_juhu",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "syss_tisyu_snkttu",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_add_info",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_t_add_info_20250903073137\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1934019718).\nCONTEXT:  COPY tmp_t_add_info_20250903073137, line 1: \"1934019718\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_basic_item_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_t_basic_item_art_20250903073138\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 2024022742).\nCONTEXT:  COPY tmp_t_basic_item_art_20250903073138, line 1: \"2024022742\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_dsgnt_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_t_dsgnt_art_20250903073139\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1934019718).\nCONTEXT:  COPY tmp_t_dsgnt_art_20250903073139, line 1: \"1934019718\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_first_indct_div",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"app_num\" of relation \"tmp_t_first_indct_div_20250903073139\" violates not-null constraint\nDETAIL:  Failing row contains (0, 4, null).\nCONTEXT:  COPY tmp_t_first_indct_div_20250903073139, line 1: \"0,4\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_knd_info_art_table",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_t_knd_info_art_table_20250903073140\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1934019718).\nCONTEXT:  COPY tmp_t_knd_info_art_table_20250903073140, line 1: \"1934019718\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_sample",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_t_sample_20250903073201\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1928007505).\nCONTEXT:  COPY tmp_t_sample_20250903073201, line 1: \"1928007505\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_updt_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_t_updt_art_20250903073202_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000001) already exists.\nCONTEXT:  COPY tmp_t_updt_art_20250903073202, line 2\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "t_vienna_class_grphc_term_art",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "null value in column \"law_cd\" of relation \"tmp_t_vienna_class_grphc_term_art_20250903073203\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 2024356192).\nCONTEXT:  COPY tmp_t_vienna_class_grphc_term_art_20250903073203, line 1: \"2024356192\"\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "tkky_snku_bnkn",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "trnsfr_rcpt_info_t",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "duplicate key value violates unique constraint \"tmp_trnsfr_rcpt_info_t_20250903073203_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1983078828) already exists.\nCONTEXT:  COPY tmp_trnsfr_rcpt_info_t_20250903073203, line 18\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "tyuni_syri",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "uktk_syri",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "under_integ_appl_info_mgt",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "syntax error at or near \")\"\nLINE 1: ...OPY tmp_under_integ_appl_info_mgt_20250903073203 () FROM STD...\n                                                             ^\n"
+      ],
+      "elapsed_time": 0.0
+    },
+    {
+      "table_name": "znt_turk",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 1,
+      "errors": 0,
+      "error_messages": [],
+      "elapsed_time": 0.0
+    }
+  ]
+}

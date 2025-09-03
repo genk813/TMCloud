@@ -1,0 +1,7568 @@
+{
+  "pmac_g_app_case": {
+    "logical_name": "特許出願事件ファイル",
+    "physical_name": "pmac_g_app_case",
+    "tsv_filename": "pmac_g_app_case.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmac_gr_app_case_repeat_data": {
+    "logical_name": "特許出願事件繰返データファイル",
+    "physical_name": "pmac_gr_app_case_repeat_data",
+    "tsv_filename": "pmac_gr_app_case_repeat_data.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmcs_g_case_stat": {
+    "logical_name": "特許事件ステータスファイル",
+    "physical_name": "pmcs_g_case_stat",
+    "tsv_filename": "pmcs_g_case_stat.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmab_g_appl_case_biblog": {
+    "logical_name": "特許出願人発の事件書誌ファイル",
+    "physical_name": "pmab_g_appl_case_biblog",
+    "tsv_filename": "pmab_g_appl_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmab_gr_appl_case_biblog": {
+    "logical_name": "特許出願人発の事件書誌繰返データファイル",
+    "physical_name": "pmab_gr_appl_case_biblog",
+    "tsv_filename": "pmab_gr_appl_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmjb_g_jpo_case_biblog": {
+    "logical_name": "特許特許庁発の事件書誌ファイル",
+    "physical_name": "pmjb_g_jpo_case_biblog",
+    "tsv_filename": "pmjb_g_jpo_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmjb_gr_jpo_case_biblog": {
+    "logical_name": "特許特許庁発の事件書誌繰返データファイル",
+    "physical_name": "pmjb_gr_jpo_case_biblog",
+    "tsv_filename": "pmjb_gr_jpo_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmap_g_app_doc": {
+    "logical_name": "特許出願書類ファイル",
+    "physical_name": "pmap_g_app_doc",
+    "tsv_filename": "pmap_g_app_doc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmos_g_old_case_stat": {
+    "logical_name": "特許旧事件ステータスファイル",
+    "physical_name": "pmos_g_old_case_stat",
+    "tsv_filename": "pmos_g_old_case_stat.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmoa_g_old_app_case": {
+    "logical_name": "特許旧出願事件ファイル",
+    "physical_name": "pmoa_g_old_app_case",
+    "tsv_filename": "pmoa_g_old_app_case.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmob_g_old_case_biblog": {
+    "logical_name": "特許旧事件書誌ファイル",
+    "physical_name": "pmob_g_old_case_biblog",
+    "tsv_filename": "pmob_g_old_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmob_gr_old_case_biblog": {
+    "logical_name": "特許旧事件書誌繰返データファイル",
+    "physical_name": "pmob_gr_old_case_biblog",
+    "tsv_filename": "pmob_gr_old_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmoi_g_opposition_info": {
+    "logical_name": "特許異議情報ファイル",
+    "physical_name": "pmoi_g_opposition_info",
+    "tsv_filename": "pmoi_g_opposition_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "pmoi_gr_opposition_info": {
+    "logical_name": "特許異議情報繰返データファイル",
+    "physical_name": "pmoi_gr_opposition_info",
+    "tsv_filename": "pmoi_gr_opposition_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umac_g_app_case": {
+    "logical_name": "実用出願事件ファイル",
+    "physical_name": "umac_g_app_case",
+    "tsv_filename": "umac_g_app_case.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umac_gr_app_case": {
+    "logical_name": "実用出願事件繰返データファイル",
+    "physical_name": "umac_gr_app_case",
+    "tsv_filename": "umac_gr_app_case.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umcs_g_case_stat": {
+    "logical_name": "実用事件ステータスファイル",
+    "physical_name": "umcs_g_case_stat",
+    "tsv_filename": "umcs_g_case_stat.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umab_g_appl_case_biblog": {
+    "logical_name": "実用出願人発の事件書誌ファイル",
+    "physical_name": "umab_g_appl_case_biblog",
+    "tsv_filename": "umab_g_appl_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umab_gr_appl_case_biblog": {
+    "logical_name": "実用出願人発の事件書誌繰返データファイル",
+    "physical_name": "umab_gr_appl_case_biblog",
+    "tsv_filename": "umab_gr_appl_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umjb_g_jpo_case_biblog": {
+    "logical_name": "実用特許庁発の事件書誌ファイル",
+    "physical_name": "umjb_g_jpo_case_biblog",
+    "tsv_filename": "umjb_g_jpo_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umjb_gr_jpo_case_biblog": {
+    "logical_name": "実用特許庁発の事件書誌繰返データファイル",
+    "physical_name": "umjb_gr_jpo_case_biblog",
+    "tsv_filename": "umjb_gr_jpo_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umap_g_app_doc": {
+    "logical_name": "実用出願書類ファイル",
+    "physical_name": "umap_g_app_doc",
+    "tsv_filename": "umap_g_app_doc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umos_g_old_case_stat": {
+    "logical_name": "実用旧事件ステータスファイル",
+    "physical_name": "umos_g_old_case_stat",
+    "tsv_filename": "umos_g_old_case_stat.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umoa_g_old_app_case": {
+    "logical_name": "実用旧出願事件ファイル",
+    "physical_name": "umoa_g_old_app_case",
+    "tsv_filename": "umoa_g_old_app_case.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umob_g_old_case_biblog": {
+    "logical_name": "実用旧事件書誌ファイル",
+    "physical_name": "umob_g_old_case_biblog",
+    "tsv_filename": "umob_g_old_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umob_gr_old_case_biblog": {
+    "logical_name": "実用旧事件書誌繰返データファイル",
+    "physical_name": "umob_gr_old_case_biblog",
+    "tsv_filename": "umob_gr_old_case_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umoi_g_opposition_info": {
+    "logical_name": "実用異議情報ファイル",
+    "physical_name": "umoi_g_opposition_info",
+    "tsv_filename": "umoi_g_opposition_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "umoi_gr_opposition_info": {
+    "logical_name": "実用異議情報繰返データファイル",
+    "physical_name": "umoi_gr_opposition_info",
+    "tsv_filename": "umoi_gr_opposition_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "cmis_g_intl_app_case_stat": {
+    "logical_name": "国際出願の事件ステータスファイル",
+    "physical_name": "cmis_g_intl_app_case_stat",
+    "tsv_filename": "cmis_g_intl_app_case_stat.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "cmia_g_intl_app_doc": {
+    "logical_name": "国際出願書類ファイル",
+    "physical_name": "cmia_g_intl_app_doc",
+    "tsv_filename": "cmia_g_intl_app_doc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "cmdo_ib_intermed_rec": {
+    "logical_name": "IB中間記録ファイル",
+    "physical_name": "cmdo_ib_intermed_rec",
+    "tsv_filename": "cmdo_ib_intermed_rec.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "cmbi_g_bul_info": {
+    "logical_name": "公報関連情報ファイル",
+    "physical_name": "cmbi_g_bul_info",
+    "tsv_filename": "cmbi_g_bul_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "sinseinin": {
+    "logical_name": "申請人情報ファイル",
+    "physical_name": "sinseinin",
+    "tsv_filename": "sinseinin.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "abc_cd_info": {
+    "logical_name": "ABC情報ファイル",
+    "physical_name": "abc_cd_info",
+    "tsv_filename": "abc_cd_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_d": {
+    "logical_name": "事件フォルダ_意匠ファイル",
+    "physical_name": "jiken_c_d",
+    "tsv_filename": "jiken_c_d.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_d_yusenken_joho": {
+    "logical_name": "事件フォルダ_意匠_優先権情報ファイル",
+    "physical_name": "jiken_c_d_yusenken_joho",
+    "tsv_filename": "jiken_c_d_yusenken_joho.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_d_shutugannindairinin": {
+    "logical_name": "事件フォルダ_意匠_出願人代理人情報ファイル",
+    "physical_name": "jiken_c_d_shutugannindairinin",
+    "tsv_filename": "jiken_c_d_shutugannindairinin.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_d_sosakusha_joho": {
+    "logical_name": "事件フォルダ_意匠_創作者情報ファイル",
+    "physical_name": "jiken_c_d_sosakusha_joho",
+    "tsv_filename": "jiken_c_d_sosakusha_joho.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_d_sinsei_dv": {
+    "logical_name": "事件フォルダ_意匠_申請中間記録ファイル",
+    "physical_name": "jiken_c_d_sinsei_dv",
+    "tsv_filename": "jiken_c_d_sinsei_dv.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_d_kian_dv": {
+    "logical_name": "事件フォルダ_意匠_起案中間記録ファイル",
+    "physical_name": "jiken_c_d_kian_dv",
+    "tsv_filename": "jiken_c_d_kian_dv.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_d_chonai_dv": {
+    "logical_name": "事件フォルダ_意匠_庁内中間記録ファイル",
+    "physical_name": "jiken_c_d_chonai_dv",
+    "tsv_filename": "jiken_c_d_chonai_dv.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t": {
+    "logical_name": "事件フォルダ_商標ファイル",
+    "physical_name": "jiken_c_t",
+    "tsv_filename": "jiken_c_t.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_kohohako_joho": {
+    "logical_name": "事件フォルダ_商標_公報発行情報ファイル",
+    "physical_name": "jiken_c_t_kohohako_joho",
+    "tsv_filename": "jiken_c_t_kohohako_joho.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_yusenken_joho": {
+    "logical_name": "事件フォルダ_商標_優先権情報ファイル",
+    "physical_name": "jiken_c_t_yusenken_joho",
+    "tsv_filename": "jiken_c_t_yusenken_joho.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_rengoshogan_joho": {
+    "logical_name": "事件フォルダ_商標_連合商願情報ファイル",
+    "physical_name": "jiken_c_t_rengoshogan_joho",
+    "tsv_filename": "jiken_c_t_rengoshogan_joho.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_rengotoroku_joho": {
+    "logical_name": "事件フォルダ_商標_連合登録番号情報ファイル",
+    "physical_name": "jiken_c_t_rengotoroku_joho",
+    "tsv_filename": "jiken_c_t_rengotoroku_joho.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_shutugannindairinin": {
+    "logical_name": "事件フォルダ_商標_出願人代理人情報ファイル",
+    "physical_name": "jiken_c_t_shutugannindairinin",
+    "tsv_filename": "jiken_c_t_shutugannindairinin.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_shohin_joho": {
+    "logical_name": "事件フォルダ_商標_商品情報ファイル",
+    "physical_name": "jiken_c_t_shohin_joho",
+    "tsv_filename": "jiken_c_t_shohin_joho.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_shousaina_setumei": {
+    "logical_name": "事件フォルダ_商標_商標の詳細な説明情報ファイル",
+    "physical_name": "jiken_c_t_shousaina_setumei",
+    "tsv_filename": "jiken_c_t_shousaina_setumei.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_igi_joho": {
+    "logical_name": "事件フォルダ_商標_異議情報ファイル",
+    "physical_name": "jiken_c_t_igi_joho",
+    "tsv_filename": "jiken_c_t_igi_joho.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_igimositatnnmsttdrnn": {
+    "logical_name": "事件フォルダ_商標_異議申立人申立代理人情報ファイル",
+    "physical_name": "jiken_c_t_igimositatnnmsttdrnn",
+    "tsv_filename": "jiken_c_t_igimositatnnmsttdrnn.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_sinsei_dv": {
+    "logical_name": "事件フォルダ_商標_申請中間記録ファイル",
+    "physical_name": "jiken_c_t_sinsei_dv",
+    "tsv_filename": "jiken_c_t_sinsei_dv.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_kian_dv": {
+    "logical_name": "事件フォルダ_商標_起案中間記録ファイル",
+    "physical_name": "jiken_c_t_kian_dv",
+    "tsv_filename": "jiken_c_t_kian_dv.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_chonai_dv": {
+    "logical_name": "事件フォルダ_商標_庁内中間記録ファイル",
+    "physical_name": "jiken_c_t_chonai_dv",
+    "tsv_filename": "jiken_c_t_chonai_dv.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "appl_reg_info": {
+    "logical_name": "申請人登録情報ファイル",
+    "physical_name": "appl_reg_info",
+    "tsv_filename": "appl_reg_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "under_integ_appl_info_mgt": {
+    "logical_name": "申請人登録情報_被統合申請人情報管理ファイル",
+    "physical_name": "under_integ_appl_info_mgt",
+    "tsv_filename": "under_integ_appl_info_mgt.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "appl_case": {
+    "logical_name": "審判事件ファイル",
+    "physical_name": "appl_case",
+    "tsv_filename": "appl_case.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "rcpt_doc": {
+    "logical_name": "受付書類ファイル",
+    "physical_name": "rcpt_doc",
+    "tsv_filename": "rcpt_doc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsptch_doc": {
+    "logical_name": "発送書類ファイル",
+    "physical_name": "dsptch_doc",
+    "tsv_filename": "dsptch_doc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jpo_doc": {
+    "logical_name": "庁内書類ファイル",
+    "physical_name": "jpo_doc",
+    "tsv_filename": "jpo_doc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "opp": {
+    "logical_name": "異議申立ファイル",
+    "physical_name": "opp",
+    "tsv_filename": "opp.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "opp_class_cd": {
+    "logical_name": "異議申立分類コードファイル",
+    "physical_name": "opp_class_cd",
+    "tsv_filename": "opp_class_cd.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "maintain_claim": {
+    "logical_name": "維持する請求項ファイル",
+    "physical_name": "maintain_claim",
+    "tsv_filename": "maintain_claim.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "cancel_claim": {
+    "logical_name": "取消す請求項ファイル",
+    "physical_name": "cancel_claim",
+    "tsv_filename": "cancel_claim.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "rlt_case": {
+    "logical_name": "関連事件ファイル",
+    "physical_name": "rlt_case",
+    "tsv_filename": "rlt_case.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "consultation_authorities": {
+    "logical_name": "合議官ファイル",
+    "physical_name": "consultation_authorities",
+    "tsv_filename": "consultation_authorities.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "clim_exam_pub_art": {
+    "logical_name": "請求公告記事ファイル",
+    "physical_name": "clim_exam_pub_art",
+    "tsv_filename": "clim_exam_pub_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "join_app": {
+    "logical_name": "参加申請ファイル",
+    "physical_name": "join_app",
+    "tsv_filename": "join_app.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "join_app_class_cd": {
+    "logical_name": "参加決定分類コードファイル",
+    "physical_name": "join_app_class_cd",
+    "tsv_filename": "join_app_class_cd.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "litigate": {
+    "logical_name": "出訴ファイル",
+    "physical_name": "litigate",
+    "tsv_filename": "litigate.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "litigate_cnt": {
+    "logical_name": "出訴CNT情報ファイル",
+    "physical_name": "litigate_cnt",
+    "tsv_filename": "litigate_cnt.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "desig_atty": {
+    "logical_name": "指定代理人ファイル",
+    "physical_name": "desig_atty",
+    "tsv_filename": "desig_atty.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jdgmnt": {
+    "logical_name": "判決ファイル",
+    "physical_name": "jdgmnt",
+    "tsv_filename": "jdgmnt.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jdgmnt_class_cd": {
+    "logical_name": "判決分類コードファイル",
+    "physical_name": "jdgmnt_class_cd",
+    "tsv_filename": "jdgmnt_class_cd.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "app_typ": {
+    "logical_name": "出願種別ファイル",
+    "physical_name": "app_typ",
+    "tsv_filename": "app_typ.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "app_exam_pub_art": {
+    "logical_name": "出願公告記事ファイル",
+    "physical_name": "app_exam_pub_art",
+    "tsv_filename": "app_exam_pub_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "trial_dcsn": {
+    "logical_name": "審決ファイル",
+    "physical_name": "trial_dcsn",
+    "tsv_filename": "trial_dcsn.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "trial_dcsn_class_cd": {
+    "logical_name": "審決分類コードファイル",
+    "physical_name": "trial_dcsn_class_cd",
+    "tsv_filename": "trial_dcsn_class_cd.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "trial_dcsn_info": {
+    "logical_name": "審決情報ファイル",
+    "physical_name": "trial_dcsn_info",
+    "tsv_filename": "trial_dcsn_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "appl_concerned_person": {
+    "logical_name": "審判当事者ファイル",
+    "physical_name": "appl_concerned_person",
+    "tsv_filename": "appl_concerned_person.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "early_precede_appeal_info": {
+    "logical_name": "早期・優先審理情報ファイル",
+    "physical_name": "early_precede_appeal_info",
+    "tsv_filename": "early_precede_appeal_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "invent_etc_title": {
+    "logical_name": "発明等の名称ファイル",
+    "physical_name": "invent_etc_title",
+    "tsv_filename": "invent_etc_title.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dcln_amnd_dcsn": {
+    "logical_name": "補正却下の決定ファイル",
+    "physical_name": "dcln_amnd_dcsn",
+    "tsv_filename": "dcln_amnd_dcsn.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dcln_amnd_dcsn_class_cd": {
+    "logical_name": "補正却下の決定分類コードファイル",
+    "physical_name": "dcln_amnd_dcsn_class_cd",
+    "tsv_filename": "dcln_amnd_dcsn_class_cd.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "opp_desig_goods_name": {
+    "logical_name": "申立に係る指定商品名ファイル",
+    "physical_name": "opp_desig_goods_name",
+    "tsv_filename": "opp_desig_goods_name.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "cancel_desig_goods_name": {
+    "logical_name": "取消す指定商品名ファイル",
+    "physical_name": "cancel_desig_goods_name",
+    "tsv_filename": "cancel_desig_goods_name.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "infringement_litigate": {
+    "logical_name": "侵害訴訟ファイル",
+    "physical_name": "infringement_litigate",
+    "tsv_filename": "infringement_litigate.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "infringement_reg_num": {
+    "logical_name": "侵害登録番号ファイル",
+    "physical_name": "infringement_reg_num",
+    "tsv_filename": "infringement_reg_num.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "deposit": {
+    "logical_name": "菌寄託ファイル",
+    "physical_name": "deposit",
+    "tsv_filename": "deposit.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "novelty_lack": {
+    "logical_name": "新規性喪失例外ファイル",
+    "physical_name": "novelty_lack",
+    "tsv_filename": "novelty_lack.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "p_citd_others": {
+    "logical_name": "特許参考文献ファイル",
+    "physical_name": "p_citd_others",
+    "tsv_filename": "p_citd_others.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "non_p_citd_others": {
+    "logical_name": "非特許参考文献ファイル",
+    "physical_name": "non_p_citd_others",
+    "tsv_filename": "non_p_citd_others.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "madrid_protocol_appl_case": {
+    "logical_name": "マドプロ審判事件ファイル",
+    "physical_name": "madrid_protocol_appl_case",
+    "tsv_filename": "madrid_protocol_appl_case.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "md_appl_case_unique_table": {
+    "logical_name": "マドプロ審判事件固有ファイル",
+    "physical_name": "md_appl_case_unique_table",
+    "tsv_filename": "md_appl_case_unique_table.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "u_model_reg_ascrb_p_app": {
+    "logical_name": "実用新案登録に基づく特許出願ファイル",
+    "physical_name": "u_model_reg_ascrb_p_app",
+    "tsv_filename": "u_model_reg_ascrb_p_app.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "mgt_info_p": {
+    "logical_name": "管理情報ファイル(特許)",
+    "physical_name": "mgt_info_p",
+    "tsv_filename": "mgt_info_p.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "mrgn_ext_app_num_p": {
+    "logical_name": "欄外延長出願番号ファイル(特許)",
+    "physical_name": "mrgn_ext_app_num_p",
+    "tsv_filename": "mrgn_ext_app_num_p.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "trnsfr_rcpt_info_p": {
+    "logical_name": "移転受付情報ファイル(特許)",
+    "physical_name": "trnsfr_rcpt_info_p",
+    "tsv_filename": "trnsfr_rcpt_info_p.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "add_p_art": {
+    "logical_name": "追加特許記事ファイル",
+    "physical_name": "add_p_art",
+    "tsv_filename": "add_p_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "right_person_art_p": {
+    "logical_name": "権利者記事ファイル(特許)",
+    "physical_name": "right_person_art_p",
+    "tsv_filename": "right_person_art_p.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "atty_art_p": {
+    "logical_name": "代理人記事ファイル(特許)",
+    "physical_name": "atty_art_p",
+    "tsv_filename": "atty_art_p.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "prog_info_div_p": {
+    "logical_name": "経過情報部ファイル(特許)",
+    "physical_name": "prog_info_div_p",
+    "tsv_filename": "prog_info_div_p.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "mgt_info_u": {
+    "logical_name": "管理情報ファイル(実用)",
+    "physical_name": "mgt_info_u",
+    "tsv_filename": "mgt_info_u.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "trnsfr_rcpt_info_u": {
+    "logical_name": "移転受付情報ファイル(実用)",
+    "physical_name": "trnsfr_rcpt_info_u",
+    "tsv_filename": "trnsfr_rcpt_info_u.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "right_person_art_u": {
+    "logical_name": "権利者記事ファイル(実用)",
+    "physical_name": "right_person_art_u",
+    "tsv_filename": "right_person_art_u.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "atty_art_u": {
+    "logical_name": "代理人記事ファイル(実用)",
+    "physical_name": "atty_art_u",
+    "tsv_filename": "atty_art_u.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "prog_info_div_u": {
+    "logical_name": "経過情報部ファイル(実用)",
+    "physical_name": "prog_info_div_u",
+    "tsv_filename": "prog_info_div_u.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "mgt_info_d": {
+    "logical_name": "管理情報ファイル(意匠)",
+    "physical_name": "mgt_info_d",
+    "tsv_filename": "mgt_info_d.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "trnsfr_rcpt_info_d": {
+    "logical_name": "移転受付情報ファイル(意匠)",
+    "physical_name": "trnsfr_rcpt_info_d",
+    "tsv_filename": "trnsfr_rcpt_info_d.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "smlr_dsgn_d_art": {
+    "logical_name": "類似意匠記事ファイル",
+    "physical_name": "smlr_dsgn_d_art",
+    "tsv_filename": "smlr_dsgn_d_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "right_person_art_d": {
+    "logical_name": "権利者記事ファイル(意匠)",
+    "physical_name": "right_person_art_d",
+    "tsv_filename": "right_person_art_d.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "atty_art_d": {
+    "logical_name": "代理人記事ファイル(意匠)",
+    "physical_name": "atty_art_d",
+    "tsv_filename": "atty_art_d.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "prog_info_div_d": {
+    "logical_name": "経過情報部ファイル(意匠)",
+    "physical_name": "prog_info_div_d",
+    "tsv_filename": "prog_info_div_d.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "smlr_dsgn_commodity_name": {
+    "logical_name": "類似物品名ファイル",
+    "physical_name": "smlr_dsgn_commodity_name",
+    "tsv_filename": "smlr_dsgn_commodity_name.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "mgt_info_t": {
+    "logical_name": "管理情報ファイル(商標)",
+    "physical_name": "mgt_info_t",
+    "tsv_filename": "mgt_info_t.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "mrgn_t_rwrt_app_num": {
+    "logical_name": "欄外商標書換申請番号ファイル",
+    "physical_name": "mrgn_t_rwrt_app_num",
+    "tsv_filename": "mrgn_t_rwrt_app_num.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "goods_class_art": {
+    "logical_name": "商品区分記事ファイル",
+    "physical_name": "goods_class_art",
+    "tsv_filename": "goods_class_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "duplicate_t_doni": {
+    "logical_name": "重複商標番号記事ファイル",
+    "physical_name": "duplicate_t_doni",
+    "tsv_filename": "duplicate_t_doni.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "trnsfr_rcpt_info_t": {
+    "logical_name": "移転受付情報ファイル(商標)",
+    "physical_name": "trnsfr_rcpt_info_t",
+    "tsv_filename": "trnsfr_rcpt_info_t.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "mrgn_sec_rwrt_info": {
+    "logical_name": "欄外防護書換情報ファイル",
+    "physical_name": "mrgn_sec_rwrt_info",
+    "tsv_filename": "mrgn_sec_rwrt_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "t_updt_art": {
+    "logical_name": "商標更新記事ファイル",
+    "physical_name": "t_updt_art",
+    "tsv_filename": "t_updt_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "sec_art": {
+    "logical_name": "防護記事ファイル",
+    "physical_name": "sec_art",
+    "tsv_filename": "sec_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "sec_updt_art": {
+    "logical_name": "防護更新記事ファイル",
+    "physical_name": "sec_updt_art",
+    "tsv_filename": "sec_updt_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "right_person_art_t": {
+    "logical_name": "権利者記事ファイル(商標)",
+    "physical_name": "right_person_art_t",
+    "tsv_filename": "right_person_art_t.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "atty_art_t": {
+    "logical_name": "代理人記事ファイル(商標)",
+    "physical_name": "atty_art_t",
+    "tsv_filename": "atty_art_t.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "prog_info_div_t": {
+    "logical_name": "経過情報部ファイル(商標)",
+    "physical_name": "prog_info_div_t",
+    "tsv_filename": "prog_info_div_t.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "right_goods_name": {
+    "logical_name": "本権商品名ファイル",
+    "physical_name": "right_goods_name",
+    "tsv_filename": "right_goods_name.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "sec_goods_name": {
+    "logical_name": "防護商品名ファイル",
+    "physical_name": "sec_goods_name",
+    "tsv_filename": "sec_goods_name.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "t_first_indct_div": {
+    "logical_name": "商標第一表示部ファイル",
+    "physical_name": "t_first_indct_div",
+    "tsv_filename": "t_first_indct_div.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "duplicate_info": {
+    "logical_name": "重複情報部ファイル",
+    "physical_name": "duplicate_info",
+    "tsv_filename": "duplicate_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "mgt_info_hague": {
+    "logical_name": "管理情報ファイル(ハーグ)",
+    "physical_name": "mgt_info_hague",
+    "tsv_filename": "mgt_info_hague.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "trnsfr_rcpt_info_hague": {
+    "logical_name": "移転受付情報ファイル(ハーグ)",
+    "physical_name": "trnsfr_rcpt_info_hague",
+    "tsv_filename": "trnsfr_rcpt_info_hague.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "hague_mgt_info": {
+    "logical_name": "ハーグ管理情報ファイル",
+    "physical_name": "hague_mgt_info",
+    "tsv_filename": "hague_mgt_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "right_person_art_hague": {
+    "logical_name": "権利者記事ファイル(ハーグ)",
+    "physical_name": "right_person_art_hague",
+    "tsv_filename": "right_person_art_hague.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "atty_art_hague": {
+    "logical_name": "代理人記事ファイル(ハーグ)",
+    "physical_name": "atty_art_hague",
+    "tsv_filename": "atty_art_hague.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "prog_info_div_hague": {
+    "logical_name": "経過情報部ファイル(ハーグ)",
+    "physical_name": "prog_info_div_hague",
+    "tsv_filename": "prog_info_div_hague.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "search_mstr": {
+    "logical_name": "サーチマスタファイル",
+    "physical_name": "search_mstr",
+    "tsv_filename": "search_mstr.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "search_mstr_theme": {
+    "logical_name": "サーチマスタ_テーマファイル",
+    "physical_name": "search_mstr_theme",
+    "tsv_filename": "search_mstr_theme.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "search_mstr_search_ipc": {
+    "logical_name": "サーチマスタ_検索ＩＰＣファイル",
+    "physical_name": "search_mstr_search_ipc",
+    "tsv_filename": "search_mstr_search_ipc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "search_mstr_link_ipc": {
+    "logical_name": "サーチマスタ_リンクＩＰＣファイル",
+    "physical_name": "search_mstr_link_ipc",
+    "tsv_filename": "search_mstr_link_ipc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "search_mstr_f_term": {
+    "logical_name": "サーチマスタ_Ｆタームファイル",
+    "physical_name": "search_mstr_f_term",
+    "tsv_filename": "search_mstr_f_term.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "srch_forward_exam_free_word": {
+    "logical_name": "サーチマスタ_正審査官フリーワードファイル",
+    "physical_name": "srch_forward_exam_free_word",
+    "tsv_filename": "srch_forward_exam_free_word.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intnl_citation_doc_mstr": {
+    "logical_name": "国内引用文献マスタファイル",
+    "physical_name": "intnl_citation_doc_mstr",
+    "tsv_filename": "intnl_citation_doc_mstr.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intnl_citation_doc_det_mstr": {
+    "logical_name": "国内引用文献詳細マスタファイル",
+    "physical_name": "intnl_citation_doc_det_mstr",
+    "tsv_filename": "intnl_citation_doc_det_mstr.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "non_p_mstr": {
+    "logical_name": "非特許マスタファイル",
+    "physical_name": "non_p_mstr",
+    "tsv_filename": "non_p_mstr.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "non_p_bib": {
+    "logical_name": "非特許書誌ファイル",
+    "physical_name": "non_p_bib",
+    "tsv_filename": "non_p_bib.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsptch_fin_ipc": {
+    "logical_name": "送付済ＩＰＣファイル",
+    "physical_name": "dsptch_fin_ipc",
+    "tsv_filename": "dsptch_fin_ipc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "known_doc_info": {
+    "logical_name": "公知資料情報ファイル",
+    "physical_name": "known_doc_info",
+    "tsv_filename": "known_doc_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "known_do_d_class_d_term_info": {
+    "logical_name": "公知資料意匠分類Dターム情報ファイル",
+    "physical_name": "known_do_d_class_d_term_info",
+    "tsv_filename": "known_do_d_class_d_term_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "known_doc_biblog": {
+    "logical_name": "公知資料書誌ファイル",
+    "physical_name": "known_doc_biblog",
+    "tsv_filename": "known_doc_biblog.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "foreign_doc_info": {
+    "logical_name": "外国資料情報ファイル",
+    "physical_name": "foreign_doc_info",
+    "tsv_filename": "foreign_doc_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "frign_doc_d_class_d_term_info": {
+    "logical_name": "外国資料意匠分類Dターム情報ファイル",
+    "physical_name": "frign_doc_d_class_d_term_info",
+    "tsv_filename": "frign_doc_d_class_d_term_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "d_citd_others_info_table": {
+    "logical_name": "意匠参考文献情報ファイル",
+    "physical_name": "d_citd_others_info_table",
+    "tsv_filename": "d_citd_others_info_table.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "t_basic_item_art": {
+    "logical_name": "商標基本項目記事ファイル",
+    "physical_name": "t_basic_item_art",
+    "tsv_filename": "t_basic_item_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "t_add_info": {
+    "logical_name": "商標付加情報記事ファイル",
+    "physical_name": "t_add_info",
+    "tsv_filename": "t_add_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "indct_use_t_art": {
+    "logical_name": "表示用商標記事ファイル",
+    "physical_name": "indct_use_t_art",
+    "tsv_filename": "indct_use_t_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "standard_char_t_art": {
+    "logical_name": "標準文字商標記事ファイル",
+    "physical_name": "standard_char_t_art",
+    "tsv_filename": "standard_char_t_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "search_use_t_art_table": {
+    "logical_name": "検索用商標記事ファイル",
+    "physical_name": "search_use_t_art_table",
+    "tsv_filename": "search_use_t_art_table.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "t_dsgnt_art": {
+    "logical_name": "商標称呼記事ファイル",
+    "physical_name": "t_dsgnt_art",
+    "tsv_filename": "t_dsgnt_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "t_knd_info_art_table": {
+    "logical_name": "商標類情報記事ファイル",
+    "physical_name": "t_knd_info_art_table",
+    "tsv_filename": "t_knd_info_art_table.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "t_vienna_class_grphc_term_art": {
+    "logical_name": "ウィーン分類図形ターム記事ファイル",
+    "physical_name": "t_vienna_class_grphc_term_art",
+    "tsv_filename": "t_vienna_class_grphc_term_art.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_main_mgt_app": {
+    "logical_name": "指定国官庁マスタ_主管理ファイル （出願）",
+    "physical_name": "dsgn_gvrnmnt_main_mgt_app",
+    "tsv_filename": "dsgn_gvrnmnt_main_mgt_app.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_main_mgt_reg": {
+    "logical_name": "指定国官庁マスタ_主管理ファイル （原簿）",
+    "physical_name": "dsgn_gvrnmnt_main_mgt_reg",
+    "tsv_filename": "dsgn_gvrnmnt_main_mgt_reg.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_intrmd_rec": {
+    "logical_name": "指定国官庁マスタ_中間記録ファイル",
+    "physical_name": "dsgn_gvrnmnt_intrmd_rec",
+    "tsv_filename": "dsgn_gvrnmnt_intrmd_rec.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_name_addr_app": {
+    "logical_name": "指定国官庁マスタ_氏名・住所ファイル（出願）",
+    "physical_name": "dsgn_gvrnmnt_name_addr_app",
+    "tsv_filename": "dsgn_gvrnmnt_name_addr_app.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_name_addr_reg": {
+    "logical_name": "指定国官庁マスタ_氏名・住所ファイル（原簿）",
+    "physical_name": "dsgn_gvrnmnt_name_addr_reg",
+    "tsv_filename": "dsgn_gvrnmnt_name_addr_reg.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "design_state_gvrnmnt_mstr_pri": {
+    "logical_name": "指定国官庁マスタ_優先権ファイル",
+    "physical_name": "design_state_gvrnmnt_mstr_pri",
+    "tsv_filename": "design_state_gvrnmnt_mstr_pri.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "design_state_gvrnmnt_mstr_mk": {
+    "logical_name": "指定国官庁マスタ_マークファイル",
+    "physical_name": "design_state_gvrnmnt_mstr_mk",
+    "tsv_filename": "design_state_gvrnmnt_mstr_mk.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_fundamental_num": {
+    "logical_name": "指定国官庁マスタ_基礎番号ファイル",
+    "physical_name": "dsgn_gvrnmnt_fundamental_num",
+    "tsv_filename": "dsgn_gvrnmnt_fundamental_num.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_dsgn_st_gds_srvc_app": {
+    "logical_name": "指定国官庁マスタ_指定国商品・サービスファイル （出願）",
+    "physical_name": "dsgn_gvrnmnt_dsgn_st_gds_srvc_app",
+    "tsv_filename": "dsgn_gvrnmnt_dsgn_st_gds_srvc_app.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg": {
+    "logical_name": "指定国官庁マスタ_指定国商品・サービスファイル （原簿）",
+    "physical_name": "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg",
+    "tsv_filename": "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_latest_gds_srvc": {
+    "logical_name": "指定国官庁マスタ_最新商品・サービスファイル",
+    "physical_name": "dsgn_gvrnmnt_latest_gds_srvc",
+    "tsv_filename": "dsgn_gvrnmnt_latest_gds_srvc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_appl_info": {
+    "logical_name": "指定国官庁マスタ_審判情報ファイル",
+    "physical_name": "dsgn_gvrnmnt_appl_info",
+    "tsv_filename": "dsgn_gvrnmnt_appl_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_bul_info": {
+    "logical_name": "指定国官庁マスタ_公報情報ファイル",
+    "physical_name": "dsgn_gvrnmnt_bul_info",
+    "tsv_filename": "dsgn_gvrnmnt_bul_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_sbstt_reg_num": {
+    "logical_name": "指定国官庁マスタ_代替に係る国内登録番号ファイル",
+    "physical_name": "dsgn_gvrnmnt_sbstt_reg_num",
+    "tsv_filename": "dsgn_gvrnmnt_sbstt_reg_num.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "dsgn_gvrnmnt_intnl_atty": {
+    "logical_name": "指定国官庁マスタ_国内代理人ファイル",
+    "physical_name": "dsgn_gvrnmnt_intnl_atty",
+    "tsv_filename": "dsgn_gvrnmnt_intnl_atty.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_org_reg_mgt_info": {
+    "logical_name": "国際商標登録原簿マスタ_原簿管理情報ファイル",
+    "physical_name": "intl_t_org_org_reg_mgt_info",
+    "tsv_filename": "intl_t_org_org_reg_mgt_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_prog_info": {
+    "logical_name": "国際商標登録原簿マスタ_経過情報ファイル",
+    "physical_name": "intl_t_org_prog_info",
+    "tsv_filename": "intl_t_org_prog_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_set_frst_indct": {
+    "logical_name": "国際商標登録原簿マスタ_設定時第一表示部ファイル",
+    "physical_name": "intl_t_org_set_frst_indct",
+    "tsv_filename": "intl_t_org_set_frst_indct.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_set_dsgn_gds_srvc": {
+    "logical_name": "国際商標登録原簿マスタ_設定時指定国商品・サービスファイル",
+    "physical_name": "intl_t_org_set_dsgn_gds_srvc",
+    "tsv_filename": "intl_t_org_set_dsgn_gds_srvc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_set_crr_nm_addr": {
+    "logical_name": "国際商標登録原簿マスタ_設定時名義人氏名・住所ファイル",
+    "physical_name": "intl_t_org_set_crr_nm_addr",
+    "tsv_filename": "intl_t_org_set_crr_nm_addr.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_secnd_indct_div": {
+    "logical_name": "国際商標登録原簿マスタ_第二表示部ファイル",
+    "physical_name": "intl_t_org_secnd_indct_div",
+    "tsv_filename": "intl_t_org_secnd_indct_div.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_sec_gds_srvc": {
+    "logical_name": "国際商標登録原簿マスタ_防護商品・サービスファイル",
+    "physical_name": "intl_t_org_sec_gds_srvc",
+    "tsv_filename": "intl_t_org_sec_gds_srvc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_dsgn_gds_srvc": {
+    "logical_name": "国際商標登録原簿マスタ_指定国商品・サービスファイル",
+    "physical_name": "intl_t_org_dsgn_gds_srvc",
+    "tsv_filename": "intl_t_org_dsgn_gds_srvc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_crr_nm_addr": {
+    "logical_name": "国際商標登録原簿マスタ_名義人氏名・住所ファイル",
+    "physical_name": "intl_t_org_crr_nm_addr",
+    "tsv_filename": "intl_t_org_crr_nm_addr.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intl_t_org_dplct_num_info": {
+    "logical_name": "国際商標登録原簿マスタ_重複番号情報ファイル",
+    "physical_name": "intl_t_org_dplct_num_info",
+    "tsv_filename": "intl_t_org_dplct_num_info.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "t_sample": {
+    "logical_name": "商標見本ファイル",
+    "physical_name": "t_sample",
+    "tsv_filename": "t_sample.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intrmd_rec_intl_d_bul_d": {
+    "logical_name": "中間記録_国際意匠公報_意匠単位ファイル",
+    "physical_name": "intrmd_rec_intl_d_bul_d",
+    "tsv_filename": "intrmd_rec_intl_d_bul_d.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intrmd_rec_draft_doc": {
+    "logical_name": "中間記録_起案書類ファイル",
+    "physical_name": "intrmd_rec_draft_doc",
+    "tsv_filename": "intrmd_rec_draft_doc.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "search_mstr_facet": {
+    "logical_name": "サーチマスタ_ファセットファイル",
+    "physical_name": "search_mstr_facet",
+    "tsv_filename": "search_mstr_facet.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "non_p_mstr_facet": {
+    "logical_name": "非特許マスタ_ファセットファイル",
+    "physical_name": "non_p_mstr_facet",
+    "tsv_filename": "non_p_mstr_facet.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "intnl_citation_doc_mstr_data": {
+    "logical_name": "国内引用文献マスタ_引用調査データファイル",
+    "physical_name": "intnl_citation_doc_mstr_data",
+    "tsv_filename": "intnl_citation_doc_mstr_data.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_d_old": {
+    "logical_name": "事件フォルダ_意匠凍結ファイル",
+    "physical_name": "jiken_c_d_old",
+    "tsv_filename": "jiken_c_d_old.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  },
+  "jiken_c_t_old": {
+    "logical_name": "事件フォルダ_商標凍結ファイル",
+    "physical_name": "jiken_c_t_old",
+    "tsv_filename": "jiken_c_t_old.tsv",
+    "columns": [
+      {
+        "logical_name": "処理種別",
+        "physical_name": "processing_type",
+        "is_primary_key": false,
+        "data_type": "文字列",
+        "max_length": "10",
+        "code": "",
+        "postgres_type": "VARCHAR(10)"
+      },
+      {
+        "logical_name": "法区分",
+        "physical_name": "law_cd",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "1",
+        "code": "",
+        "postgres_type": "VARCHAR(1)"
+      },
+      {
+        "logical_name": "出願番号",
+        "physical_name": "app_num",
+        "is_primary_key": true,
+        "data_type": "文字列",
+        "max_length": "20",
+        "code": "",
+        "postgres_type": "VARCHAR(20)"
+      }
+    ],
+    "column_count": 3,
+    "primary_keys": [
+      "law_cd",
+      "app_num"
+    ]
+  }
+}

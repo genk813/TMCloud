@@ -1,0 +1,10 @@
+auto_approve:
+  - "Read(/mnt/c/Users/ygenk/Desktop/TMCloud/**)"
+  - "Bash"
+  - "WebSearch"
+  - "WebFetch(domain:www.j-platpat.inpit.go.jp)"
+
+project_info:
+  name: "TMCloud"
+  description: "商標データベース検索システム"
+  working_directory: "/mnt/c/Users/ygenk/Desktop/TMCloud"

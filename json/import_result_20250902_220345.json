@@ -1,0 +1,1030 @@
+{
+  "upd_aki_uktk_syri_syri_dt_ar.tsv": {
+    "table_name": "aki_uktk_syri_syri_dt_ar",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_appl_reg_info.tsv": {
+    "table_name": "appl_reg_info",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_appl_reg_info_20250902220248\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_appl_reg_info_20250902220248, line 1: \",,\"\n"
+    ]
+  },
+  "upd_atty_art_t.tsv": {
+    "table_name": "atty_art_t",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_atty_art_t_20250902220248_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_atty_art_t_20250902220248, line 2\n"
+    ]
+  },
+  "upd_design_state_gvrnmnt_mstr_mk.tsv": {
+    "table_name": "design_state_gvrnmnt_mstr_mk",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_design_state_gvrnmnt_mstr_mk_20250902220248\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_design_state_gvrnmnt_mstr_mk_20250902220248, line 1: \",,\"\n"
+    ]
+  },
+  "upd_design_state_gvrnmnt_mstr_pri.tsv": {
+    "table_name": "design_state_gvrnmnt_mstr_pri",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_design_state_gvrnmnt_mstr_pri_20250902220248\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_design_state_gvrnmnt_mstr_pri_20250902220248, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_appl_info.tsv": {
+    "table_name": "dsgn_gvrnmnt_appl_info",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_appl_info_20250902220249\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_appl_info_20250902220249, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_bul_info.tsv": {
+    "table_name": "dsgn_gvrnmnt_bul_info",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_bul_info_20250902220249\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_bul_info_20250902220249, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_dsgn_st_gds_srvc_app.tsv": {
+    "table_name": "dsgn_gvrnmnt_dsgn_st_gds_srvc_app",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_dsgn_st_gds_srvc_app_20250902220251\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_dsgn_st_gds_srvc_app_20250902220251, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_dsgn_st_gds_srvc_reg.tsv": {
+    "table_name": "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_dsgn_st_gds_srvc_reg_20250902220252\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_dsgn_st_gds_srvc_reg_20250902220252, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_fundamental_num.tsv": {
+    "table_name": "dsgn_gvrnmnt_fundamental_num",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_fundamental_num_20250902220252\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_fundamental_num_20250902220252, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_intnl_atty.tsv": {
+    "table_name": "dsgn_gvrnmnt_intnl_atty",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_intnl_atty_20250902220252\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_intnl_atty_20250902220252, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_intrmd_rec.tsv": {
+    "table_name": "dsgn_gvrnmnt_intrmd_rec",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_intrmd_rec_20250902220252\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_intrmd_rec_20250902220252, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_latest_gds_srvc.tsv": {
+    "table_name": "dsgn_gvrnmnt_latest_gds_srvc",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_latest_gds_srvc_20250902220252\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_latest_gds_srvc_20250902220252, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_main_mgt_app.tsv": {
+    "table_name": "dsgn_gvrnmnt_main_mgt_app",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_main_mgt_app_20250902220253\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_main_mgt_app_20250902220253, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_main_mgt_reg.tsv": {
+    "table_name": "dsgn_gvrnmnt_main_mgt_reg",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_main_mgt_reg_20250902220253\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_main_mgt_reg_20250902220253, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_name_addr_app.tsv": {
+    "table_name": "dsgn_gvrnmnt_name_addr_app",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_name_addr_app_20250902220253\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_name_addr_app_20250902220253, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_name_addr_reg.tsv": {
+    "table_name": "dsgn_gvrnmnt_name_addr_reg",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_name_addr_reg_20250902220253\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_name_addr_reg_20250902220253, line 1: \",,\"\n"
+    ]
+  },
+  "upd_dsgn_gvrnmnt_sbstt_reg_num.tsv": {
+    "table_name": "dsgn_gvrnmnt_sbstt_reg_num",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_dsgn_gvrnmnt_sbstt_reg_num_20250902220253\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_dsgn_gvrnmnt_sbstt_reg_num_20250902220253, line 1: \",,\"\n"
+    ]
+  },
+  "upd_duplicate_t_doni.tsv": {
+    "table_name": "duplicate_t_doni",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_duplicate_t_doni_20250902220253_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1992182843) already exists.\nCONTEXT:  COPY tmp_duplicate_t_doni_20250902220253, line 9\n"
+    ]
+  },
+  "upd_gnsn_snpn_zkn.tsv": {
+    "table_name": "gnsn_snpn_zkn",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_goods_class_art.tsv": {
+    "table_name": "goods_class_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_goods_class_art_20250902220253_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1935003003) already exists.\nCONTEXT:  COPY tmp_goods_class_art_20250902220253, line 3\n"
+    ]
+  },
+  "upd_gugkn.tsv": {
+    "table_name": "gugkn",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_h_tkky_bnkn_suh.tsv": {
+    "table_name": "h_tkky_bnkn_suh",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_h_tkky_snku_bnkn.tsv": {
+    "table_name": "h_tkky_snku_bnkn",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_hnkt_bnri.tsv": {
+    "table_name": "hnkt_bnri",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_hssu_syri.tsv": {
+    "table_name": "hssu_syri",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_ig_ktti.tsv": {
+    "table_name": "ig_ktti",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_ig_ktti_bnri.tsv": {
+    "table_name": "ig_ktti_bnri",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_ig_mustt.tsv": {
+    "table_name": "ig_mustt",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_indct_use_t_art.tsv": {
+    "table_name": "indct_use_t_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_indct_use_t_art_20250902220254\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1952001765).\nCONTEXT:  COPY tmp_indct_use_t_art_20250902220254, line 1: \",,1952001765\"\n"
+    ]
+  },
+  "upd_intl_t_org_org_reg_mgt_info.tsv": {
+    "table_name": "intl_t_org_org_reg_mgt_info",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_intl_t_org_org_reg_mgt_info_20250902220254\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_intl_t_org_org_reg_mgt_info_20250902220254, line 1: \",,\"\n"
+    ]
+  },
+  "upd_intl_t_org_prog_info.tsv": {
+    "table_name": "intl_t_org_prog_info",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_intl_t_org_prog_info_20250902220254\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_intl_t_org_prog_info_20250902220254, line 1: \",,\"\n"
+    ]
+  },
+  "upd_intl_t_org_set_crr_nm_addr.tsv": {
+    "table_name": "intl_t_org_set_crr_nm_addr",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_intl_t_org_set_crr_nm_addr_20250902220254\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_intl_t_org_set_crr_nm_addr_20250902220254, line 1: \",,\"\n"
+    ]
+  },
+  "upd_intl_t_org_set_dsgn_gds_srvc.tsv": {
+    "table_name": "intl_t_org_set_dsgn_gds_srvc",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_intl_t_org_set_dsgn_gds_srvc_20250902220254\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_intl_t_org_set_dsgn_gds_srvc_20250902220254, line 1: \",,\"\n"
+    ]
+  },
+  "upd_intl_t_org_set_frst_indct.tsv": {
+    "table_name": "intl_t_org_set_frst_indct",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_intl_t_org_set_frst_indct_20250902220254\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_intl_t_org_set_frst_indct_20250902220254, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t.tsv": {
+    "table_name": "jiken_c_t",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_20250902220255\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_20250902220255, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_chonai_dv.tsv": {
+    "table_name": "jiken_c_t_chonai_dv",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_chonai_dv_20250902220255\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_chonai_dv_20250902220255, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_kian_dv.tsv": {
+    "table_name": "jiken_c_t_kian_dv",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_kian_dv_20250902220255\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_kian_dv_20250902220255, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_kohohako_joho.tsv": {
+    "table_name": "jiken_c_t_kohohako_joho",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_kohohako_joho_20250902220255\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_kohohako_joho_20250902220255, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_old.tsv": {
+    "table_name": "jiken_c_t_old",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_old_20250902220255\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_old_20250902220255, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_shohin_joho.tsv": {
+    "table_name": "jiken_c_t_shohin_joho",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_shohin_joho_20250902220300\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_shohin_joho_20250902220300, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_shousaina_setumei.tsv": {
+    "table_name": "jiken_c_t_shousaina_setumei",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_shousaina_setumei_20250902220300\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_shousaina_setumei_20250902220300, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_shutugannindairinin.tsv": {
+    "table_name": "jiken_c_t_shutugannindairinin",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_shutugannindairinin_20250902220301\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_shutugannindairinin_20250902220301, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_sinsei_dv.tsv": {
+    "table_name": "jiken_c_t_sinsei_dv",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_sinsei_dv_20250902220302\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_sinsei_dv_20250902220302, line 1: \",,\"\n"
+    ]
+  },
+  "upd_jiken_c_t_yusenken_joho.tsv": {
+    "table_name": "jiken_c_t_yusenken_joho",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_jiken_c_t_yusenken_joho_20250902220302\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_jiken_c_t_yusenken_joho_20250902220302, line 1: \",,\"\n"
+    ]
+  },
+  "upd_knktk.tsv": {
+    "table_name": "knktk",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_knpu_kukk.tsv": {
+    "table_name": "knpu_kukk",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_kusi_ktti.tsv": {
+    "table_name": "kusi_ktti",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_madpro_snpn_zkn_kyu.tsv": {
+    "table_name": "madpro_snpn_zkn_kyu",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_mgt_info_t.tsv": {
+    "table_name": "mgt_info_t",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_mgt_info_t_20250902220303_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000001) already exists.\nCONTEXT:  COPY tmp_mgt_info_t_20250902220303, line 4201\n"
+    ]
+  },
+  "upd_mrgn_t_rwrt_app_num.tsv": {
+    "table_name": "mrgn_t_rwrt_app_num",
+    "inserted": 2985,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 0,
+    "elapsed_time": 0.160549,
+    "error_messages": []
+  },
+  "upd_mustt_kkr_sikyuku.tsv": {
+    "table_name": "mustt_kkr_sikyuku",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_mustt_kkr_sti_syuhn_ekmmi.tsv": {
+    "table_name": "mustt_kkr_sti_syuhn_ekmmi",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_prog_info_div_t.tsv": {
+    "table_name": "prog_info_div_t",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_prog_info_div_t_20250902220306_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_prog_info_div_t_20250902220306, line 2\n"
+    ]
+  },
+  "upd_right_goods_name.tsv": {
+    "table_name": "right_goods_name",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_right_goods_name_20250902220309_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_right_goods_name_20250902220309, line 2\n"
+    ]
+  },
+  "upd_right_person_art_t.tsv": {
+    "table_name": "right_person_art_t",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_right_person_art_t_20250902220309_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 0000000000) already exists.\nCONTEXT:  COPY tmp_right_person_art_t_20250902220309, line 2\n"
+    ]
+  },
+  "upd_search_use_t_art_table.tsv": {
+    "table_name": "search_use_t_art_table",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_search_use_t_art_table_20250902220310\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1992239855).\nCONTEXT:  COPY tmp_search_use_t_art_table_20250902220310, line 1: \",,1992239855\"\n"
+    ]
+  },
+  "upd_sec_art.tsv": {
+    "table_name": "sec_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_sec_art_20250902220310_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1939012504) already exists.\nCONTEXT:  COPY tmp_sec_art_20250902220310, line 2\n"
+    ]
+  },
+  "upd_sec_goods_name.tsv": {
+    "table_name": "sec_goods_name",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"app_num\" of relation \"tmp_sec_goods_name_20250902220310\" violates not-null constraint\nDETAIL:  Failing row contains (0, 4, null).\nCONTEXT:  COPY tmp_sec_goods_name_20250902220310, line 1: \"0,4,\"\n"
+    ]
+  },
+  "upd_sec_updt_art.tsv": {
+    "table_name": "sec_updt_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_sec_updt_art_20250902220310_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1939012504) already exists.\nCONTEXT:  COPY tmp_sec_updt_art_20250902220310, line 2\n"
+    ]
+  },
+  "upd_sisu.tsv": {
+    "table_name": "sisu",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_smi_tut.tsv": {
+    "table_name": "smi_tut",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_sngi_turk_bngu.tsv": {
+    "table_name": "sngi_turk_bngu",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snk_ktti.tsv": {
+    "table_name": "snk_ktti",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snk_ktti_bnri.tsv": {
+    "table_name": "snk_ktti_bnri",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snk_snsi.tsv": {
+    "table_name": "snk_snsi",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snksi_sust_rigi.tsv": {
+    "table_name": "snksi_sust_rigi",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snkt.tsv": {
+    "table_name": "snkt",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snkt_bnri.tsv": {
+    "table_name": "snkt_bnri",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snpn_sk_kkr_st_sh_ekmmi.tsv": {
+    "table_name": "snpn_sk_kkr_st_sh_ekmmi",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snpn_tuzsy.tsv": {
+    "table_name": "snpn_tuzsy",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snpn_tzs_ssn_cd_ys_juhu.tsv": {
+    "table_name": "snpn_tzs_ssn_cd_ys_juhu",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_snpn_zkn.tsv": {
+    "table_name": "snpn_zkn",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_standard_char_t_art.tsv": {
+    "table_name": "standard_char_t_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_standard_char_t_art_20250902220310\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1997178972).\nCONTEXT:  COPY tmp_standard_char_t_art_20250902220310, line 1: \",,1997178972\"\n"
+    ]
+  },
+  "upd_suk_snr_juhu.tsv": {
+    "table_name": "suk_snr_juhu",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_sutt.tsv": {
+    "table_name": "sutt",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_syss_jukk_juhu.tsv": {
+    "table_name": "syss_jukk_juhu",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_syss_tisyu_snkttu.tsv": {
+    "table_name": "syss_tisyu_snkttu",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_t_add_info.tsv": {
+    "table_name": "t_add_info",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_t_add_info_20250902220311\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1952001765).\nCONTEXT:  COPY tmp_t_add_info_20250902220311, line 1: \",,1952001765\"\n"
+    ]
+  },
+  "upd_t_basic_item_art.tsv": {
+    "table_name": "t_basic_item_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_t_basic_item_art_20250902220312\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 2024139741).\nCONTEXT:  COPY tmp_t_basic_item_art_20250902220312, line 1: \",,2024139741\"\n"
+    ]
+  },
+  "upd_t_dsgnt_art.tsv": {
+    "table_name": "t_dsgnt_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_t_dsgnt_art_20250902220312\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1952001765).\nCONTEXT:  COPY tmp_t_dsgnt_art_20250902220312, line 1: \",,1952001765\"\n"
+    ]
+  },
+  "upd_t_first_indct_div.tsv": {
+    "table_name": "t_first_indct_div",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"app_num\" of relation \"tmp_t_first_indct_div_20250902220313\" violates not-null constraint\nDETAIL:  Failing row contains (0, 4, null).\nCONTEXT:  COPY tmp_t_first_indct_div_20250902220313, line 1: \"0,4,\"\n"
+    ]
+  },
+  "upd_t_knd_info_art_table.tsv": {
+    "table_name": "t_knd_info_art_table",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_t_knd_info_art_table_20250902220314\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 2025052096).\nCONTEXT:  COPY tmp_t_knd_info_art_table_20250902220314, line 1: \",,2025052096\"\n"
+    ]
+  },
+  "upd_t_sample.tsv": {
+    "table_name": "t_sample",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_t_sample_20250902220343\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 1963045371).\nCONTEXT:  COPY tmp_t_sample_20250902220343, line 1: \",,1963045371\"\n"
+    ]
+  },
+  "upd_t_updt_art.tsv": {
+    "table_name": "t_updt_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_t_updt_art_20250902220344_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1984052230) already exists.\nCONTEXT:  COPY tmp_t_updt_art_20250902220344, line 2\n"
+    ]
+  },
+  "upd_t_vienna_class_grphc_term_art.tsv": {
+    "table_name": "t_vienna_class_grphc_term_art",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_t_vienna_class_grphc_term_art_20250902220344\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, 2024138870).\nCONTEXT:  COPY tmp_t_vienna_class_grphc_term_art_20250902220344, line 1: \",,2024138870\"\n"
+    ]
+  },
+  "upd_tkky_snku_bnkn.tsv": {
+    "table_name": "tkky_snku_bnkn",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_trnsfr_rcpt_info_t.tsv": {
+    "table_name": "trnsfr_rcpt_info_t",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "duplicate key value violates unique constraint \"tmp_trnsfr_rcpt_info_t_20250902220345_pkey\"\nDETAIL:  Key (law_cd, app_num)=(4, 1982073549) already exists.\nCONTEXT:  COPY tmp_trnsfr_rcpt_info_t_20250902220345, line 7\n"
+    ]
+  },
+  "upd_tyuni_syri.tsv": {
+    "table_name": "tyuni_syri",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_uktk_syri.tsv": {
+    "table_name": "uktk_syri",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  },
+  "upd_under_integ_appl_info_mgt.tsv": {
+    "table_name": "under_integ_appl_info_mgt",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 0,
+    "errors": 1,
+    "elapsed_time": 0.0,
+    "error_messages": [
+      "null value in column \"law_cd\" of relation \"tmp_under_integ_appl_info_mgt_20250902220345\" violates not-null constraint\nDETAIL:  Failing row contains (null, null, null).\nCONTEXT:  COPY tmp_under_integ_appl_info_mgt_20250902220345, line 1: \",,\"\n"
+    ]
+  },
+  "upd_znt_turk.tsv": {
+    "table_name": "znt_turk",
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "skipped": 1,
+    "errors": 0,
+    "elapsed_time": 0.0,
+    "error_messages": []
+  }
+}

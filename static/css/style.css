@@ -1,0 +1,98 @@
+body { 
+    font-family: sans-serif; 
+    margin: 20px; 
+}
+
+.search-box { 
+    margin: 20px 0; 
+    padding: 20px; 
+    background: #f0f0f0; 
+    border-radius: 8px; 
+}
+
+input[type="text"] { 
+    width: 300px; 
+    padding: 5px; 
+}
+
+button { 
+    padding: 5px 15px; 
+    cursor: pointer; 
+}
+
+button:hover { 
+    opacity: 0.9; 
+}
+
+.result { 
+    border: 1px solid #ddd; 
+    margin: 10px 0; 
+    padding: 10px; 
+    border-radius: 4px; 
+}
+
+.result h3 { 
+    margin: 0 0 10px 0; 
+    color: #333; 
+}
+
+.field { 
+    margin: 5px 0; 
+}
+
+.field-label { 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 140px; 
+    vertical-align: top; 
+}
+
+.field-value { 
+    display: inline-block; 
+    margin-left: 140px; 
+}
+
+.goods-services { 
+    margin-left: 140px; 
+    padding-left: 55px;  /* 「区分XX: 」の幅 */
+    text-indent: -55px;  /* 最初の行だけ左に戻す */
+}
+
+.similar-codes { 
+    margin-left: 140px;
+    padding-left: 55px;  /* 「区分XX: 」の幅 */
+    text-indent: -55px;  /* 最初の行だけ左に戻す */
+}
+
+.intermediate-records { 
+    margin-left: 140px; 
+}
+
+#searchConditions { 
+    max-height: 400px; 
+    overflow-y: auto; 
+}
+
+.condition-item { 
+    transition: all 0.3s ease; 
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.condition-item:hover { 
+    background: #e8f4f8 !important; 
+}
+
+.rejection-code-helper,
+.trademark-type-helper {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,34 @@
+{
+  "start_time": "2025-08-31T09:31:32.519305",
+  "targets": [
+    "JPWDI"
+  ],
+  "date": "latest",
+  "download": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "targets": {
+      "JPWDI": {
+        "target": "JPWDI",
+        "date": "latest",
+        "status": "success",
+        "file": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/raw/JPWDI_20250827.tar.gz",
+        "error": null
+      }
+    }
+  },
+  "extraction": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "targets": {
+      "JPWDI": {
+        "status": "success",
+        "extracted_to": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/extracted/JPWDI/latest",
+        "raw_file": "/mnt/c/Users/ygenk/Desktop/TMCloud/downloads/raw/JPWDI_20250827.tar.gz"
+      }
+    }
+  },
+  "end_time": "2025-08-31T09:32:49.385572"
+}

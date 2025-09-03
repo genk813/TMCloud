@@ -1,0 +1,1254 @@
+{
+  "total": 190,
+  "ok": 41,
+  "mismatch": 1,
+  "not_found": 148,
+  "error": 0,
+  "details": [
+    {
+      "table": "pmac_gr_app_case_repeat_data",
+      "status": "NOT_FOUND",
+      "spec_file": "002_002_特許出願事件繰返データファイル_clean.csv"
+    },
+    {
+      "table": "pmcs_g_case_stat",
+      "status": "NOT_FOUND",
+      "spec_file": "003_003_特許事件ステータスファイル_clean.csv"
+    },
+    {
+      "table": "pmab_g_appl_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "004_004_特許出願人発の事件書誌ファイル_clean.csv"
+    },
+    {
+      "table": "pmab_gr_appl_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "005_005_特許出願人発の事件書誌繰返データファイル_clean.csv"
+    },
+    {
+      "table": "pmjb_g_jpo_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "006_006_特許特許庁発の事件書誌ファイル_clean.csv"
+    },
+    {
+      "table": "pmjb_gr_jpo_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "007_007_特許特許庁発の事件書誌繰返データファイル_clean.csv"
+    },
+    {
+      "table": "pmap_g_app_doc",
+      "status": "NOT_FOUND",
+      "spec_file": "008_008_特許出願書類ファイル_clean.csv"
+    },
+    {
+      "table": "pmos_g_old_case_stat",
+      "status": "NOT_FOUND",
+      "spec_file": "009_009_特許旧事件ステータスファイル_clean.csv"
+    },
+    {
+      "table": "pmoa_g_old_app_case",
+      "status": "NOT_FOUND",
+      "spec_file": "010_010_特許旧出願事件ファイル_clean.csv"
+    },
+    {
+      "table": "pmob_g_old_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "011_011_特許旧事件書誌ファイル_clean.csv"
+    },
+    {
+      "table": "pmob_gr_old_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "012_012_特許旧事件書誌繰返データファイル_clean.csv"
+    },
+    {
+      "table": "pmoi_g_opposition_info",
+      "status": "NOT_FOUND",
+      "spec_file": "013_013_特許異議情報ファイル_clean.csv"
+    },
+    {
+      "table": "pmoi_gr_opposition_info",
+      "status": "NOT_FOUND",
+      "spec_file": "014_014_特許異議情報繰返データファイル_clean.csv"
+    },
+    {
+      "table": "umac_g_app_case",
+      "status": "NOT_FOUND",
+      "spec_file": "015_015_実用出願事件ファイル_clean.csv"
+    },
+    {
+      "table": "umac_gr_app_case",
+      "status": "NOT_FOUND",
+      "spec_file": "016_016_実用出願事件繰返データファイル_clean.csv"
+    },
+    {
+      "table": "umcs_g_case_stat",
+      "status": "NOT_FOUND",
+      "spec_file": "017_017_実用事件ステータスファイル_clean.csv"
+    },
+    {
+      "table": "umab_g_appl_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "018_018_実用出願人発の事件書誌ファイル_clean.csv"
+    },
+    {
+      "table": "umab_gr_appl_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "019_019_実用出願人発の事件書誌繰返データファイル_clean.csv"
+    },
+    {
+      "table": "umjb_g_jpo_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "020_020_実用特許庁発の事件書誌ファイル_clean.csv"
+    },
+    {
+      "table": "umjb_gr_jpo_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "021_021_実用特許庁発の事件書誌繰返データファイル_clean.csv"
+    },
+    {
+      "table": "umap_g_app_doc",
+      "status": "NOT_FOUND",
+      "spec_file": "022_022_実用出願書類ファイル_clean.csv"
+    },
+    {
+      "table": "umos_g_old_case_stat",
+      "status": "NOT_FOUND",
+      "spec_file": "023_023_実用旧事件ステータスファイル_clean.csv"
+    },
+    {
+      "table": "umoa_g_old_app_case",
+      "status": "NOT_FOUND",
+      "spec_file": "024_024_実用旧出願事件ファイル_clean.csv"
+    },
+    {
+      "table": "umob_g_old_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "025_025_実用旧事件書誌ファイル_clean.csv"
+    },
+    {
+      "table": "umob_gr_old_case_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "026_026_実用旧事件書誌繰返データファイル_clean.csv"
+    },
+    {
+      "table": "umoi_g_opposition_info",
+      "status": "NOT_FOUND",
+      "spec_file": "027_027_実用異議情報ファイル_clean.csv"
+    },
+    {
+      "table": "umoi_gr_opposition_info",
+      "status": "NOT_FOUND",
+      "spec_file": "028_028_実用異議情報繰返データファイル_clean.csv"
+    },
+    {
+      "table": "cmis_g_intl_app_case_stat",
+      "status": "NOT_FOUND",
+      "spec_file": "029_029_国際出願の事件ステータスファイル_clean.csv"
+    },
+    {
+      "table": "cmia_g_intl_app_doc",
+      "status": "NOT_FOUND",
+      "spec_file": "030_030_国際出願書類ファイル_clean.csv"
+    },
+    {
+      "table": "cmdo_ib_intermed_rec",
+      "status": "NOT_FOUND",
+      "spec_file": "031_031_IB中間記録ファイル_clean.csv"
+    },
+    {
+      "table": "cmbi_g_bul_info",
+      "status": "NOT_FOUND",
+      "spec_file": "032_032_公報関連情報ファイル_clean.csv"
+    },
+    {
+      "table": "sinseinin",
+      "status": "NOT_FOUND",
+      "spec_file": "033_033_申請人情報ファイル_clean.csv"
+    },
+    {
+      "table": "abc_cd_info",
+      "status": "NOT_FOUND",
+      "spec_file": "034_034_ABC情報ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_d",
+      "status": "NOT_FOUND",
+      "spec_file": "035_035_事件フォルダ_意匠ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_d_yusenken_joho",
+      "status": "NOT_FOUND",
+      "spec_file": "036_036_事件フォルダ_意匠_優先権情報ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_d_shutugannindairinin",
+      "status": "NOT_FOUND",
+      "spec_file": "037_037_事件フォルダ_意匠_出願人代理人情報ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_d_sosakusha_joho",
+      "status": "NOT_FOUND",
+      "spec_file": "038_038_事件フォルダ_意匠_創作者情報ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_d_sinsei_dv",
+      "status": "NOT_FOUND",
+      "spec_file": "039_039_事件フォルダ_意匠_申請中間記録ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_d_kian_dv",
+      "status": "NOT_FOUND",
+      "spec_file": "040_040_事件フォルダ_意匠_起案中間記録ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_d_chonai_dv",
+      "status": "NOT_FOUND",
+      "spec_file": "041_041_事件フォルダ_意匠_庁内中間記録ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_t",
+      "status": "OK",
+      "spec_file": "042_042_事件フォルダ_商標ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 49,
+        "tsv_count": 49
+      }
+    },
+    {
+      "table": "jiken_c_t_kohohako_joho",
+      "status": "OK",
+      "spec_file": "043_043_事件フォルダ_商標_公報発行情報ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_kohohako_joho.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 10,
+        "tsv_count": 10
+      }
+    },
+    {
+      "table": "jiken_c_t_yusenken_joho",
+      "status": "OK",
+      "spec_file": "044_044_事件フォルダ_商標_優先権情報ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_yusenken_joho.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 6,
+        "tsv_count": 6
+      }
+    },
+    {
+      "table": "jiken_c_t_rengoshogan_joho",
+      "status": "NOT_FOUND",
+      "spec_file": "045_045_事件フォルダ_商標_連合商願情報ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_t_rengotoroku_joho",
+      "status": "NOT_FOUND",
+      "spec_file": "046_046_事件フォルダ_商標_連合登録番号情報ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_t_shutugannindairinin",
+      "status": "OK",
+      "spec_file": "047_047_事件フォルダ_商標_出願人代理人情報ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_shutugannindairinin.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 15,
+        "tsv_count": 15
+      }
+    },
+    {
+      "table": "jiken_c_t_shohin_joho",
+      "status": "OK",
+      "spec_file": "048_048_事件フォルダ_商標_商品情報ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_shohin_joho.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 6,
+        "tsv_count": 6
+      }
+    },
+    {
+      "table": "jiken_c_t_shousaina_setumei",
+      "status": "OK",
+      "spec_file": "049_049_事件フォルダ_商標_商標の詳細な説明情報ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_shousaina_setumei.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 6,
+        "tsv_count": 6
+      }
+    },
+    {
+      "table": "jiken_c_t_igi_joho",
+      "status": "NOT_FOUND",
+      "spec_file": "050_050_事件フォルダ_商標_異議情報ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_t_igimositatnnmsttdrnn",
+      "status": "NOT_FOUND",
+      "spec_file": "051_051_事件フォルダ_商標_異議申立人申立代理人情報ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_t_sinsei_dv",
+      "status": "OK",
+      "spec_file": "052_052_事件フォルダ_商標_申請中間記録ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_sinsei_dv.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 16,
+        "tsv_count": 16
+      }
+    },
+    {
+      "table": "jiken_c_t_kian_dv",
+      "status": "OK",
+      "spec_file": "053_053_事件フォルダ_商標_起案中間記録ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_kian_dv.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 14,
+        "tsv_count": 14
+      }
+    },
+    {
+      "table": "jiken_c_t_chonai_dv",
+      "status": "OK",
+      "spec_file": "054_054_事件フォルダ_商標_庁内中間記録ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_chonai_dv.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 13,
+        "tsv_count": 13
+      }
+    },
+    {
+      "table": "appl_reg_info",
+      "status": "OK",
+      "spec_file": "055_055_申請人登録情報ファイル_clean.csv",
+      "tsv_file": "upd_appl_reg_info.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 10,
+        "tsv_count": 10
+      }
+    },
+    {
+      "table": "under_integ_appl_info_mgt",
+      "status": "OK",
+      "spec_file": "056_056_申請人登録情報_被統合申請人情報管理ファイル_clean.csv",
+      "tsv_file": "upd_under_integ_appl_info_mgt.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 3,
+        "tsv_count": 3
+      }
+    },
+    {
+      "table": "appl_case",
+      "status": "NOT_FOUND",
+      "spec_file": "057_057_審判事件ファイル_clean.csv"
+    },
+    {
+      "table": "rcpt_doc",
+      "status": "NOT_FOUND",
+      "spec_file": "058_058_受付書類ファイル_clean.csv"
+    },
+    {
+      "table": "dsptch_doc",
+      "status": "NOT_FOUND",
+      "spec_file": "059_059_発送書類ファイル_clean.csv"
+    },
+    {
+      "table": "jpo_doc",
+      "status": "NOT_FOUND",
+      "spec_file": "060_060_庁内書類ファイル_clean.csv"
+    },
+    {
+      "table": "opp",
+      "status": "NOT_FOUND",
+      "spec_file": "061_061_異議申立ファイル_clean.csv"
+    },
+    {
+      "table": "opp_class_cd",
+      "status": "NOT_FOUND",
+      "spec_file": "062_062_異議申立分類コードファイル_clean.csv"
+    },
+    {
+      "table": "maintain_claim",
+      "status": "NOT_FOUND",
+      "spec_file": "063_063_維持する請求項ファイル_clean.csv"
+    },
+    {
+      "table": "cancel_claim",
+      "status": "NOT_FOUND",
+      "spec_file": "064_064_取消す請求項ファイル_clean.csv"
+    },
+    {
+      "table": "rlt_case",
+      "status": "NOT_FOUND",
+      "spec_file": "065_065_関連事件ファイル_clean.csv"
+    },
+    {
+      "table": "consultation_authorities",
+      "status": "NOT_FOUND",
+      "spec_file": "066_066_合議官ファイル_clean.csv"
+    },
+    {
+      "table": "clim_exam_pub_art",
+      "status": "NOT_FOUND",
+      "spec_file": "067_067_請求公告記事ファイル_clean.csv"
+    },
+    {
+      "table": "join_app",
+      "status": "NOT_FOUND",
+      "spec_file": "068_068_参加申請ファイル_clean.csv"
+    },
+    {
+      "table": "join_app_class_cd",
+      "status": "NOT_FOUND",
+      "spec_file": "069_069_参加決定分類コードファイル_clean.csv"
+    },
+    {
+      "table": "litigate",
+      "status": "NOT_FOUND",
+      "spec_file": "070_070_出訴ファイル_clean.csv"
+    },
+    {
+      "table": "litigate_cnt",
+      "status": "NOT_FOUND",
+      "spec_file": "071_071_出訴CNT情報ファイル_clean.csv"
+    },
+    {
+      "table": "desig_atty",
+      "status": "NOT_FOUND",
+      "spec_file": "072_072_指定代理人ファイル_clean.csv"
+    },
+    {
+      "table": "jdgmnt",
+      "status": "NOT_FOUND",
+      "spec_file": "073_073_判決ファイル_clean.csv"
+    },
+    {
+      "table": "jdgmnt_class_cd",
+      "status": "NOT_FOUND",
+      "spec_file": "074_074_判決分類コードファイル_clean.csv"
+    },
+    {
+      "table": "app_typ",
+      "status": "NOT_FOUND",
+      "spec_file": "075_075_出願種別ファイル_clean.csv"
+    },
+    {
+      "table": "app_exam_pub_art",
+      "status": "NOT_FOUND",
+      "spec_file": "076_076_出願公告記事ファイル_clean.csv"
+    },
+    {
+      "table": "trial_dcsn",
+      "status": "NOT_FOUND",
+      "spec_file": "077_077_審決ファイル_clean.csv"
+    },
+    {
+      "table": "trial_dcsn_class_cd",
+      "status": "NOT_FOUND",
+      "spec_file": "078_078_審決分類コードファイル_clean.csv"
+    },
+    {
+      "table": "trial_dcsn_info",
+      "status": "NOT_FOUND",
+      "spec_file": "079_079_審決情報ファイル_clean.csv"
+    },
+    {
+      "table": "appl_concerned_person",
+      "status": "NOT_FOUND",
+      "spec_file": "080_080_審判当事者ファイル_clean.csv"
+    },
+    {
+      "table": "early_precede_appeal_info",
+      "status": "NOT_FOUND",
+      "spec_file": "081_081_早期・優先審理情報ファイル_clean.csv"
+    },
+    {
+      "table": "invent_etc_title",
+      "status": "NOT_FOUND",
+      "spec_file": "082_082_発明等の名称ファイル_clean.csv"
+    },
+    {
+      "table": "dcln_amnd_dcsn_class_cd",
+      "status": "NOT_FOUND",
+      "spec_file": "084_084_補正却下の決定分類コードファイル_clean.csv"
+    },
+    {
+      "table": "opp_desig_goods_name",
+      "status": "NOT_FOUND",
+      "spec_file": "085_085_申立に係る指定商品名ファイル_clean.csv"
+    },
+    {
+      "table": "cancel_desig_goods_name",
+      "status": "NOT_FOUND",
+      "spec_file": "086_086_取消す指定商品名ファイル_clean.csv"
+    },
+    {
+      "table": "infringement_litigate",
+      "status": "NOT_FOUND",
+      "spec_file": "087_087_侵害訴訟ファイル_clean.csv"
+    },
+    {
+      "table": "infringement_reg_num",
+      "status": "NOT_FOUND",
+      "spec_file": "088_088_侵害登録番号ファイル_clean.csv"
+    },
+    {
+      "table": "deposit",
+      "status": "NOT_FOUND",
+      "spec_file": "089_089_菌寄託ファイル_clean.csv"
+    },
+    {
+      "table": "novelty_lack",
+      "status": "NOT_FOUND",
+      "spec_file": "090_090_新規性喪失例外ファイル_clean.csv"
+    },
+    {
+      "table": "p_citd_others",
+      "status": "NOT_FOUND",
+      "spec_file": "091_091_特許参考文献ファイル_clean.csv"
+    },
+    {
+      "table": "non_p_citd_others",
+      "status": "NOT_FOUND",
+      "spec_file": "092_092_非特許参考文献ファイル_clean.csv"
+    },
+    {
+      "table": "md_appl_case_unique_table",
+      "status": "NOT_FOUND",
+      "spec_file": "094_094_マドプロ審判事件固有ファイル_clean.csv"
+    },
+    {
+      "table": "u_model_reg_ascrb_p_app",
+      "status": "NOT_FOUND",
+      "spec_file": "095_095_実用新案登録に基づく特許出願ファイル_clean.csv"
+    },
+    {
+      "table": "mgt_info_p",
+      "status": "NOT_FOUND",
+      "spec_file": "096_096_管理情報ファイル(特許)_clean.csv"
+    },
+    {
+      "table": "mrgn_ext_app_num_p",
+      "status": "NOT_FOUND",
+      "spec_file": "097_097_欄外延長出願番号ファイル(特許)_clean.csv"
+    },
+    {
+      "table": "trnsfr_rcpt_info_p",
+      "status": "NOT_FOUND",
+      "spec_file": "098_098_移転受付情報ファイル(特許)_clean.csv"
+    },
+    {
+      "table": "add_p_art",
+      "status": "NOT_FOUND",
+      "spec_file": "099_099_追加特許記事ファイル_clean.csv"
+    },
+    {
+      "table": "right_person_art_p",
+      "status": "NOT_FOUND",
+      "spec_file": "100_100_権利者記事ファイル(特許)_clean.csv"
+    },
+    {
+      "table": "atty_art_p",
+      "status": "NOT_FOUND",
+      "spec_file": "101_101_代理人記事ファイル(特許)_clean.csv"
+    },
+    {
+      "table": "prog_info_div_p",
+      "status": "NOT_FOUND",
+      "spec_file": "102_102_経過情報部ファイル(特許)_clean.csv"
+    },
+    {
+      "table": "mgt_info_u",
+      "status": "NOT_FOUND",
+      "spec_file": "103_103_管理情報ファイル(実用)_clean.csv"
+    },
+    {
+      "table": "trnsfr_rcpt_info_u",
+      "status": "NOT_FOUND",
+      "spec_file": "104_104_移転受付情報ファイル(実用)_clean.csv"
+    },
+    {
+      "table": "right_person_art_u",
+      "status": "NOT_FOUND",
+      "spec_file": "105_105_権利者記事ファイル(実用)_clean.csv"
+    },
+    {
+      "table": "atty_art_u",
+      "status": "NOT_FOUND",
+      "spec_file": "106_106_代理人記事ファイル(実用)_clean.csv"
+    },
+    {
+      "table": "prog_info_div_u",
+      "status": "NOT_FOUND",
+      "spec_file": "107_107_経過情報部ファイル(実用)_clean.csv"
+    },
+    {
+      "table": "mgt_info_d",
+      "status": "NOT_FOUND",
+      "spec_file": "108_108_管理情報ファイル(意匠)_clean.csv"
+    },
+    {
+      "table": "trnsfr_rcpt_info_d",
+      "status": "NOT_FOUND",
+      "spec_file": "109_109_移転受付情報ファイル(意匠)_clean.csv"
+    },
+    {
+      "table": "smlr_dsgn_d_art",
+      "status": "NOT_FOUND",
+      "spec_file": "110_110_類似意匠記事ファイル_clean.csv"
+    },
+    {
+      "table": "right_person_art_d",
+      "status": "NOT_FOUND",
+      "spec_file": "111_111_権利者記事ファイル(意匠)_clean.csv"
+    },
+    {
+      "table": "atty_art_d",
+      "status": "NOT_FOUND",
+      "spec_file": "112_112_代理人記事ファイル(意匠)_clean.csv"
+    },
+    {
+      "table": "prog_info_div_d",
+      "status": "NOT_FOUND",
+      "spec_file": "113_113_経過情報部ファイル(意匠)_clean.csv"
+    },
+    {
+      "table": "smlr_dsgn_commodity_name",
+      "status": "NOT_FOUND",
+      "spec_file": "114_114_類似物品名ファイル_clean.csv"
+    },
+    {
+      "table": "mgt_info_t",
+      "status": "OK",
+      "spec_file": "115_115_管理情報ファイル(商標)_clean.csv",
+      "tsv_file": "upd_mgt_info_t.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 40,
+        "tsv_count": 40
+      }
+    },
+    {
+      "table": "mrgn_t_rwrt_app_num",
+      "status": "OK",
+      "spec_file": "116_116_欄外商標書換申請番号ファイル_clean.csv",
+      "tsv_file": "upd_mrgn_t_rwrt_app_num.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 8,
+        "tsv_count": 8
+      }
+    },
+    {
+      "table": "goods_class_art",
+      "status": "OK",
+      "spec_file": "117_117_商品区分記事ファイル_clean.csv",
+      "tsv_file": "upd_goods_class_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 8,
+        "tsv_count": 8
+      }
+    },
+    {
+      "table": "duplicate_t_doni",
+      "status": "OK",
+      "spec_file": "118_118_重複商標番号記事ファイル_clean.csv",
+      "tsv_file": "upd_duplicate_t_doni.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 8,
+        "tsv_count": 8
+      }
+    },
+    {
+      "table": "trnsfr_rcpt_info_t",
+      "status": "OK",
+      "spec_file": "119_119_移転受付情報ファイル(商標)_clean.csv",
+      "tsv_file": "upd_trnsfr_rcpt_info_t.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 8,
+        "tsv_count": 8
+      }
+    },
+    {
+      "table": "mrgn_sec_rwrt_info",
+      "status": "NOT_FOUND",
+      "spec_file": "120_120_欄外防護書換情報ファイル_clean.csv"
+    },
+    {
+      "table": "t_updt_art",
+      "status": "OK",
+      "spec_file": "121_121_商標更新記事ファイル_clean.csv",
+      "tsv_file": "upd_t_updt_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 16,
+        "tsv_count": 16
+      }
+    },
+    {
+      "table": "sec_art",
+      "status": "OK",
+      "spec_file": "122_122_防護記事ファイル_clean.csv",
+      "tsv_file": "upd_sec_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 27,
+        "tsv_count": 27
+      }
+    },
+    {
+      "table": "sec_updt_art",
+      "status": "OK",
+      "spec_file": "123_123_防護更新記事ファイル_clean.csv",
+      "tsv_file": "upd_sec_updt_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 17,
+        "tsv_count": 17
+      }
+    },
+    {
+      "table": "right_person_art_t",
+      "status": "OK",
+      "spec_file": "124_124_権利者記事ファイル(商標)_clean.csv",
+      "tsv_file": "upd_right_person_art_t.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 13,
+        "tsv_count": 13
+      }
+    },
+    {
+      "table": "atty_art_t",
+      "status": "OK",
+      "spec_file": "125_125_代理人記事ファイル(商標)_clean.csv",
+      "tsv_file": "upd_atty_art_t.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 12,
+        "tsv_count": 12
+      }
+    },
+    {
+      "table": "prog_info_div_t",
+      "status": "OK",
+      "spec_file": "126_126_経過情報部ファイル(商標)_clean.csv",
+      "tsv_file": "upd_prog_info_div_t.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 13,
+        "tsv_count": 13
+      }
+    },
+    {
+      "table": "right_goods_name",
+      "status": "OK",
+      "spec_file": "127_127_本権商品名ファイル_clean.csv",
+      "tsv_file": "upd_right_goods_name.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 10,
+        "tsv_count": 10
+      }
+    },
+    {
+      "table": "sec_goods_name",
+      "status": "OK",
+      "spec_file": "128_128_防護商品名ファイル_clean.csv",
+      "tsv_file": "upd_sec_goods_name.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 10,
+        "tsv_count": 10
+      }
+    },
+    {
+      "table": "t_first_indct_div",
+      "status": "OK",
+      "spec_file": "129_129_商標第一表示部ファイル_clean.csv",
+      "tsv_file": "upd_t_first_indct_div.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 10,
+        "tsv_count": 10
+      }
+    },
+    {
+      "table": "duplicate_info",
+      "status": "NOT_FOUND",
+      "spec_file": "130_130_重複情報部ファイル_clean.csv"
+    },
+    {
+      "table": "mgt_info_hague",
+      "status": "NOT_FOUND",
+      "spec_file": "131_131_管理情報ファイル(ハーグ)_clean.csv"
+    },
+    {
+      "table": "trnsfr_rcpt_info_hague",
+      "status": "NOT_FOUND",
+      "spec_file": "132_132_移転受付情報ファイル(ハーグ)_clean.csv"
+    },
+    {
+      "table": "hague_mgt_info",
+      "status": "NOT_FOUND",
+      "spec_file": "133_133_ハーグ管理情報ファイル_clean.csv"
+    },
+    {
+      "table": "right_person_art_hague",
+      "status": "NOT_FOUND",
+      "spec_file": "134_134_権利者記事ファイル(ハーグ)_clean.csv"
+    },
+    {
+      "table": "atty_art_hague",
+      "status": "NOT_FOUND",
+      "spec_file": "135_135_代理人記事ファイル(ハーグ)_clean.csv"
+    },
+    {
+      "table": "prog_info_div_hague",
+      "status": "NOT_FOUND",
+      "spec_file": "136_136_経過情報部ファイル(ハーグ)_clean.csv"
+    },
+    {
+      "table": "search_mstr",
+      "status": "NOT_FOUND",
+      "spec_file": "137_137_サーチマスタファイル_clean.csv"
+    },
+    {
+      "table": "search_mstr_theme",
+      "status": "NOT_FOUND",
+      "spec_file": "138_138_サーチマスタ_テーマファイル_clean.csv"
+    },
+    {
+      "table": "search_mstr_search_ipc",
+      "status": "NOT_FOUND",
+      "spec_file": "139_139_サーチマスタ_検索ＩＰＣファイル_clean.csv"
+    },
+    {
+      "table": "search_mstr_link_ipc",
+      "status": "NOT_FOUND",
+      "spec_file": "140_140_サーチマスタ_リンクＩＰＣファイル_clean.csv"
+    },
+    {
+      "table": "search_mstr_f_term",
+      "status": "NOT_FOUND",
+      "spec_file": "141_141_サーチマスタ_Ｆタームファイル_clean.csv"
+    },
+    {
+      "table": "srch_forward_exam_free_word",
+      "status": "NOT_FOUND",
+      "spec_file": "142_142_サーチマスタ_正審査官フリーワードファイル_clean.csv"
+    },
+    {
+      "table": "intnl_citation_doc_mstr",
+      "status": "NOT_FOUND",
+      "spec_file": "143_143_国内引用文献マスタファイル_clean.csv"
+    },
+    {
+      "table": "intnl_citation_doc_det_mstr",
+      "status": "NOT_FOUND",
+      "spec_file": "144_144_国内引用文献詳細マスタファイル_clean.csv"
+    },
+    {
+      "table": "non_p_mstr",
+      "status": "NOT_FOUND",
+      "spec_file": "145_145_非特許マスタファイル_clean.csv"
+    },
+    {
+      "table": "non_p_bib",
+      "status": "NOT_FOUND",
+      "spec_file": "146_146_非特許書誌ファイル_clean.csv"
+    },
+    {
+      "table": "known_doc_info",
+      "status": "NOT_FOUND",
+      "spec_file": "148_148_公知資料情報ファイル_clean.csv"
+    },
+    {
+      "table": "known_do_d_class_d_term_info",
+      "status": "NOT_FOUND",
+      "spec_file": "149_149_公知資料意匠分類Dターム情報ファイル_clean.csv"
+    },
+    {
+      "table": "known_doc_biblog",
+      "status": "NOT_FOUND",
+      "spec_file": "150_150_公知資料書誌ファイル_clean.csv"
+    },
+    {
+      "table": "foreign_doc_info",
+      "status": "NOT_FOUND",
+      "spec_file": "151_151_外国資料情報ファイル_clean.csv"
+    },
+    {
+      "table": "frign_doc_d_class_d_term_info",
+      "status": "NOT_FOUND",
+      "spec_file": "152_152_外国資料意匠分類Dターム情報ファイル_clean.csv"
+    },
+    {
+      "table": "d_citd_others_info_table",
+      "status": "NOT_FOUND",
+      "spec_file": "153_153_意匠参考文献情報ファイル_clean.csv"
+    },
+    {
+      "table": "t_basic_item_art",
+      "status": "OK",
+      "spec_file": "154_154_商標基本項目記事ファイル_clean.csv",
+      "tsv_file": "upd_t_basic_item_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 30,
+        "tsv_count": 30
+      }
+    },
+    {
+      "table": "t_add_info",
+      "status": "MISMATCH",
+      "spec_file": "155_155_商標付加情報記事ファイル_clean.csv",
+      "tsv_file": "upd_t_add_info.tsv",
+      "validation": {
+        "status": "MISMATCH",
+        "message": "カラム数不一致: 仕様=10, TSV=11",
+        "spec_count": 10,
+        "tsv_count": 11,
+        "differences": []
+      }
+    },
+    {
+      "table": "indct_use_t_art",
+      "status": "OK",
+      "spec_file": "156_156_表示用商標記事ファイル_clean.csv",
+      "tsv_file": "upd_indct_use_t_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 5,
+        "tsv_count": 5
+      }
+    },
+    {
+      "table": "standard_char_t_art",
+      "status": "OK",
+      "spec_file": "157_157_標準文字商標記事ファイル_clean.csv",
+      "tsv_file": "upd_standard_char_t_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 5,
+        "tsv_count": 5
+      }
+    },
+    {
+      "table": "search_use_t_art_table",
+      "status": "OK",
+      "spec_file": "158_158_検索用商標記事ファイル_clean.csv",
+      "tsv_file": "upd_search_use_t_art_table.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 6,
+        "tsv_count": 6
+      }
+    },
+    {
+      "table": "t_dsgnt_art",
+      "status": "OK",
+      "spec_file": "159_159_商標称呼記事ファイル_clean.csv",
+      "tsv_file": "upd_t_dsgnt_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 6,
+        "tsv_count": 6
+      }
+    },
+    {
+      "table": "t_knd_info_art_table",
+      "status": "OK",
+      "spec_file": "160_160_商標類情報記事ファイル_clean.csv",
+      "tsv_file": "upd_t_knd_info_art_table.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 6,
+        "tsv_count": 6
+      }
+    },
+    {
+      "table": "t_vienna_class_grphc_term_art",
+      "status": "OK",
+      "spec_file": "161_161_ウィーン分類図形ターム記事ファイル_clean.csv",
+      "tsv_file": "upd_t_vienna_class_grphc_term_art.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 8,
+        "tsv_count": 8
+      }
+    },
+    {
+      "table": "dsgn_gvrnmnt_main_mgt_app",
+      "status": "NOT_FOUND",
+      "spec_file": "162_162_指定国官庁マスタ_主管理ファイル（出願）_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_main_mgt_reg",
+      "status": "NOT_FOUND",
+      "spec_file": "163_163_指定国官庁マスタ_主管理ファイル（原簿）_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_intrmd_rec",
+      "status": "NOT_FOUND",
+      "spec_file": "164_164_指定国官庁マスタ_中間記録ファイル_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_name_addr_app",
+      "status": "NOT_FOUND",
+      "spec_file": "165_165_指定国官庁マスタ_氏名・住所ファイル（出願）_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_name_addr_reg",
+      "status": "NOT_FOUND",
+      "spec_file": "166_166_指定国官庁マスタ_氏名・住所ファイル（原簿）_clean.csv"
+    },
+    {
+      "table": "design_state_gvrnmnt_mstr_pri",
+      "status": "OK",
+      "spec_file": "167_167_指定国官庁マスタ_優先権ファイル_clean.csv",
+      "tsv_file": "upd_design_state_gvrnmnt_mstr_pri.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 12,
+        "tsv_count": 12
+      }
+    },
+    {
+      "table": "design_state_gvrnmnt_mstr_mk",
+      "status": "OK",
+      "spec_file": "168_168_指定国官庁マスタ_マークファイル_clean.csv",
+      "tsv_file": "upd_design_state_gvrnmnt_mstr_mk.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 29,
+        "tsv_count": 29
+      }
+    },
+    {
+      "table": "dsgn_gvrnmnt_fundamental_num",
+      "status": "NOT_FOUND",
+      "spec_file": "169_169_指定国官庁マスタ_基礎番号ファイル_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_dsgn_st_gds_srvc_app",
+      "status": "NOT_FOUND",
+      "spec_file": "170_170_指定国官庁マスタ_指定国商品・サービスファイル（出願）_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg",
+      "status": "NOT_FOUND",
+      "spec_file": "171_171_指定国官庁マスタ_指定国商品・サービスファイル（原簿）_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_latest_gds_srvc",
+      "status": "NOT_FOUND",
+      "spec_file": "172_172_指定国官庁マスタ_最新商品・サービスファイル_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_appl_info",
+      "status": "NOT_FOUND",
+      "spec_file": "173_173_指定国官庁マスタ_審判情報ファイル_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_bul_info",
+      "status": "NOT_FOUND",
+      "spec_file": "174_174_指定国官庁マスタ_公報情報ファイル_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_sbstt_reg_num",
+      "status": "NOT_FOUND",
+      "spec_file": "175_175_指定国官庁マスタ_代替に係る国内登録番号ファイル_clean.csv"
+    },
+    {
+      "table": "dsgn_gvrnmnt_intnl_atty",
+      "status": "NOT_FOUND",
+      "spec_file": "176_176_指定国官庁マスタ_国内代理人ファイル_clean.csv"
+    },
+    {
+      "table": "intl_t_org_org_reg_mgt_info",
+      "status": "OK",
+      "spec_file": "177_177_国際商標登録原簿マスタ_原簿管理情報ファイル_clean.csv",
+      "tsv_file": "upd_intl_t_org_org_reg_mgt_info.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 16,
+        "tsv_count": 16
+      }
+    },
+    {
+      "table": "intl_t_org_prog_info",
+      "status": "OK",
+      "spec_file": "178_178_国際商標登録原簿マスタ_経過情報ファイル_clean.csv",
+      "tsv_file": "upd_intl_t_org_prog_info.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 17,
+        "tsv_count": 17
+      }
+    },
+    {
+      "table": "intl_t_org_set_frst_indct",
+      "status": "OK",
+      "spec_file": "179_179_国際商標登録原簿マスタ_設定時第一表示部ファイル_clean.csv",
+      "tsv_file": "upd_intl_t_org_set_frst_indct.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 18,
+        "tsv_count": 18
+      }
+    },
+    {
+      "table": "intl_t_org_set_dsgn_gds_srvc",
+      "status": "OK",
+      "spec_file": "180_180_国際商標登録原簿マスタ_設定時指定国商品・サービスファ_clean.csv",
+      "tsv_file": "upd_intl_t_org_set_dsgn_gds_srvc.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 14,
+        "tsv_count": 14
+      }
+    },
+    {
+      "table": "intl_t_org_set_crr_nm_addr",
+      "status": "OK",
+      "spec_file": "181_181_国際商標登録原簿マスタ_設定時名義人氏名・住所ファイル_clean.csv",
+      "tsv_file": "upd_intl_t_org_set_crr_nm_addr.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 13,
+        "tsv_count": 13
+      }
+    },
+    {
+      "table": "intl_t_org_secnd_indct_div",
+      "status": "NOT_FOUND",
+      "spec_file": "182_182_国際商標登録原簿マスタ_第二表示部ファイル_clean.csv"
+    },
+    {
+      "table": "intl_t_org_sec_gds_srvc",
+      "status": "NOT_FOUND",
+      "spec_file": "183_183_国際商標登録原簿マスタ_防護商品・サービスファイル_clean.csv"
+    },
+    {
+      "table": "intl_t_org_dsgn_gds_srvc",
+      "status": "NOT_FOUND",
+      "spec_file": "184_184_国際商標登録原簿マスタ_指定国商品・サービスファイル_clean.csv"
+    },
+    {
+      "table": "intl_t_org_crr_nm_addr",
+      "status": "NOT_FOUND",
+      "spec_file": "185_185_国際商標登録原簿マスタ_名義人氏名・住所ファイル_clean.csv"
+    },
+    {
+      "table": "intl_t_org_dplct_num_info",
+      "status": "NOT_FOUND",
+      "spec_file": "186_186_国際商標登録原簿マスタ_重複番号情報ファイル_clean.csv"
+    },
+    {
+      "table": "t_sample",
+      "status": "OK",
+      "spec_file": "187_187_商標見本ファイル_clean.csv",
+      "tsv_file": "upd_t_sample.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 18,
+        "tsv_count": 18
+      }
+    },
+    {
+      "table": "intrmd_rec_intl_d_bul_d",
+      "status": "NOT_FOUND",
+      "spec_file": "188_188_中間記録_国際意匠公報_意匠単位ファイル_clean.csv"
+    },
+    {
+      "table": "intrmd_rec_draft_doc",
+      "status": "NOT_FOUND",
+      "spec_file": "189_189_中間記録_起案書類ファイル_clean.csv"
+    },
+    {
+      "table": "search_mstr_facet",
+      "status": "NOT_FOUND",
+      "spec_file": "190_190_サーチマスタ_ファセットファイル_clean.csv"
+    },
+    {
+      "table": "non_p_mstr_facet",
+      "status": "NOT_FOUND",
+      "spec_file": "191_191_非特許マスタ_ファセットファイル_clean.csv"
+    },
+    {
+      "table": "intnl_citation_doc_mstr_data",
+      "status": "NOT_FOUND",
+      "spec_file": "192_192_国内引用文献マスタ_引用調査データファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_d_old",
+      "status": "NOT_FOUND",
+      "spec_file": "193_193_事件フォルダ_意匠凍結ファイル_clean.csv"
+    },
+    {
+      "table": "jiken_c_t_old",
+      "status": "OK",
+      "spec_file": "194_194_事件フォルダ_商標凍結ファイル_clean.csv",
+      "tsv_file": "upd_jiken_c_t_old.tsv",
+      "validation": {
+        "status": "OK",
+        "message": "完全一致",
+        "spec_count": 12,
+        "tsv_count": 12
+      }
+    }
+  ]
+}

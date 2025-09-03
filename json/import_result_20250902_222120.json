@@ -1,0 +1,24 @@
+{
+  "total_files": 1,
+  "total_inserted": 0,
+  "total_updated": 0,
+  "total_deleted": 0,
+  "total_errors": 1,
+  "total_skipped": 0,
+  "total_elapsed": 0.523803,
+  "details": [
+    {
+      "table_name": "jiken_c_t",
+      "operation": "UPDATE",
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "skipped": 0,
+      "errors": 1,
+      "error_messages": [
+        "no partition of relation \"jiken_c_t\" found for row\nDETAIL:  Partition key of the failing row contains (app_num) = (2000066664).\n"
+      ],
+      "elapsed_time": 0.0
+    }
+  ]
+}

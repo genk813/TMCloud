@@ -71,3 +71,4 @@ search_results/
 
 # Virtual environment
 .venv/
+tmcloud_db_backup_*.sql

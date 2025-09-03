@@ -1,0 +1,1394 @@
+{
+  "timestamp": "20250901_233950",
+  "mode": "weekly",
+  "database": "tmcloud_genk.db",
+  "tsv_directory": "C:\\Users\\ygenk\\Desktop\\TMCloud\\tsv_data\\tsv\\20250611",
+  "statistics": {
+    "inserted": 0,
+    "updated": 0,
+    "deleted": 0,
+    "errors": 1042998,
+    "skipped": 117
+  },
+  "tables": {
+    "pmac_g_app_case": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmac_gr_app_case_repeat_data": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmcs_g_case_stat": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmab_g_appl_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmab_gr_appl_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmjb_g_jpo_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmjb_gr_jpo_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmap_g_app_doc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmos_g_old_case_stat": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmoa_g_old_app_case": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmob_g_old_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmob_gr_old_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmoi_g_opposition_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "pmoi_gr_opposition_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umac_g_app_case": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umac_gr_app_case": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umcs_g_case_stat": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umab_g_appl_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umab_gr_appl_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umjb_g_jpo_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umjb_gr_jpo_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umap_g_app_doc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umos_g_old_case_stat": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umoa_g_old_app_case": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umob_g_old_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umob_gr_old_case_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umoi_g_opposition_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "umoi_gr_opposition_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cmis_g_intl_app_case_stat": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cmia_g_intl_app_doc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cmdo_ib_intermed_rec": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "cmbi_g_bul_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "sinseinin": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "abc_cd_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_yusenken_joho": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_shutugannindairinin": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_sosakusha_joho": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_sinsei_dv": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_kian_dv": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_chonai_dv": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 16688,
+      "skipped": 0
+    },
+    "jiken_c_t_kohohako_joho": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 2332,
+      "skipped": 0
+    },
+    "jiken_c_t_yusenken_joho": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 354,
+      "skipped": 0
+    },
+    "jiken_c_t_rengoshogan_joho": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_rengotoroku_joho": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_shutugannindairinin": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 37019,
+      "skipped": 0
+    },
+    "jiken_c_t_shohin_joho": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 33385,
+      "skipped": 0
+    },
+    "jiken_c_t_shousaina_setumei": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 17,
+      "skipped": 0
+    },
+    "jiken_c_t_igi_joho": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_igimositatnnmsttdrnn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_sinsei_dv": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 32911,
+      "skipped": 0
+    },
+    "jiken_c_t_kian_dv": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 16797,
+      "skipped": 0
+    },
+    "jiken_c_t_chonai_dv": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1944,
+      "skipped": 0
+    },
+    "appl_reg_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1612,
+      "skipped": 0
+    },
+    "under_integ_appl_info_mgt": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 40,
+      "skipped": 0
+    },
+    "mgt_info_p": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mrgn_ext_app_num_p": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_p": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "add_p_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "right_person_art_p": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "atty_art_p": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_p": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_u": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_u": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "right_person_art_u": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "atty_art_u": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_u": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_d": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_d": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "smlr_dsgn_d_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "right_person_art_d": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "atty_art_d": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_d": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "smlr_dsgn_commodity_name": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_t": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 16898,
+      "skipped": 0
+    },
+    "mrgn_t_rwrt_app_num": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 2995,
+      "skipped": 0
+    },
+    "goods_class_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 30582,
+      "skipped": 0
+    },
+    "duplicate_t_doni": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 51,
+      "skipped": 0
+    },
+    "trnsfr_rcpt_info_t": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 25078,
+      "skipped": 0
+    },
+    "mrgn_sec_rwrt_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "t_updt_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 16262,
+      "skipped": 0
+    },
+    "sec_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 769,
+      "skipped": 0
+    },
+    "sec_updt_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1911,
+      "skipped": 0
+    },
+    "right_person_art_t": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 17099,
+      "skipped": 0
+    },
+    "atty_art_t": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 20349,
+      "skipped": 0
+    },
+    "prog_info_div_t": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 223693,
+      "skipped": 0
+    },
+    "right_goods_name": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 30580,
+      "skipped": 0
+    },
+    "sec_goods_name": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1472,
+      "skipped": 0
+    },
+    "t_first_indct_div": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 16891,
+      "skipped": 0
+    },
+    "duplicate_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "mgt_info_hague": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "trnsfr_rcpt_info_hague": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "hague_mgt_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "right_person_art_hague": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "atty_art_hague": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "prog_info_div_hague": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_theme": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_search_ipc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_link_ipc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_f_term": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "srch_forward_exam_free_word": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intnl_citation_doc_mstr": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intnl_citation_doc_det_mstr": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "non_p_mstr": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "non_p_bib": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsptch_fin_ipc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "known_doc_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "known_do_d_class_d_term_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "known_doc_biblog": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "foreign_doc_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "frign_doc_d_class_d_term_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "d_citd_others_info_table": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "t_basic_item_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 33420,
+      "skipped": 0
+    },
+    "t_add_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 33418,
+      "skipped": 0
+    },
+    "indct_use_t_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 31692,
+      "skipped": 0
+    },
+    "standard_char_t_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 15110,
+      "skipped": 0
+    },
+    "search_use_t_art_table": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 40961,
+      "skipped": 0
+    },
+    "t_dsgnt_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 83960,
+      "skipped": 0
+    },
+    "t_knd_info_art_table": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 64404,
+      "skipped": 0
+    },
+    "t_vienna_class_grphc_term_art": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 100370,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_main_mgt_app": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_intrmd_rec": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_name_addr_app": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_name_addr_reg": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "design_state_gvrnmnt_mstr_pri": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 2356,
+      "skipped": 0
+    },
+    "design_state_gvrnmnt_mstr_mk": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 3431,
+      "skipped": 0
+    },
+    "dsgn_gvrnmnt_fundamental_num": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_dsgn_st_gds_srvc_app": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_dsgn_st_gds_srvc_reg": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_latest_gds_srvc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_appl_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_bul_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_sbstt_reg_num": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "dsgn_gvrnmnt_intnl_atty": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_org_reg_mgt_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1431,
+      "skipped": 0
+    },
+    "intl_t_org_prog_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 2869,
+      "skipped": 0
+    },
+    "intl_t_org_set_frst_indct": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1339,
+      "skipped": 0
+    },
+    "intl_t_org_set_dsgn_gds_srvc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 2280,
+      "skipped": 0
+    },
+    "intl_t_org_set_crr_nm_addr": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 746,
+      "skipped": 0
+    },
+    "intl_t_org_secnd_indct_div": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_sec_gds_srvc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_dsgn_gds_srvc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_crr_nm_addr": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intl_t_org_dplct_num_info": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "t_sample": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 10063,
+      "skipped": 0
+    },
+    "intrmd_rec_intl_d_bul_d": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intrmd_rec_draft_doc": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "search_mstr_facet": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "non_p_mstr_facet": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "intnl_citation_doc_mstr_data": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_d_old": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "jiken_c_t_old": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 77,
+      "skipped": 0
+    },
+    "snpn_zkn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 3120,
+      "skipped": 0
+    },
+    "uktk_syri": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 5425,
+      "skipped": 0
+    },
+    "hssu_syri": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 15349,
+      "skipped": 0
+    },
+    "smi_tut": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 4302,
+      "skipped": 0
+    },
+    "kusi_ktti": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1,
+      "skipped": 0
+    },
+    "h_tkky_bnkn_suh": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 150,
+      "skipped": 0
+    },
+    "tyuni_syri": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 6570,
+      "skipped": 0
+    },
+    "bmn_ikn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "znt_turk": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 386,
+      "skipped": 0
+    },
+    "sisu": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 53,
+      "skipped": 0
+    },
+    "knpu_kukk": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 7,
+      "skipped": 0
+    },
+    "sutt": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1038,
+      "skipped": 0
+    },
+    "kkn_entyu_kyk": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "gyusi_hhk_mustt": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "gyusi_hhk_sisyu_sybn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "ig_mustt": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 344,
+      "skipped": 0
+    },
+    "ig_ktti": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 55,
+      "skipped": 0
+    },
+    "ig_ktti_bnri": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 129,
+      "skipped": 0
+    },
+    "mustt_kkr_sikyuku": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 2504,
+      "skipped": 0
+    },
+    "gnsn_snpn_zkn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "higu_snpn_zkn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 8,
+      "skipped": 0
+    },
+    "gugkn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 6009,
+      "skipped": 0
+    },
+    "snk_snsi": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 10,
+      "skipped": 0
+    },
+    "snk_ktti": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 10,
+      "skipped": 0
+    },
+    "snk_ktti_bnri": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 10,
+      "skipped": 0
+    },
+    "syss_tisyu_snkttu": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 27,
+      "skipped": 0
+    },
+    "syss_jukk_juhu": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 46,
+      "skipped": 0
+    },
+    "hnkt_bnri": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 44,
+      "skipped": 0
+    },
+    "snkt": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 462,
+      "skipped": 0
+    },
+    "snkt_bnri": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 897,
+      "skipped": 0
+    },
+    "snpn_tuzsy": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 11966,
+      "skipped": 0
+    },
+    "snpn_tzs_ssn_cd_ys_juhu": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1576,
+      "skipped": 0
+    },
+    "suk_snr_juhu": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 17,
+      "skipped": 0
+    },
+    "snpn_sk_kkr_st_sh_ekmmi": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 181,
+      "skipped": 0
+    },
+    "mustt_kkr_sti_syuhn_ekmmi": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 33,
+      "skipped": 0
+    },
+    "sngi_ssyu": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1,
+      "skipped": 0
+    },
+    "sngi_turk_bngu": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 132,
+      "skipped": 0
+    },
+    "knktk": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1,
+      "skipped": 0
+    },
+    "snksi_sust_rigi": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 6,
+      "skipped": 0
+    },
+    "tkky_snku_bnkn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 1044,
+      "skipped": 0
+    },
+    "h_tkky_snku_bnkn": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 125,
+      "skipped": 0
+    },
+    "madpro_snpn_zkn_kyu": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 24,
+      "skipped": 0
+    },
+    "aki_uktk_syri_syri_dt_ar": {
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "errors": 5280,
+      "skipped": 0
+    }
+  }
+}
